@@ -1,0 +1,418 @@
+<?xml version="1.0" ?>
+<Project>
+  <Database name="DB">
+    <Schemas>
+      <Schema name="SCH">
+        <Tables>
+          <Table name="analyzer_category">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="user_id" type="INT"></Column>
+              <Column name="feed_id" type="INT"></Column>
+              <Column name="category" type="VARCHAR(255)"></Column>
+            </Columns>
+          </Table>
+          <Table name="analyzer_featurecategory">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="user_id" type="INT"></Column>
+              <Column name="feed_id" type="INT"></Column>
+              <Column name="feature" type="VARCHAR(255)"></Column>
+              <Column name="category" type="VARCHAR(255)"></Column>
+            </Columns>
+          </Table>
+          <Table name="auth_group">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="name" type="VARCHAR(80)"></Column>
+            </Columns>
+          </Table>
+          <Table name="auth_group_permissions">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="group_id" type="INT"></Column>
+              <Column name="permission_id" type="INT"></Column>
+            </Columns>
+          </Table>
+          <Table name="auth_permission">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="name" type="VARCHAR(50)"></Column>
+              <Column name="content_type_id" type="INT"></Column>
+              <Column name="codename" type="VARCHAR(100)"></Column>
+            </Columns>
+          </Table>
+          <Table name="auth_user">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="password" type="VARCHAR(128)"></Column>
+              <Column name="last_login" type="TIMESTAMP"></Column>
+            </Columns>
+          </Table>
+          <Table name="auth_user_groups">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="user_id" type="INT"></Column>
+              <Column name="group_id" type="INT"></Column>
+            </Columns>
+          </Table>
+          <Table name="auth_user_user_permissions">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="user_id" type="INT"></Column>
+              <Column name="permission_id" type="INT"></Column>
+            </Columns>
+          </Table>
+          <Table name="celery_taskmeta">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="task_id" type="VARCHAR(255)"></Column>
+              <Column name="status" type="VARCHAR(50)"></Column>
+              <Column name="result" type="TEXT"></Column>
+              <Column name="date_done" type="TIMESTAMP"></Column>
+            </Columns>
+          </Table>
+          <Table name="celery_tasksetmeta">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="taskset_id" type="VARCHAR(255)"></Column>
+              <Column name="result" type="TEXT"></Column>
+              <Column name="date_done" type="TIMESTAMP"></Column>
+            </Columns>
+          </Table>
+          <Table name="corsheaders_corsmodel">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="cors" type="VARCHAR(255)"></Column>
+            </Columns>
+          </Table>
+          <Table name="django_admin_log">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="action_time" type="TIMESTAMP"></Column>
+            </Columns>
+          </Table>
+          <Table name="django_content_type">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="name" type="VARCHAR(100)"></Column>
+              <Column name="app_label" type="VARCHAR(100)"></Column>
+              <Column name="model" type="VARCHAR(100)"></Column>
+            </Columns>
+          </Table>
+          <Table name="django_session">
+            <Columns>
+              <Column name="session_key" type="VARCHAR(40)"></Column>
+              <Column name="session_data" type="TEXT"></Column>
+              <Column name="expire_date" type="TIMESTAMP"></Column>
+            </Columns>
+          </Table>
+          <Table name="django_site">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="domain" type="VARCHAR(100)"></Column>
+              <Column name="name" type="VARCHAR(50)"></Column>
+            </Columns>
+          </Table>
+          <Table name="djcelery_crontabschedule">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="minute" type="VARCHAR(64)"></Column>
+              <Column name="hour" type="VARCHAR(64)"></Column>
+              <Column name="day_of_week" type="VARCHAR(64)"></Column>
+              <Column name="day_of_month" type="VARCHAR(64)"></Column>
+              <Column name="month_of_year" type="VARCHAR(64)"></Column>
+            </Columns>
+          </Table>
+          <Table name="djcelery_intervalschedule">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="every" type="INT"></Column>
+              <Column name="period" type="VARCHAR(24)"></Column>
+            </Columns>
+          </Table>
+          <Table name="djcelery_periodictask">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="name" type="VARCHAR(200)"></Column>
+              <Column name="task" type="VARCHAR(200)"></Column>
+              <Column name="interval_id" type="INT"></Column>
+              <Column name="crontab_id" type="INT"></Column>
+              <Column name="args" type="TEXT"></Column>
+              <Column name="kwargs" type="TEXT"></Column>
+              <Column name="queue" type="VARCHAR(200)"></Column>
+              <Column name="exchange" type="VARCHAR(200)"></Column>
+              <Column name="routing_key" type="VARCHAR(200)"></Column>
+              <Column name="expires" type="TIMESTAMP"></Column>
+            </Columns>
+          </Table>
+          <Table name="djcelery_periodictasks">
+            <Columns>
+              <Column name="ident" type="SMALLINT"></Column>
+              <Column name="last_update" type="TIMESTAMP"></Column>
+            </Columns>
+          </Table>
+          <Table name="djcelery_taskstate">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="state" type="VARCHAR(64)"></Column>
+              <Column name="task_id" type="VARCHAR(36)"></Column>
+              <Column name="name" type="VARCHAR(200)"></Column>
+              <Column name="tstamp" type="TIMESTAMP"></Column>
+            </Columns>
+          </Table>
+          <Table name="djcelery_workerstate">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="hostname" type="VARCHAR(255)"></Column>
+              <Column name="last_heartbeat" type="TIMESTAMP"></Column>
+            </Columns>
+          </Table>
+          <Table name="feed_import_oauthtoken">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="user_id" type="INT"></Column>
+              <Column name="session_id" type="VARCHAR(50)"></Column>
+              <Column name="uuid" type="VARCHAR(50)"></Column>
+              <Column name="remote_ip" type="VARCHAR(50)"></Column>
+              <Column name="request_token" type="VARCHAR(50)"></Column>
+              <Column name="request_token_secret" type="VARCHAR(50)"></Column>
+              <Column name="access_token" type="VARCHAR(50)"></Column>
+              <Column name="access_token_secret" type="VARCHAR(50)"></Column>
+              <Column name="credential" type="TEXT"></Column>
+              <Column name="created_date" type="TIMESTAMP"></Column>
+            </Columns>
+          </Table>
+          <Table name="feeds">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="feed_address" type="VARCHAR(764)"></Column>
+              <Column name="feed_address_locked" type="BOOLEAN"></Column>
+              <Column name="feed_link" type="VARCHAR(1000)"></Column>
+              <Column name="feed_link_locked" type="BOOLEAN"></Column>
+              <Column name="hash_address_and_link" type="VARCHAR(64)"></Column>
+              <Column name="feed_title" type="VARCHAR(255)"></Column>
+              <Column name="is_push" type="BOOLEAN"></Column>
+              <Column name="active" type="BOOLEAN"></Column>
+              <Column name="num_subscribers" type="INT"></Column>
+              <Column name="active_subscribers" type="INT"></Column>
+              <Column name="premium_subscribers" type="INT"></Column>
+              <Column name="active_premium_subscribers" type="INT"></Column>
+              <Column name="branch_from_feed_id" type="INT"></Column>
+              <Column name="last_update" type="TIMESTAMP"></Column>
+            </Columns>
+          </Table>
+          <Table name="oauth2_provider_accesstoken">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="user_id" type="INT"></Column>
+              <Column name="token" type="VARCHAR(255)"></Column>
+              <Column name="application_id" type="INT"></Column>
+              <Column name="expires" type="TIMESTAMP"></Column>
+            </Columns>
+          </Table>
+          <Table name="oauth2_provider_application">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="client_id" type="VARCHAR(100)"></Column>
+              <Column name="user_id" type="INT"></Column>
+              <Column name="redirect_uris" type="TEXT"></Column>
+              <Column name="client_type" type="VARCHAR(32)"></Column>
+              <Column name="authorization_grant_type" type="VARCHAR(32)"></Column>
+              <Column name="client_secret" type="VARCHAR(255)"></Column>
+              <Column name="name" type="VARCHAR(255)"></Column>
+            </Columns>
+          </Table>
+          <Table name="oauth2_provider_grant">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="user_id" type="INT"></Column>
+              <Column name="code" type="VARCHAR(255)"></Column>
+              <Column name="application_id" type="INT"></Column>
+              <Column name="expires" type="TIMESTAMP"></Column>
+            </Columns>
+          </Table>
+          <Table name="oauth2_provider_refreshtoken">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="user_id" type="INT"></Column>
+              <Column name="token" type="VARCHAR(255)"></Column>
+              <Column name="application_id" type="INT"></Column>
+              <Column name="access_token_id" type="INT"></Column>
+            </Columns>
+          </Table>
+          <Table name="paypal_ipn">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="business" type="VARCHAR(127)"></Column>
+              <Column name="charset" type="VARCHAR(32)"></Column>
+              <Column name="custom" type="VARCHAR(255)"></Column>
+              <Column name="notify_version" type="DECIMAL(2,64)"></Column>
+              <Column name="parent_txn_id" type="VARCHAR(19)"></Column>
+              <Column name="receiver_email" type="VARCHAR(127)"></Column>
+              <Column name="receiver_id" type="VARCHAR(127)"></Column>
+              <Column name="residence_country" type="VARCHAR(2)"></Column>
+              <Column name="test_ipn" type="BOOLEAN"></Column>
+              <Column name="txn_id" type="VARCHAR(19)"></Column>
+              <Column name="txn_type" type="VARCHAR(128)"></Column>
+              <Column name="verify_sign" type="VARCHAR(255)"></Column>
+              <Column name="address_country" type="VARCHAR(64)"></Column>
+              <Column name="address_city" type="VARCHAR(40)"></Column>
+              <Column name="address_country_code" type="VARCHAR(64)"></Column>
+              <Column name="address_name" type="VARCHAR(128)"></Column>
+              <Column name="address_state" type="VARCHAR(40)"></Column>
+              <Column name="address_status" type="VARCHAR(11)"></Column>
+              <Column name="address_street" type="VARCHAR(200)"></Column>
+              <Column name="address_zip" type="VARCHAR(20)"></Column>
+              <Column name="contact_phone" type="VARCHAR(20)"></Column>
+              <Column name="first_name" type="VARCHAR(64)"></Column>
+              <Column name="last_name" type="VARCHAR(64)"></Column>
+              <Column name="payer_business_name" type="VARCHAR(127)"></Column>
+              <Column name="payer_email" type="VARCHAR(127)"></Column>
+              <Column name="payer_id" type="VARCHAR(13)"></Column>
+              <Column name="auth_amount" type="DECIMAL(2,64)"></Column>
+              <Column name="auth_exp" type="VARCHAR(28)"></Column>
+              <Column name="auth_id" type="VARCHAR(19)"></Column>
+              <Column name="auth_status" type="VARCHAR(9)"></Column>
+              <Column name="exchange_rate" type="DECIMAL(16,64)"></Column>
+              <Column name="invoice" type="VARCHAR(127)"></Column>
+              <Column name="item_name" type="VARCHAR(127)"></Column>
+              <Column name="item_number" type="VARCHAR(127)"></Column>
+              <Column name="mc_currency" type="VARCHAR(32)"></Column>
+              <Column name="mc_fee" type="DECIMAL(2,64)"></Column>
+              <Column name="mc_gross" type="DECIMAL(2,64)"></Column>
+              <Column name="mc_handling" type="DECIMAL(2,64)"></Column>
+              <Column name="mc_shipping" type="DECIMAL(2,64)"></Column>
+              <Column name="memo" type="VARCHAR(255)"></Column>
+              <Column name="num_cart_items" type="INT"></Column>
+              <Column name="option_name1" type="VARCHAR(64)"></Column>
+              <Column name="option_name2" type="VARCHAR(64)"></Column>
+              <Column name="payer_status" type="VARCHAR(10)"></Column>
+              <Column name="payment_date" type="TIMESTAMP"></Column>
+            </Columns>
+          </Table>
+          <Table name="profile_paymenthistory">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="user_id" type="INT"></Column>
+              <Column name="payment_date" type="TIMESTAMP"></Column>
+            </Columns>
+          </Table>
+          <Table name="profile_profile">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="user_id" type="INT"></Column>
+              <Column name="is_premium" type="BOOLEAN"></Column>
+              <Column name="premium_expire" type="TIMESTAMP"></Column>
+            </Columns>
+          </Table>
+          <Table name="push_pushsubscription">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="feed_id" type="INT"></Column>
+              <Column name="hub" type="VARCHAR(200)"></Column>
+              <Column name="topic" type="VARCHAR(200)"></Column>
+              <Column name="verified" type="BOOLEAN"></Column>
+              <Column name="verify_token" type="VARCHAR(60)"></Column>
+              <Column name="lease_expires" type="TIMESTAMP"></Column>
+            </Columns>
+          </Table>
+          <Table name="reader_feature">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="description" type="TEXT"></Column>
+              <Column name="date" type="TIMESTAMP"></Column>
+            </Columns>
+          </Table>
+          <Table name="reader_usersubscription">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="user_id" type="INT"></Column>
+              <Column name="feed_id" type="INT"></Column>
+              <Column name="user_title" type="VARCHAR(255)"></Column>
+              <Column name="active" type="BOOLEAN"></Column>
+              <Column name="last_read_date" type="TIMESTAMP"></Column>
+            </Columns>
+          </Table>
+          <Table name="reader_usersubscriptionfolders">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="user_id" type="INT"></Column>
+              <Column name="folders" type="TEXT"></Column>
+            </Columns>
+          </Table>
+          <Table name="recommendations_recommendedfeed">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="feed_id" type="INT"></Column>
+              <Column name="user_id" type="INT"></Column>
+              <Column name="description" type="TEXT"></Column>
+              <Column name="is_public" type="BOOLEAN"></Column>
+              <Column name="created_date" type="DATE"></Column>
+              <Column name="approved_date" type="DATE"></Column>
+              <Column name="declined_date" type="DATE"></Column>
+              <Column name="twitter" type="VARCHAR(50)"></Column>
+            </Columns>
+          </Table>
+          <Table name="recommendations_recommendedfeeduserfeedback">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="recommendation_id" type="INT"></Column>
+              <Column name="user_id" type="INT"></Column>
+              <Column name="score" type="INT"></Column>
+              <Column name="created_date" type="DATE"></Column>
+            </Columns>
+          </Table>
+          <Table name="rss_feeds_duplicatefeed">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="duplicate_address" type="VARCHAR(764)"></Column>
+              <Column name="duplicate_link" type="VARCHAR(764)"></Column>
+              <Column name="duplicate_feed_id" type="VARCHAR(255)"></Column>
+              <Column name="feed_id" type="INT"></Column>
+            </Columns>
+          </Table>
+          <Table name="rss_feeds_feeddata">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="feed_id" type="INT"></Column>
+              <Column name="feed_tagline" type="VARCHAR(1024)"></Column>
+              <Column name="story_count_history" type="TEXT"></Column>
+              <Column name="feed_classifier_counts" type="TEXT"></Column>
+              <Column name="popular_tags" type="VARCHAR(1024)"></Column>
+              <Column name="popular_authors" type="VARCHAR(2048)"></Column>
+            </Columns>
+          </Table>
+          <Table name="south_migrationhistory">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="app_name" type="VARCHAR(255)"></Column>
+              <Column name="migration" type="VARCHAR(255)"></Column>
+              <Column name="applied" type="TIMESTAMP"></Column>
+            </Columns>
+          </Table>
+          <Table name="zebra_customer">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="stripe_customer_id" type="VARCHAR(50)"></Column>
+              <Column name="date_created" type="TIMESTAMP"></Column>
+            </Columns>
+          </Table>
+          <Table name="zebra_plan">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="stripe_plan_id" type="VARCHAR(50)"></Column>
+              <Column name="date_created" type="TIMESTAMP"></Column>
+            </Columns>
+          </Table>
+          <Table name="zebra_subscription">
+            <Columns>
+              <Column name="id" type="INT"></Column>
+              <Column name="date_created" type="TIMESTAMP"></Column>
+            </Columns>
+          </Table>
+        </Tables>
+</Schema>
+    </Schemas>
+  </Database>
+</Project>
