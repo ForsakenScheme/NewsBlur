@@ -1,3 +1,751 @@
 <?xml version="1.0" ?>
 <Queries>
+  <Query id="1">
+    <Value>SELECT sqlite_version() AS sqlite_version</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabaseHelper</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</ExecFile>
+    <ExecLine>94</ExecLine>
+    <ExecString>dbRO.rawQuery("SELECT sqlite_version() AS sqlite_version",null)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabaseHelper.getEngineVersion()" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" methodLine="90" callLine="94"></Call>
+    </CallStack>
+  </Query>
+  <Query id="2">
+    <Value>SELECT _id FROM feeds WHERE active = 1</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabaseHelper</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</ExecFile>
+    <ExecLine>117</ExecLine>
+    <ExecString>dbRO.rawQuery(q1,null)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabaseHelper.getAllFeeds(boolean)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" methodLine="110" callLine="117"></Call>
+    </CallStack>
+  </Query>
+  <Query id="3">
+    <Value>SELECT _id FROM feeds</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabaseHelper</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</ExecFile>
+    <ExecLine>117</ExecLine>
+    <ExecString>dbRO.rawQuery(q1,null)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabaseHelper.getAllFeeds(boolean)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" methodLine="110" callLine="117"></Call>
+    </CallStack>
+  </Query>
+  <Query id="4">
+    <Value>SELECT _id FROM social_feeds</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabaseHelper</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</ExecFile>
+    <ExecLine>135</ExecLine>
+    <ExecString>dbRO.rawQuery(q1,null)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabaseHelper.getAllSocialFeeds()" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" methodLine="131" callLine="135"></Call>
+    </CallStack>
+  </Query>
+  <Query id="5">
+    <Value>DELETE FROM storytext WHERE story_hash NOT IN ( SELECT story_hash FROM stories)</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabaseHelper</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</ExecFile>
+    <ExecLine>184</ExecLine>
+    <ExecString>dbRW.execSQL(q)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabaseHelper.cleanupStoryText()" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" methodLine="179" callLine="184"></Call>
+    </CallStack>
+  </Query>
+  <Query id="6">
+    <Value>VACUUM</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabaseHelper</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</ExecFile>
+    <ExecLine>188</ExecLine>
+    <ExecString>dbRW.execSQL("VACUUM")</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabaseHelper.vacuum()" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" methodLine="187" callLine="188"></Call>
+    </CallStack>
+  </Query>
+  <Query id="7">
+    <Value>DELETE FROM saved_search WHERE saved_search_feed_id = '{{na}}' AND saved_search_query = '{{na}}'</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabaseHelper</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</ExecFile>
+    <ExecLine>208</ExecLine>
+    <ExecString>dbRW.execSQL(q)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabaseHelper.deleteSavedSearch(java.lang.String,java.lang.String)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" methodLine="204" callLine="208"></Call>
+    </CallStack>
+  </Query>
+  <Query id="8">
+    <Value>SELECT story_hash FROM stories WHERE read = 0</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabaseHelper</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</ExecFile>
+    <ExecLine>292</ExecLine>
+    <ExecString>dbRO.rawQuery(q,null)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabaseHelper.getUnreadStoryHashesAsSet()" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" methodLine="287" callLine="292"></Call>
+    </CallStack>
+  </Query>
+  <Query id="9">
+    <Value>SELECT story_hash FROM stories WHERE starred = 1</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabaseHelper</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</ExecFile>
+    <ExecLine>306</ExecLine>
+    <ExecString>dbRO.rawQuery(q,null)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabaseHelper.getStarredStoryHashes()" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" methodLine="301" callLine="306"></Call>
+    </CallStack>
+  </Query>
+  <Query id="10">
+    <Value>SELECT _id FROM feeds</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabaseHelper</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</ExecFile>
+    <ExecLine>552</ExecLine>
+    <ExecString>dbRO.rawQuery(q1,null)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabaseHelper.fixMissingStoryFeeds(com.newsblur.domain.Story[])" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" methodLine="543" callLine="552"></Call>
+    </CallStack>
+  </Query>
+  <Query id="11">
+    <Value>UPDATE feeds SET nt = nt{{na}} WHERE _id = {{na}}</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabaseHelper</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</ExecFile>
+    <ExecLine>743</ExecLine>
+    <ExecString>dbRW.execSQL(q.toString())</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabaseHelper.setStoryReadState(com.newsblur.domain.Story,boolean)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" methodLine="678" callLine="743"></Call>
+    </CallStack>
+  </Query>
+  <Query id="12">
+    <Value>UPDATE feeds SET ps = ps{{na}} WHERE _id = {{na}}</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabaseHelper</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</ExecFile>
+    <ExecLine>743</ExecLine>
+    <ExecString>dbRW.execSQL(q.toString())</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabaseHelper.setStoryReadState(com.newsblur.domain.Story,boolean)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" methodLine="678" callLine="743"></Call>
+    </CallStack>
+  </Query>
+  <Query id="13">
+    <Value>{{na}}</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabaseHelper</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</ExecFile>
+    <ExecLine>748</ExecLine>
+    <ExecString>dbRW.execSQL(q.toString())</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabaseHelper.setStoryReadState(com.newsblur.domain.Story,boolean)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" methodLine="678" callLine="748"></Call>
+    </CallStack>
+  </Query>
+  <Query id="14">
+    <Value></Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabaseHelper</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</ExecFile>
+    <ExecLine>904</ExecLine>
+    <ExecString>dbRO.rawQuery(sel.toString(),selArgs.toArray(new String[0]))</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabaseHelper.getLocalUnreadCount(com.newsblur.util.FeedSet,com.newsblur.util.StateFilter)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" methodLine="896" callLine="904"></Call>
+    </CallStack>
+  </Query>
+  <Query id="15">
+    <Value>SELECT * FROM story_actions</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabaseHelper</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</ExecFile>
+    <ExecLine>923</ExecLine>
+    <ExecString>dbRO.rawQuery(q,null)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabaseHelper.getActions()" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" methodLine="920" callLine="923"></Call>
+    </CallStack>
+  </Query>
+  <Query id="16">
+    <Value>UPDATE story_actions SET tried = tried + 1 WHERE _id = {{question}}</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabaseHelper</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</ExecFile>
+    <ExecLine>931</ExecLine>
+    <ExecString>dbRW.execSQL(q,new String[]{actionId})</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabaseHelper.incrementActionTried(java.lang.String)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" methodLine="926" callLine="931"></Call>
+    </CallStack>
+  </Query>
+  <Query id="17">
+    <Value>SELECT * FROM story_actions WHERE tried &lt; 1</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabaseHelper</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</ExecFile>
+    <ExecLine>937</ExecLine>
+    <ExecString>dbRO.rawQuery(q,null)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabaseHelper.getUntriedActionCount()" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" methodLine="935" callLine="937"></Call>
+    </CallStack>
+  </Query>
+  <Query id="18">
+    <Value>UPDATE starred_counts SET count = count{{na}} WHERE tag = '___TOTAL_STARRED'</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabaseHelper</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</ExecFile>
+    <ExecLine>987</ExecLine>
+    <ExecString>dbRW.execSQL(q.toString())</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabaseHelper.setStoryStarred(java.lang.String,java.util.List,boolean)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" methodLine="947" callLine="987"></Call>
+    </CallStack>
+  </Query>
+  <Query id="19">
+    <Value>SELECT story_text FROM storytext WHERE story_hash = {{question}}</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabaseHelper</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</ExecFile>
+    <ExecLine>1029</ExecLine>
+    <ExecString>dbRO.rawQuery(q,new String[]{hash})</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabaseHelper.getStoryText(java.lang.String)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" methodLine="1024" callLine="1029"></Call>
+    </CallStack>
+  </Query>
+  <Query id="20">
+    <Value>SELECT content FROM stories WHERE story_hash = {{question}}</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabaseHelper</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</ExecFile>
+    <ExecLine>1046</ExecLine>
+    <ExecString>dbRO.rawQuery(q,new String[]{hash})</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabaseHelper.getStoryContent(java.lang.String)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" methodLine="1041" callLine="1046"></Call>
+    </CallStack>
+  </Query>
+  <Query id="21">
+    <Value>SELECT _id FROM feeds WHERE notification_filter = '{{na}}' OR notification_filter = '{{na}}'</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabaseHelper</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</ExecFile>
+    <ExecLine>1138</ExecLine>
+    <ExecString>dbRO.rawQuery(q,null)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabaseHelper.getNotifyFeeds()" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" methodLine="1133" callLine="1138"></Call>
+    </CallStack>
+  </Query>
+  <Query id="22">
+    <Value>INSERT INTO reading_session (session_story_hash) </Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabaseHelper</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</ExecFile>
+    <ExecLine>1207</ExecLine>
+    <ExecString>dbRW.execSQL(q.toString(),selArgs.toArray(new String[0]))</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabaseHelper.prepareReadingSession(com.newsblur.util.FeedSet,com.newsblur.util.StateFilter,com.newsblur.util.ReadFilter)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" methodLine="1189" callLine="1207"></Call>
+    </CallStack>
+  </Query>
+  <Query id="23">
+    <Value>{{na}} ORDER BY last_read_date DESC</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabaseHelper</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</ExecFile>
+    <ExecLine>1615</ExecLine>
+    <ExecString>dbRO.rawQuery(sql,selectionArgs,cancellationSignal)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabaseHelper.rawQuery(java.lang.String,java.lang.String[],android.os.CancellationSignal)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" methodLine="1606" callLine="1615"></Call>
+      <Call method="com.newsblur.database.BlurDatabaseHelper.getActiveStoriesCursorNoPrep(com.newsblur.util.FeedSet,com.newsblur.util.StoryOrder,android.os.CancellationSignal)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" methodLine="1165" callLine="1181"></Call>
+    </CallStack>
+  </Query>
+  <Query id="24">
+    <Value>{{na}} ORDER BY sharedDate DESC</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabaseHelper</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</ExecFile>
+    <ExecLine>1615</ExecLine>
+    <ExecString>dbRO.rawQuery(sql,selectionArgs,cancellationSignal)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabaseHelper.rawQuery(java.lang.String,java.lang.String[],android.os.CancellationSignal)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" methodLine="1606" callLine="1615"></Call>
+      <Call method="com.newsblur.database.BlurDatabaseHelper.getActiveStoriesCursorNoPrep(com.newsblur.util.FeedSet,com.newsblur.util.StoryOrder,android.os.CancellationSignal)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" methodLine="1165" callLine="1181"></Call>
+    </CallStack>
+  </Query>
+  <Query id="25">
+    <Value>{{na}} ORDER BY {{na}}</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabaseHelper</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</ExecFile>
+    <ExecLine>1615</ExecLine>
+    <ExecString>dbRO.rawQuery(sql,selectionArgs,cancellationSignal)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabaseHelper.rawQuery(java.lang.String,java.lang.String[],android.os.CancellationSignal)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" methodLine="1606" callLine="1615"></Call>
+      <Call method="com.newsblur.database.BlurDatabaseHelper.getActiveStoriesCursorNoPrep(com.newsblur.util.FeedSet,com.newsblur.util.StoryOrder,android.os.CancellationSignal)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" methodLine="1165" callLine="1181"></Call>
+    </CallStack>
+  </Query>
+  <Query id="26">
+    <Value>{{na}}</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabaseHelper</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</ExecFile>
+    <ExecLine>1615</ExecLine>
+    <ExecString>dbRO.rawQuery(sql,selectionArgs,cancellationSignal)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabaseHelper.rawQuery(java.lang.String,java.lang.String[],android.os.CancellationSignal)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" methodLine="1606" callLine="1615"></Call>
+      <Call method="com.newsblur.database.BlurDatabaseHelper.getNotifyFocusStoriesCursor()" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" methodLine="1123" callLine="1125"></Call>
+    </CallStack>
+  </Query>
+  <Query id="27">
+    <Value>CREATE TABLE feeds (_id INTEGER PRIMARY KEY, active TEXT, address TEXT, favicon_color TEXT, favicon_url TEXT, ps INTEGER, ng INTEGER, nt INTEGER, favicon_fade TEXT, favicon_text_color TEXT, favicon_border TEXT, link TEXT, subscribers TEXT, feed_name TEXT, opens INTEGER, average_stories_per_month INTEGER, last_story_date TEXT, updated_seconds INTEGER, notification_types TEXT, notification_filter TEXT, fetch_pending TEXT)</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>18</ExecLine>
+    <ExecString>db.execSQL(DatabaseConstants.FEED_SQL)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="16" callLine="18"></Call>
+    </CallStack>
+  </Query>
+  <Query id="28">
+    <Value>CREATE TABLE social_feeds (_id INTEGER PRIMARY KEY, ps INTEGER, ng INTEGER, nt INTEGER, social_feed_icon TEXT, social_feed_title TEXT, social_feed_name TEXT)</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>19</ExecLine>
+    <ExecString>db.execSQL(DatabaseConstants.SOCIAL_FEED_SQL)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="16" callLine="19"></Call>
+    </CallStack>
+  </Query>
+  <Query id="29">
+    <Value>CREATE TABLE folders (folder_name TEXT PRIMARY KEY, folder_parent_names TEXT, folder_children_names TEXT, folder_feedids TEXT)</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>20</ExecLine>
+    <ExecString>db.execSQL(DatabaseConstants.FOLDER_SQL)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="16" callLine="20"></Call>
+    </CallStack>
+  </Query>
+  <Query id="30">
+    <Value>CREATE TABLE user_table (photo_url TEXT, _id INTEGER PRIMARY KEY, username TEXT, location TEXT)</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>21</ExecLine>
+    <ExecString>db.execSQL(DatabaseConstants.USER_SQL)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="16" callLine="21"></Call>
+    </CallStack>
+  </Query>
+  <Query id="31">
+    <Value>CREATE TABLE stories (story_hash TEXT PRIMARY KEY, authors TEXT, content TEXT, short_content TEXT, timestamp INTEGER, sharedDate INTEGER, feed_id INTEGER, _id TEXT, intelligence_authors INTEGER, intelligence_feed INTEGER, intelligence_tags INTEGER, intelligence_title INTEGER, intelligence_total INTEGER, socialUserId TEXT, sourceUserId TEXT, shared_user_ids TEXT, comment_user_ids TEXT, tags TEXT, user_tags TEXT, permalink TEXT, read INTEGER, starred INTEGER, starred_date INTEGER, infrequent INTEGER, title TEXT, image_urls TEXT, last_read_date INTEGER, search_hit TEXT, thumbnail_url TEXT, has_modifications INTEGER)</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>22</ExecLine>
+    <ExecString>db.execSQL(DatabaseConstants.STORY_SQL)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="16" callLine="22"></Call>
+    </CallStack>
+  </Query>
+  <Query id="32">
+    <Value>CREATE TABLE reading_session (session_story_hash TEXT)</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>23</ExecLine>
+    <ExecString>db.execSQL(DatabaseConstants.READING_SESSION_SQL)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="16" callLine="23"></Call>
+    </CallStack>
+  </Query>
+  <Query id="33">
+    <Value>CREATE TABLE storytext (story_hash TEXT, story_text TEXT)</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>24</ExecLine>
+    <ExecString>db.execSQL(DatabaseConstants.STORY_TEXT_SQL)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="16" callLine="24"></Call>
+    </CallStack>
+  </Query>
+  <Query id="34">
+    <Value>CREATE TABLE comments (comment_date TEXT, comment_shareddate TEXT, comment_source_user TEXT, _id TEXT PRIMARY KEY, comment_liking_users TEXT, comment_byfriend TEXT, comment_storyid TEXT, comment_text TEXT, comment_userid TEXT, comment_ispseudo TEXT, comment_isplaceholder TEXT)</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>25</ExecLine>
+    <ExecString>db.execSQL(DatabaseConstants.COMMENT_SQL)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="16" callLine="25"></Call>
+    </CallStack>
+  </Query>
+  <Query id="35">
+    <Value>CREATE TABLE comment_replies (reply_date TEXT, reply_shortdate TEXT, _id TEXT PRIMARY KEY, comment_id TEXT, reply_text TEXT, reply_userid TEXT, reply_isplaceholder TEXT)</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>26</ExecLine>
+    <ExecString>db.execSQL(DatabaseConstants.REPLY_SQL)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="16" callLine="26"></Call>
+    </CallStack>
+  </Query>
+  <Query id="36">
+    <Value>CREATE TABLE classifiers (_id TEXT, key TEXT, type TEXT, value TEXT)</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>27</ExecLine>
+    <ExecString>db.execSQL(DatabaseConstants.CLASSIFIER_SQL)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="16" callLine="27"></Call>
+    </CallStack>
+  </Query>
+  <Query id="37">
+    <Value>CREATE TABLE socialfeed_story_map (socialfeed_story_storyid TEXT NOT NULL, socialfeed_story_user_id INTEGER NOT NULL, PRIMARY KEY (socialfeed_story_storyid, socialfeed_story_user_id) )</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>28</ExecLine>
+    <ExecString>db.execSQL(DatabaseConstants.SOCIALFEED_STORIES_SQL)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="16" callLine="28"></Call>
+    </CallStack>
+  </Query>
+  <Query id="38">
+    <Value>CREATE TABLE starred_counts (count INTEGER NOT NULL, tag TEXT, feed_id TEXT)</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>29</ExecLine>
+    <ExecString>db.execSQL(DatabaseConstants.STARREDCOUNTS_SQL)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="16" callLine="29"></Call>
+    </CallStack>
+  </Query>
+  <Query id="39">
+    <Value>CREATE TABLE saved_search (saved_search_title TEXT, saved_search_favicon TEXT, saved_search_address TEXT, saved_search_query TEXT, saved_search_feed_id)</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>30</ExecLine>
+    <ExecString>db.execSQL(DatabaseConstants.SAVED_SEARCH_SQL)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="16" callLine="30"></Call>
+    </CallStack>
+  </Query>
+  <Query id="40">
+    <Value>CREATE TABLE story_actions (_id INTEGER PRIMARY KEY AUTOINCREMENT, time INTEGER NOT NULL, tried INTEGER, action_params TEXT)</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>31</ExecLine>
+    <ExecString>db.execSQL(DatabaseConstants.ACTION_SQL)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="16" callLine="31"></Call>
+    </CallStack>
+  </Query>
+  <Query id="41">
+    <Value>CREATE TABLE notify_dimiss (story_hash TEXT, time INTEGER NOT NULL )</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>32</ExecLine>
+    <ExecString>db.execSQL(DatabaseConstants.NOTIFY_DISMISS_SQL)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="16" callLine="32"></Call>
+    </CallStack>
+  </Query>
+  <Query id="42">
+    <Value>CREATE TABLE feed_tags (feed_id TEXT, tag TEXT)</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>33</ExecLine>
+    <ExecString>db.execSQL(DatabaseConstants.FEED_TAGS_SQL)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="16" callLine="33"></Call>
+    </CallStack>
+  </Query>
+  <Query id="43">
+    <Value>CREATE TABLE feed_authors (feed_id TEXT, author TEXT)</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>34</ExecLine>
+    <ExecString>db.execSQL(DatabaseConstants.FEED_AUTHORS_SQL)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="16" callLine="34"></Call>
+    </CallStack>
+  </Query>
+  <Query id="44">
+    <Value>CREATE TABLE sync_metadata (key TEXT PRIMARY KEY, value TEXT)</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>35</ExecLine>
+    <ExecString>db.execSQL(DatabaseConstants.SYNC_METADATA_SQL)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="16" callLine="35"></Call>
+    </CallStack>
+  </Query>
+  <Query id="45">
+    <Value>DROP TABLE IF EXISTS feeds</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>41</ExecLine>
+    <ExecString>db.execSQL(drop + DatabaseConstants.FEED_TABLE)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.dropAndRecreateTables()" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="38" callLine="41"></Call>
+    </CallStack>
+  </Query>
+  <Query id="46">
+    <Value>DROP TABLE IF EXISTS social_feeds</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>42</ExecLine>
+    <ExecString>db.execSQL(drop + DatabaseConstants.SOCIALFEED_TABLE)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.dropAndRecreateTables()" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="38" callLine="42"></Call>
+    </CallStack>
+  </Query>
+  <Query id="47">
+    <Value>DROP TABLE IF EXISTS folders</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>43</ExecLine>
+    <ExecString>db.execSQL(drop + DatabaseConstants.FOLDER_TABLE)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.dropAndRecreateTables()" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="38" callLine="43"></Call>
+    </CallStack>
+  </Query>
+  <Query id="48">
+    <Value>DROP TABLE IF EXISTS stories</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>44</ExecLine>
+    <ExecString>db.execSQL(drop + DatabaseConstants.STORY_TABLE)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.dropAndRecreateTables()" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="38" callLine="44"></Call>
+    </CallStack>
+  </Query>
+  <Query id="49">
+    <Value>DROP TABLE IF EXISTS reading_session</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>45</ExecLine>
+    <ExecString>db.execSQL(drop + DatabaseConstants.READING_SESSION_TABLE)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.dropAndRecreateTables()" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="38" callLine="45"></Call>
+    </CallStack>
+  </Query>
+  <Query id="50">
+    <Value>DROP TABLE IF EXISTS storytext</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>46</ExecLine>
+    <ExecString>db.execSQL(drop + DatabaseConstants.STORY_TEXT_TABLE)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.dropAndRecreateTables()" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="38" callLine="46"></Call>
+    </CallStack>
+  </Query>
+  <Query id="51">
+    <Value>DROP TABLE IF EXISTS user_table</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>47</ExecLine>
+    <ExecString>db.execSQL(drop + DatabaseConstants.USER_TABLE)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.dropAndRecreateTables()" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="38" callLine="47"></Call>
+    </CallStack>
+  </Query>
+  <Query id="52">
+    <Value>DROP TABLE IF EXISTS comments</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>48</ExecLine>
+    <ExecString>db.execSQL(drop + DatabaseConstants.COMMENT_TABLE)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.dropAndRecreateTables()" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="38" callLine="48"></Call>
+    </CallStack>
+  </Query>
+  <Query id="53">
+    <Value>DROP TABLE IF EXISTS comment_replies</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>49</ExecLine>
+    <ExecString>db.execSQL(drop + DatabaseConstants.REPLY_TABLE)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.dropAndRecreateTables()" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="38" callLine="49"></Call>
+    </CallStack>
+  </Query>
+  <Query id="54">
+    <Value>DROP TABLE IF EXISTS classifiers</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>50</ExecLine>
+    <ExecString>db.execSQL(drop + DatabaseConstants.CLASSIFIER_TABLE)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.dropAndRecreateTables()" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="38" callLine="50"></Call>
+    </CallStack>
+  </Query>
+  <Query id="55">
+    <Value>DROP TABLE IF EXISTS socialfeed_story_map</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>51</ExecLine>
+    <ExecString>db.execSQL(drop + DatabaseConstants.SOCIALFEED_STORY_MAP_TABLE)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.dropAndRecreateTables()" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="38" callLine="51"></Call>
+    </CallStack>
+  </Query>
+  <Query id="56">
+    <Value>DROP TABLE IF EXISTS starred_counts</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>52</ExecLine>
+    <ExecString>db.execSQL(drop + DatabaseConstants.STARREDCOUNTS_TABLE)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.dropAndRecreateTables()" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="38" callLine="52"></Call>
+    </CallStack>
+  </Query>
+  <Query id="57">
+    <Value>DROP TABLE IF EXISTS saved_search</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>53</ExecLine>
+    <ExecString>db.execSQL(drop + DatabaseConstants.SAVED_SEARCH_TABLE)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.dropAndRecreateTables()" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="38" callLine="53"></Call>
+    </CallStack>
+  </Query>
+  <Query id="58">
+    <Value>DROP TABLE IF EXISTS story_actions</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>54</ExecLine>
+    <ExecString>db.execSQL(drop + DatabaseConstants.ACTION_TABLE)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.dropAndRecreateTables()" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="38" callLine="54"></Call>
+    </CallStack>
+  </Query>
+  <Query id="59">
+    <Value>DROP TABLE IF EXISTS notify_dimiss</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>55</ExecLine>
+    <ExecString>db.execSQL(drop + DatabaseConstants.NOTIFY_DISMISS_TABLE)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.dropAndRecreateTables()" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="38" callLine="55"></Call>
+    </CallStack>
+  </Query>
+  <Query id="60">
+    <Value>DROP TABLE IF EXISTS feed_tags</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>56</ExecLine>
+    <ExecString>db.execSQL(drop + DatabaseConstants.FEED_TAGS_TABLE)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.dropAndRecreateTables()" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="38" callLine="56"></Call>
+    </CallStack>
+  </Query>
+  <Query id="61">
+    <Value>DROP TABLE IF EXISTS feed_authors</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>57</ExecLine>
+    <ExecString>db.execSQL(drop + DatabaseConstants.FEED_AUTHORS_TABLE)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.dropAndRecreateTables()" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="38" callLine="57"></Call>
+    </CallStack>
+  </Query>
+  <Query id="62">
+    <Value>DROP TABLE IF EXISTS sync_metadata</Value>
+    <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
+    <ExecPackage>com.newsblur.database</ExecPackage>
+    <ExecClass>BlurDatabase</ExecClass>
+    <ExecFile>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java</ExecFile>
+    <ExecLine>58</ExecLine>
+    <ExecString>db.execSQL(drop + DatabaseConstants.SYNC_METADATA_TABLE)</ExecString>
+    <CallStack>
+      <Call method="com.newsblur.database.BlurDatabase.dropAndRecreateTables()" file="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" methodLine="38" callLine="58"></Call>
+    </CallStack>
+  </Query>
 </Queries>

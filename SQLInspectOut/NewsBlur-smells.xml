@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<Smells>
+  <Smell>
+    <Kind>FEAR_OF_THE_UNKNOWN</Kind>
+    <File>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</File>
+    <Line>117</Line>
+    <Certainty>LOW_CERTAINTY</Certainty>
+    <Message>'feeds.active' is nullable and used in an expression without NULL check.</Message>
+  </Smell>
+  <Smell>
+    <Kind>FEAR_OF_THE_UNKNOWN</Kind>
+    <File>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</File>
+    <Line>292</Line>
+    <Certainty>LOW_CERTAINTY</Certainty>
+    <Message>'stories.read' is nullable and used in an expression without NULL check.</Message>
+  </Smell>
+  <Smell>
+    <Kind>FEAR_OF_THE_UNKNOWN</Kind>
+    <File>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</File>
+    <Line>306</Line>
+    <Certainty>LOW_CERTAINTY</Certainty>
+    <Message>'stories.starred' is nullable and used in an expression without NULL check.</Message>
+  </Smell>
+  <Smell>
+    <Kind>IMPLICIT_COLUMNS</Kind>
+    <File>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</File>
+    <Line>923</Line>
+    <Certainty>NORMAL_CERTAINTY</Certainty>
+    <Message>Name columns explicitly.</Message>
+  </Smell>
+  <Smell>
+    <Kind>FEAR_OF_THE_UNKNOWN</Kind>
+    <File>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</File>
+    <Line>937</Line>
+    <Certainty>LOW_CERTAINTY</Certainty>
+    <Message>'story_actions.tried' is nullable and used in an expression without NULL check.</Message>
+  </Smell>
+  <Smell>
+    <Kind>IMPLICIT_COLUMNS</Kind>
+    <File>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</File>
+    <Line>937</Line>
+    <Certainty>NORMAL_CERTAINTY</Certainty>
+    <Message>Name columns explicitly.</Message>
+  </Smell>
+  <Smell>
+    <Kind>FEAR_OF_THE_UNKNOWN</Kind>
+    <File>C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java</File>
+    <Line>1138</Line>
+    <Certainty>LOW_CERTAINTY</Certainty>
+    <Message>'feeds.notification_filter' is nullable and used in an expression without NULL check.</Message>
+  </Smell>
+</Smells>

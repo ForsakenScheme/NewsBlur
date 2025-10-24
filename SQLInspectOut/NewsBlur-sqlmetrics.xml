@@ -1,543 +1,179 @@
 <?xml version="1.0" ?>
 <Metrics>
   <Database>
-    <Statement Id="103" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="8">
-    </Statement>
-    <Statement Id="106" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="9">
-    </Statement>
-    <Statement Id="109" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="10">
-    </Statement>
-    <Statement Id="112" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="11">
-    </Statement>
-    <Statement Id="114" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="12">
-    </Statement>
-    <Statement Id="117" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="13">
-    </Statement>
-    <Statement Id="120" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="14">
-    </Statement>
-    <Statement Id="123" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="124" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="30">
-    </Statement>
-    <Statement Id="128" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="32">
-    </Statement>
-    <Statement Id="131" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="34">
-    </Statement>
-    <Statement Id="135" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="40">
-    </Statement>
-    <Statement Id="153" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="159" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="76">
-    </Statement>
-    <Statement Id="178" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="184" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="113">
-    </Statement>
-    <Statement Id="195" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="201" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="146">
-    </Statement>
-    <Statement Id="214" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="220" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="180">
-    </Statement>
-    <Statement Id="238" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="244" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="215">
-    </Statement>
-    <Statement Id="259" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="236">
-    </Statement>
-    <Statement Id="272" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="277" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="283" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="291">
-    </Statement>
-    <Statement Id="296" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="302" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="325">
-    </Statement>
-    <Statement Id="320" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="326" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="364">
-    </Statement>
-    <Statement Id="341" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="347" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="400">
-    </Statement>
-    <Statement Id="357" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="363" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="433">
-    </Statement>
-    <Statement Id="372" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="378" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="473">
-    </Statement>
-    <Statement Id="394" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="400" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="508">
-    </Statement>
-    <Statement Id="414" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="521">
-    </Statement>
-    <Statement Id="427" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="433" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="555">
-    </Statement>
-    <Statement Id="456" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="462" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="592">
-    </Statement>
-    <Statement Id="476" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="482" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="626">
-    </Statement>
-    <Statement Id="514" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="520" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="674">
-    </Statement>
-    <Statement Id="531" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="686">
-    </Statement>
-    <Statement Id="549" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="555" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="732">
-    </Statement>
-    <Statement Id="567" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="573" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="766">
-    </Statement>
-    <Statement Id="604" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="610" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="808">
-    </Statement>
-    <Statement Id="656" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="662" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="876">
-    </Statement>
-    <Statement Id="680" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="686" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="913">
-    </Statement>
-    <Statement Id="715" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="721" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="952">
-    </Statement>
-    <Statement Id="739" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="745" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="990">
-    </Statement>
-    <Statement Id="764" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="770" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="1026">
-    </Statement>
-    <Statement Id="914" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="920" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="1167">
-    </Statement>
-    <Statement Id="932" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="938" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="1204">
-    </Statement>
-    <Statement Id="953" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="959" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="1256">
-    </Statement>
-    <Statement Id="984" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="990" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="1294">
-    </Statement>
-    <Statement Id="1002" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="1008" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="1328">
-    </Statement>
-    <Statement Id="1028" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="1034" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="1374">
-    </Statement>
-    <Statement Id="1047" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="1053" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="1408">
-    </Statement>
-    <Statement Id="1081" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="1087" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="1448">
-    </Statement>
-    <Statement Id="1106" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="1112" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="1484">
-    </Statement>
-    <Statement Id="1129" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="1135" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="1520">
-    </Statement>
-    <Statement Id="1157" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="1163" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="1558">
-    </Statement>
-    <Statement Id="1178" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="1184" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="1593">
-    </Statement>
-    <Statement Id="1195" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="1201" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="1628">
-    </Statement>
-    <Statement Id="1212" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="1218" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="1663">
-    </Statement>
-    <Statement Id="1227" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="0">
-    </Statement>
-    <Statement Id="1312" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="1979">
-    </Statement>
-    <Statement Id="1324" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="1987">
+    <Statement Id="111" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="94">
       <Metrics>
         <Metric name="Fields" value="1"></Metric>
         <Metric name="Nested Queries" value="0"></Metric>
         <Metric name="Nesting Level" value="0"></Metric>
       </Metrics>
     </Statement>
-    <Statement Id="1325" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="1994">
-    </Statement>
-    <Statement Id="1337" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2002">
+    <Statement Id="119" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="117">
       <Metrics>
         <Metric name="Fields" value="1"></Metric>
         <Metric name="Nested Queries" value="0"></Metric>
         <Metric name="Nesting Level" value="0"></Metric>
       </Metrics>
     </Statement>
-    <Statement Id="1338" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2009">
-    </Statement>
-    <Statement Id="1350" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2017">
+    <Statement Id="124" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="117">
       <Metrics>
         <Metric name="Fields" value="1"></Metric>
         <Metric name="Nested Queries" value="0"></Metric>
         <Metric name="Nesting Level" value="0"></Metric>
       </Metrics>
     </Statement>
-    <Statement Id="1351" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2024">
-    </Statement>
-    <Statement Id="1363" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2032">
+    <Statement Id="129" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="135">
       <Metrics>
         <Metric name="Fields" value="1"></Metric>
         <Metric name="Nested Queries" value="0"></Metric>
         <Metric name="Nesting Level" value="0"></Metric>
       </Metrics>
     </Statement>
-    <Statement Id="1364" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2039">
+    <Statement Id="131" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="184">
+      <Metrics>
+        <Metric name="Nested Queries" value="1"></Metric>
+        <Metric name="Nesting Level" value="0"></Metric>
+      </Metrics>
     </Statement>
-    <Statement Id="1367" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2164">
+    <Statement Id="140" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="208">
     </Statement>
-    <Statement Id="1368" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2171">
-    </Statement>
-    <Statement Id="1369" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2179">
-    </Statement>
-    <Statement Id="1381" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2187">
+    <Statement Id="155" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="292">
       <Metrics>
         <Metric name="Fields" value="1"></Metric>
         <Metric name="Nested Queries" value="0"></Metric>
         <Metric name="Nesting Level" value="0"></Metric>
       </Metrics>
     </Statement>
-    <Statement Id="1393" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2194">
+    <Statement Id="163" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="306">
       <Metrics>
         <Metric name="Fields" value="1"></Metric>
         <Metric name="Nested Queries" value="0"></Metric>
         <Metric name="Nesting Level" value="0"></Metric>
       </Metrics>
     </Statement>
-    <Statement Id="1394" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2201">
-    </Statement>
-    <Statement Id="1406" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2209">
+    <Statement Id="168" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="552">
       <Metrics>
         <Metric name="Fields" value="1"></Metric>
         <Metric name="Nested Queries" value="0"></Metric>
         <Metric name="Nesting Level" value="0"></Metric>
       </Metrics>
     </Statement>
-    <Statement Id="1407" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2216">
+    <Statement Id="174" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="743">
     </Statement>
-    <Statement Id="1419" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2224">
+    <Statement Id="183" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="743">
+    </Statement>
+    <Statement Id="191" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="923">
       <Metrics>
         <Metric name="Fields" value="1"></Metric>
         <Metric name="Nested Queries" value="0"></Metric>
         <Metric name="Nesting Level" value="0"></Metric>
       </Metrics>
     </Statement>
-    <Statement Id="1420" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2231">
+    <Statement Id="199" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="931">
     </Statement>
-    <Statement Id="1432" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2239">
+    <Statement Id="210" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="937">
       <Metrics>
         <Metric name="Fields" value="1"></Metric>
         <Metric name="Nested Queries" value="0"></Metric>
         <Metric name="Nesting Level" value="0"></Metric>
       </Metrics>
     </Statement>
-    <Statement Id="1433" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2246">
+    <Statement Id="216" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="987">
     </Statement>
-    <Statement Id="1445" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2254">
+    <Statement Id="227" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="1029">
       <Metrics>
         <Metric name="Fields" value="1"></Metric>
         <Metric name="Nested Queries" value="0"></Metric>
         <Metric name="Nesting Level" value="0"></Metric>
       </Metrics>
     </Statement>
-    <Statement Id="1446" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2261">
-    </Statement>
-    <Statement Id="1458" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2269">
+    <Statement Id="235" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="1046">
       <Metrics>
         <Metric name="Fields" value="1"></Metric>
         <Metric name="Nested Queries" value="0"></Metric>
         <Metric name="Nesting Level" value="0"></Metric>
       </Metrics>
     </Statement>
-    <Statement Id="1459" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2276">
-    </Statement>
-    <Statement Id="1460" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2330">
-    </Statement>
-    <Statement Id="1461" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2338">
-    </Statement>
-    <Statement Id="1473" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2347">
+    <Statement Id="247" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="1138">
       <Metrics>
         <Metric name="Fields" value="1"></Metric>
         <Metric name="Nested Queries" value="0"></Metric>
         <Metric name="Nesting Level" value="0"></Metric>
       </Metrics>
     </Statement>
-    <Statement Id="1474" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2354">
+    <Statement Id="249" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="1207">
     </Statement>
-    <Statement Id="1486" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2362">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
+    <Statement Id="253" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="18">
     </Statement>
-    <Statement Id="1487" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2369">
+    <Statement Id="322" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="19">
     </Statement>
-    <Statement Id="1499" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2377">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
+    <Statement Id="347" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="20">
     </Statement>
-    <Statement Id="1500" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2384">
+    <Statement Id="363" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="21">
     </Statement>
-    <Statement Id="1512" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2392">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
+    <Statement Id="379" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="22">
     </Statement>
-    <Statement Id="1513" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2399">
+    <Statement Id="473" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="23">
     </Statement>
-    <Statement Id="1514" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2407">
+    <Statement Id="479" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="24">
     </Statement>
-    <Statement Id="1526" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2415">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
+    <Statement Id="488" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="25">
     </Statement>
-    <Statement Id="1527" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2422">
+    <Statement Id="525" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="26">
     </Statement>
-    <Statement Id="1539" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2430">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
+    <Statement Id="550" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="27">
     </Statement>
-    <Statement Id="1540" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2437">
+    <Statement Id="565" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="28">
     </Statement>
-    <Statement Id="1552" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2445">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
+    <Statement Id="578" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="29">
     </Statement>
-    <Statement Id="1553" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2452">
+    <Statement Id="591" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="30">
     </Statement>
-    <Statement Id="1565" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2460">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
+    <Statement Id="608" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="31">
     </Statement>
-    <Statement Id="1566" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2467">
+    <Statement Id="625" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="32">
     </Statement>
-    <Statement Id="1578" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2475">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
+    <Statement Id="635" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="33">
     </Statement>
-    <Statement Id="1579" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2482">
+    <Statement Id="644" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="34">
     </Statement>
-    <Statement Id="1591" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2490">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
+    <Statement Id="653" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="35">
     </Statement>
-    <Statement Id="1592" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2497">
+    <Statement Id="663" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="41">
     </Statement>
-    <Statement Id="1604" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2505">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
+    <Statement Id="665" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="42">
     </Statement>
-    <Statement Id="1605" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2512">
+    <Statement Id="667" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="43">
     </Statement>
-    <Statement Id="1617" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2520">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
+    <Statement Id="669" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="44">
     </Statement>
-    <Statement Id="1618" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2527">
+    <Statement Id="671" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="45">
     </Statement>
-    <Statement Id="1630" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2535">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
+    <Statement Id="673" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="46">
     </Statement>
-    <Statement Id="1631" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2542">
+    <Statement Id="675" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="47">
     </Statement>
-    <Statement Id="1643" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2550">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
+    <Statement Id="677" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="48">
     </Statement>
-    <Statement Id="1644" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2557">
+    <Statement Id="679" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="49">
     </Statement>
-    <Statement Id="1656" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2565">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
+    <Statement Id="681" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="50">
     </Statement>
-    <Statement Id="1657" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2572">
+    <Statement Id="683" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="51">
     </Statement>
-    <Statement Id="1669" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2580">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
+    <Statement Id="685" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="52">
     </Statement>
-    <Statement Id="1670" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2587">
+    <Statement Id="687" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="53">
     </Statement>
-    <Statement Id="1682" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2595">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
+    <Statement Id="689" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="54">
     </Statement>
-    <Statement Id="1683" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2602">
+    <Statement Id="691" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="55">
     </Statement>
-    <Statement Id="1695" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2610">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
+    <Statement Id="693" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="56">
     </Statement>
-    <Statement Id="1696" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2617">
+    <Statement Id="695" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="57">
     </Statement>
-    <Statement Id="1708" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2625">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="1709" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2632">
-    </Statement>
-    <Statement Id="1721" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2640">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="1722" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2647">
-    </Statement>
-    <Statement Id="1734" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2655">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="1735" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2662">
-    </Statement>
-    <Statement Id="1747" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2670">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="1748" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2677">
-    </Statement>
-    <Statement Id="1760" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2685">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="1761" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2692">
-    </Statement>
-    <Statement Id="1773" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2700">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="1774" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2707">
-    </Statement>
-    <Statement Id="1786" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2715">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="1787" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2722">
-    </Statement>
-    <Statement Id="1799" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2730">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
-    </Statement>
-    <Statement Id="1800" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2737">
-    </Statement>
-    <Statement Id="1812" Path="C:\Coding\Github_Repository\NewsBlur\docker\postgres\init.sql" Line="2745">
-      <Metrics>
-        <Metric name="Fields" value="1"></Metric>
-        <Metric name="Nested Queries" value="0"></Metric>
-        <Metric name="Nesting Level" value="0"></Metric>
-      </Metrics>
+    <Statement Id="697" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java" Line="58">
     </Statement>
 </Database>  
 </Metrics>

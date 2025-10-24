@@ -1,0 +1,402 @@
+{
+  "Databases" : [ {
+    "Name" : "DB",
+    "Schemas" : [ {
+      "Name" : "SCH",
+      "Tables" : [ {
+        "Name" : "feeds",
+        "Columns" : [ {
+          "Name" : "_id",
+          "Type" : "INT"
+        }, {
+          "Name" : "active",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "address",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "favicon_color",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "favicon_url",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "ps",
+          "Type" : "INT"
+        }, {
+          "Name" : "ng",
+          "Type" : "INT"
+        }, {
+          "Name" : "nt",
+          "Type" : "INT"
+        }, {
+          "Name" : "favicon_fade",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "favicon_text_color",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "favicon_border",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "link",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "subscribers",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "feed_name",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "opens",
+          "Type" : "INT"
+        }, {
+          "Name" : "average_stories_per_month",
+          "Type" : "INT"
+        }, {
+          "Name" : "last_story_date",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "updated_seconds",
+          "Type" : "INT"
+        }, {
+          "Name" : "notification_types",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "notification_filter",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "fetch_pending",
+          "Type" : "TEXT"
+        } ]
+      }, {
+        "Name" : "social_feeds",
+        "Columns" : [ {
+          "Name" : "_id",
+          "Type" : "INT"
+        }, {
+          "Name" : "ps",
+          "Type" : "INT"
+        }, {
+          "Name" : "ng",
+          "Type" : "INT"
+        }, {
+          "Name" : "nt",
+          "Type" : "INT"
+        }, {
+          "Name" : "social_feed_icon",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "social_feed_title",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "social_feed_name",
+          "Type" : "TEXT"
+        } ]
+      }, {
+        "Name" : "folders",
+        "Columns" : [ {
+          "Name" : "folder_name",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "folder_parent_names",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "folder_children_names",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "folder_feedids",
+          "Type" : "TEXT"
+        } ]
+      }, {
+        "Name" : "user_table",
+        "Columns" : [ {
+          "Name" : "photo_url",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "_id",
+          "Type" : "INT"
+        }, {
+          "Name" : "username",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "location",
+          "Type" : "TEXT"
+        } ]
+      }, {
+        "Name" : "stories",
+        "Columns" : [ {
+          "Name" : "story_hash",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "authors",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "content",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "short_content",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "timestamp",
+          "Type" : "INT"
+        }, {
+          "Name" : "sharedDate",
+          "Type" : "INT"
+        }, {
+          "Name" : "feed_id",
+          "Type" : "INT"
+        }, {
+          "Name" : "_id",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "intelligence_authors",
+          "Type" : "INT"
+        }, {
+          "Name" : "intelligence_feed",
+          "Type" : "INT"
+        }, {
+          "Name" : "intelligence_tags",
+          "Type" : "INT"
+        }, {
+          "Name" : "intelligence_title",
+          "Type" : "INT"
+        }, {
+          "Name" : "intelligence_total",
+          "Type" : "INT"
+        }, {
+          "Name" : "socialUserId",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "sourceUserId",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "shared_user_ids",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "comment_user_ids",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "tags",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "user_tags",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "permalink",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "read",
+          "Type" : "INT"
+        }, {
+          "Name" : "starred",
+          "Type" : "INT"
+        }, {
+          "Name" : "starred_date",
+          "Type" : "INT"
+        }, {
+          "Name" : "infrequent",
+          "Type" : "INT"
+        }, {
+          "Name" : "title",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "image_urls",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "last_read_date",
+          "Type" : "INT"
+        }, {
+          "Name" : "search_hit",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "thumbnail_url",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "has_modifications",
+          "Type" : "INT"
+        } ]
+      }, {
+        "Name" : "reading_session",
+        "Columns" : [ {
+          "Name" : "session_story_hash",
+          "Type" : "TEXT"
+        } ]
+      }, {
+        "Name" : "storytext",
+        "Columns" : [ {
+          "Name" : "story_hash",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "story_text",
+          "Type" : "TEXT"
+        } ]
+      }, {
+        "Name" : "comments",
+        "Columns" : [ {
+          "Name" : "comment_date",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "comment_shareddate",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "comment_source_user",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "_id",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "comment_liking_users",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "comment_byfriend",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "comment_storyid",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "comment_text",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "comment_userid",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "comment_ispseudo",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "comment_isplaceholder",
+          "Type" : "TEXT"
+        } ]
+      }, {
+        "Name" : "comment_replies",
+        "Columns" : [ {
+          "Name" : "reply_date",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "reply_shortdate",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "_id",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "comment_id",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "reply_text",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "reply_userid",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "reply_isplaceholder",
+          "Type" : "TEXT"
+        } ]
+      }, {
+        "Name" : "classifiers",
+        "Columns" : [ {
+          "Name" : "_id",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "key",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "type",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "value",
+          "Type" : "TEXT"
+        } ]
+      }, {
+        "Name" : "socialfeed_story_map",
+        "Columns" : [ {
+          "Name" : "socialfeed_story_storyid",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "socialfeed_story_user_id",
+          "Type" : "INT"
+        } ]
+      }, {
+        "Name" : "starred_counts",
+        "Columns" : [ {
+          "Name" : "count",
+          "Type" : "INT"
+        }, {
+          "Name" : "tag",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "feed_id",
+          "Type" : "TEXT"
+        } ]
+      }, {
+        "Name" : "saved_search",
+        "Columns" : [ {
+          "Name" : "saved_search_title",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "saved_search_favicon",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "saved_search_address",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "saved_search_query",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "saved_search_feed_id",
+          "Type" : ""
+        } ]
+      }, {
+        "Name" : "story_actions",
+        "Columns" : [ {
+          "Name" : "_id",
+          "Type" : "INT"
+        }, {
+          "Name" : "time",
+          "Type" : "INT"
+        }, {
+          "Name" : "tried",
+          "Type" : "INT"
+        }, {
+          "Name" : "action_params",
+          "Type" : "TEXT"
+        } ]
+      }, {
+        "Name" : "notify_dimiss",
+        "Columns" : [ {
+          "Name" : "story_hash",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "time",
+          "Type" : "INT"
+        } ]
+      }, {
+        "Name" : "feed_tags",
+        "Columns" : [ {
+          "Name" : "feed_id",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "tag",
+          "Type" : "TEXT"
+        } ]
+      }, {
+        "Name" : "feed_authors",
+        "Columns" : [ {
+          "Name" : "feed_id",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "author",
+          "Type" : "TEXT"
+        } ]
+      }, {
+        "Name" : "sync_metadata",
+        "Columns" : [ {
+          "Name" : "key",
+          "Type" : "TEXT"
+        }, {
+          "Name" : "value",
+          "Type" : "TEXT"
+        } ]
+      } ]
+    } ]
+  } ]
+}
