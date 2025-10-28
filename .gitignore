@@ -73,3 +73,4 @@ grafana.ini
 apps/api/ip_addresses.txt
 .ansible/
 *.log
+/.idea
