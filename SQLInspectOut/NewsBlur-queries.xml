@@ -121,7 +121,7 @@
     </CallStack>
   </Query>
   <Query id="11">
-    <Value>UPDATE feeds SET nt = nt{{na}} WHERE _id = {{na}}</Value>
+    <Value>UPDATE feeds SET ps = ps{{na}} WHERE _id = {{na}}</Value>
     <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
     <ExecPackage>com.newsblur.database</ExecPackage>
     <ExecClass>BlurDatabaseHelper</ExecClass>
@@ -133,7 +133,7 @@
     </CallStack>
   </Query>
   <Query id="12">
-    <Value>UPDATE feeds SET ps = ps{{na}} WHERE _id = {{na}}</Value>
+    <Value>UPDATE feeds SET nt = nt{{na}} WHERE _id = {{na}}</Value>
     <HotspotFinder>AndroidHotspotFinder</HotspotFinder>
     <ExecPackage>com.newsblur.database</ExecPackage>
     <ExecClass>BlurDatabaseHelper</ExecClass>

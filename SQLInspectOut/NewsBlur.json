@@ -10,10 +10,7 @@
       "tables" : [ {
         "type" : "Table",
         "id" : 254,
-        "temporary" : false,
         "external" : false,
-        "uniqueKeys" : [ ],
-        "foreignKeys" : [ ],
         "columns" : [ {
           "type" : "Column",
           "id" : 259,
@@ -21,30 +18,30 @@
             "type" : "NumericType",
             "id" : 257,
             "scale" : 0,
-            "kind" : "INT",
             "precision" : 0,
+            "kind" : "INT",
             "unsigned" : false,
             "zerofill" : false,
-            "endLine" : 0,
-            "endCol" : 0,
             "startLine" : 0,
-            "startCol" : 0
+            "startCol" : 0,
+            "endCol" : 0,
+            "endLine" : 0
           },
           "type" : 257,
           "attributes" : [ {
             "type" : "ColumnAttribute",
             "id" : 258,
             "kind" : "PRIMARYKEY",
-            "endLine" : 0,
-            "endCol" : 0,
             "startLine" : 0,
-            "startCol" : 0
+            "startCol" : 0,
+            "endCol" : 0,
+            "endLine" : 0
           } ],
           "name" : "_id",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 263,
@@ -53,18 +50,18 @@
             "id" : 262,
             "length" : 0,
             "kind" : "TEXT",
-            "endLine" : 0,
-            "endCol" : 0,
             "startLine" : 0,
-            "startCol" : 0
+            "startCol" : 0,
+            "endCol" : 0,
+            "endLine" : 0
           },
           "type" : 262,
           "attributes" : [ ],
           "name" : "active",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 266,
@@ -72,10 +69,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "address",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 269,
@@ -83,10 +80,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "favicon_color",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 272,
@@ -94,10 +91,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "favicon_url",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 275,
@@ -105,10 +102,10 @@
           "type" : 257,
           "attributes" : [ ],
           "name" : "ps",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 278,
@@ -116,10 +113,10 @@
           "type" : 257,
           "attributes" : [ ],
           "name" : "ng",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 281,
@@ -127,10 +124,10 @@
           "type" : 257,
           "attributes" : [ ],
           "name" : "nt",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 284,
@@ -138,10 +135,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "favicon_fade",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 287,
@@ -149,10 +146,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "favicon_text_color",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 290,
@@ -160,10 +157,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "favicon_border",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 293,
@@ -171,10 +168,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "link",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 296,
@@ -182,10 +179,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "subscribers",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 299,
@@ -193,10 +190,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "feed_name",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 302,
@@ -204,10 +201,10 @@
           "type" : 257,
           "attributes" : [ ],
           "name" : "opens",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 305,
@@ -215,10 +212,10 @@
           "type" : 257,
           "attributes" : [ ],
           "name" : "average_stories_per_month",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 308,
@@ -226,10 +223,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "last_story_date",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 311,
@@ -237,10 +234,10 @@
           "type" : 257,
           "attributes" : [ ],
           "name" : "updated_seconds",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 314,
@@ -248,10 +245,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "notification_types",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 317,
@@ -259,10 +256,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "notification_filter",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 320,
@@ -270,23 +267,23 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "fetch_pending",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         } ],
+        "temporary" : false,
+        "uniqueKeys" : [ ],
+        "foreignKeys" : [ ],
         "name" : "feeds",
-        "endLine" : 0,
-        "endCol" : 0,
         "startLine" : 0,
-        "startCol" : 0
+        "startCol" : 0,
+        "endCol" : 0,
+        "endLine" : 0
       }, {
         "type" : "Table",
         "id" : 323,
-        "temporary" : false,
         "external" : false,
-        "uniqueKeys" : [ ],
-        "foreignKeys" : [ ],
         "columns" : [ {
           "type" : "Column",
           "id" : 327,
@@ -296,16 +293,16 @@
             "type" : "ColumnAttribute",
             "id" : 326,
             "kind" : "PRIMARYKEY",
-            "endLine" : 0,
-            "endCol" : 0,
             "startLine" : 0,
-            "startCol" : 0
+            "startCol" : 0,
+            "endCol" : 0,
+            "endLine" : 0
           } ],
           "name" : "_id",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 330,
@@ -313,10 +310,10 @@
           "type" : 257,
           "attributes" : [ ],
           "name" : "ps",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 333,
@@ -324,10 +321,10 @@
           "type" : 257,
           "attributes" : [ ],
           "name" : "ng",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 336,
@@ -335,10 +332,10 @@
           "type" : 257,
           "attributes" : [ ],
           "name" : "nt",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 339,
@@ -346,10 +343,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "social_feed_icon",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 342,
@@ -357,10 +354,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "social_feed_title",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 345,
@@ -368,23 +365,23 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "social_feed_name",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         } ],
+        "temporary" : false,
+        "uniqueKeys" : [ ],
+        "foreignKeys" : [ ],
         "name" : "social_feeds",
-        "endLine" : 0,
-        "endCol" : 0,
         "startLine" : 0,
-        "startCol" : 0
+        "startCol" : 0,
+        "endCol" : 0,
+        "endLine" : 0
       }, {
         "type" : "Table",
         "id" : 348,
-        "temporary" : false,
         "external" : false,
-        "uniqueKeys" : [ ],
-        "foreignKeys" : [ ],
         "columns" : [ {
           "type" : "Column",
           "id" : 352,
@@ -394,16 +391,16 @@
             "type" : "ColumnAttribute",
             "id" : 351,
             "kind" : "PRIMARYKEY",
-            "endLine" : 0,
-            "endCol" : 0,
             "startLine" : 0,
-            "startCol" : 0
+            "startCol" : 0,
+            "endCol" : 0,
+            "endLine" : 0
           } ],
           "name" : "folder_name",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 355,
@@ -411,10 +408,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "folder_parent_names",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 358,
@@ -422,10 +419,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "folder_children_names",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 361,
@@ -433,23 +430,23 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "folder_feedids",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         } ],
+        "temporary" : false,
+        "uniqueKeys" : [ ],
+        "foreignKeys" : [ ],
         "name" : "folders",
-        "endLine" : 0,
-        "endCol" : 0,
         "startLine" : 0,
-        "startCol" : 0
+        "startCol" : 0,
+        "endCol" : 0,
+        "endLine" : 0
       }, {
         "type" : "Table",
         "id" : 364,
-        "temporary" : false,
         "external" : false,
-        "uniqueKeys" : [ ],
-        "foreignKeys" : [ ],
         "columns" : [ {
           "type" : "Column",
           "id" : 367,
@@ -457,10 +454,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "photo_url",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 371,
@@ -470,16 +467,16 @@
             "type" : "ColumnAttribute",
             "id" : 370,
             "kind" : "PRIMARYKEY",
-            "endLine" : 0,
-            "endCol" : 0,
             "startLine" : 0,
-            "startCol" : 0
+            "startCol" : 0,
+            "endCol" : 0,
+            "endLine" : 0
           } ],
           "name" : "_id",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 374,
@@ -487,10 +484,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "username",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 377,
@@ -498,23 +495,23 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "location",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         } ],
+        "temporary" : false,
+        "uniqueKeys" : [ ],
+        "foreignKeys" : [ ],
         "name" : "user_table",
-        "endLine" : 0,
-        "endCol" : 0,
         "startLine" : 0,
-        "startCol" : 0
+        "startCol" : 0,
+        "endCol" : 0,
+        "endLine" : 0
       }, {
         "type" : "Table",
         "id" : 380,
-        "temporary" : false,
         "external" : false,
-        "uniqueKeys" : [ ],
-        "foreignKeys" : [ ],
         "columns" : [ {
           "type" : "Column",
           "id" : 384,
@@ -524,16 +521,16 @@
             "type" : "ColumnAttribute",
             "id" : 383,
             "kind" : "PRIMARYKEY",
-            "endLine" : 0,
-            "endCol" : 0,
             "startLine" : 0,
-            "startCol" : 0
+            "startCol" : 0,
+            "endCol" : 0,
+            "endLine" : 0
           } ],
           "name" : "story_hash",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 387,
@@ -541,10 +538,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "authors",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 390,
@@ -552,10 +549,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "content",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 393,
@@ -563,10 +560,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "short_content",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 396,
@@ -574,10 +571,10 @@
           "type" : 257,
           "attributes" : [ ],
           "name" : "timestamp",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 399,
@@ -585,10 +582,10 @@
           "type" : 257,
           "attributes" : [ ],
           "name" : "sharedDate",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 402,
@@ -596,10 +593,10 @@
           "type" : 257,
           "attributes" : [ ],
           "name" : "feed_id",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 405,
@@ -607,10 +604,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "_id",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 408,
@@ -618,10 +615,10 @@
           "type" : 257,
           "attributes" : [ ],
           "name" : "intelligence_authors",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 411,
@@ -629,10 +626,10 @@
           "type" : 257,
           "attributes" : [ ],
           "name" : "intelligence_feed",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 414,
@@ -640,10 +637,10 @@
           "type" : 257,
           "attributes" : [ ],
           "name" : "intelligence_tags",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 417,
@@ -651,10 +648,10 @@
           "type" : 257,
           "attributes" : [ ],
           "name" : "intelligence_title",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 420,
@@ -662,10 +659,10 @@
           "type" : 257,
           "attributes" : [ ],
           "name" : "intelligence_total",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 423,
@@ -673,10 +670,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "socialUserId",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 426,
@@ -684,10 +681,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "sourceUserId",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 429,
@@ -695,10 +692,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "shared_user_ids",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 432,
@@ -706,10 +703,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "comment_user_ids",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 435,
@@ -717,10 +714,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "tags",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 438,
@@ -728,10 +725,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "user_tags",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 441,
@@ -739,10 +736,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "permalink",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 444,
@@ -750,10 +747,10 @@
           "type" : 257,
           "attributes" : [ ],
           "name" : "read",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 447,
@@ -761,10 +758,10 @@
           "type" : 257,
           "attributes" : [ ],
           "name" : "starred",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 450,
@@ -772,10 +769,10 @@
           "type" : 257,
           "attributes" : [ ],
           "name" : "starred_date",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 453,
@@ -783,10 +780,10 @@
           "type" : 257,
           "attributes" : [ ],
           "name" : "infrequent",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 456,
@@ -794,10 +791,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "title",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 459,
@@ -805,10 +802,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "image_urls",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 462,
@@ -816,10 +813,10 @@
           "type" : 257,
           "attributes" : [ ],
           "name" : "last_read_date",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 465,
@@ -827,10 +824,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "search_hit",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 468,
@@ -838,10 +835,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "thumbnail_url",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 471,
@@ -849,23 +846,23 @@
           "type" : 257,
           "attributes" : [ ],
           "name" : "has_modifications",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         } ],
+        "temporary" : false,
+        "uniqueKeys" : [ ],
+        "foreignKeys" : [ ],
         "name" : "stories",
-        "endLine" : 0,
-        "endCol" : 0,
         "startLine" : 0,
-        "startCol" : 0
+        "startCol" : 0,
+        "endCol" : 0,
+        "endLine" : 0
       }, {
         "type" : "Table",
         "id" : 474,
-        "temporary" : false,
         "external" : false,
-        "uniqueKeys" : [ ],
-        "foreignKeys" : [ ],
         "columns" : [ {
           "type" : "Column",
           "id" : 477,
@@ -873,23 +870,23 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "session_story_hash",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         } ],
+        "temporary" : false,
+        "uniqueKeys" : [ ],
+        "foreignKeys" : [ ],
         "name" : "reading_session",
-        "endLine" : 0,
-        "endCol" : 0,
         "startLine" : 0,
-        "startCol" : 0
+        "startCol" : 0,
+        "endCol" : 0,
+        "endLine" : 0
       }, {
         "type" : "Table",
         "id" : 480,
-        "temporary" : false,
         "external" : false,
-        "uniqueKeys" : [ ],
-        "foreignKeys" : [ ],
         "columns" : [ {
           "type" : "Column",
           "id" : 483,
@@ -897,10 +894,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "story_hash",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 486,
@@ -908,23 +905,23 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "story_text",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         } ],
+        "temporary" : false,
+        "uniqueKeys" : [ ],
+        "foreignKeys" : [ ],
         "name" : "storytext",
-        "endLine" : 0,
-        "endCol" : 0,
         "startLine" : 0,
-        "startCol" : 0
+        "startCol" : 0,
+        "endCol" : 0,
+        "endLine" : 0
       }, {
         "type" : "Table",
         "id" : 489,
-        "temporary" : false,
         "external" : false,
-        "uniqueKeys" : [ ],
-        "foreignKeys" : [ ],
         "columns" : [ {
           "type" : "Column",
           "id" : 492,
@@ -932,10 +929,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "comment_date",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 495,
@@ -943,10 +940,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "comment_shareddate",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 498,
@@ -954,10 +951,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "comment_source_user",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 502,
@@ -967,16 +964,16 @@
             "type" : "ColumnAttribute",
             "id" : 501,
             "kind" : "PRIMARYKEY",
-            "endLine" : 0,
-            "endCol" : 0,
             "startLine" : 0,
-            "startCol" : 0
+            "startCol" : 0,
+            "endCol" : 0,
+            "endLine" : 0
           } ],
           "name" : "_id",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 505,
@@ -984,10 +981,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "comment_liking_users",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 508,
@@ -995,10 +992,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "comment_byfriend",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 511,
@@ -1006,10 +1003,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "comment_storyid",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 514,
@@ -1017,10 +1014,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "comment_text",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 517,
@@ -1028,10 +1025,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "comment_userid",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 520,
@@ -1039,10 +1036,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "comment_ispseudo",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 523,
@@ -1050,23 +1047,23 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "comment_isplaceholder",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         } ],
+        "temporary" : false,
+        "uniqueKeys" : [ ],
+        "foreignKeys" : [ ],
         "name" : "comments",
-        "endLine" : 0,
-        "endCol" : 0,
         "startLine" : 0,
-        "startCol" : 0
+        "startCol" : 0,
+        "endCol" : 0,
+        "endLine" : 0
       }, {
         "type" : "Table",
         "id" : 526,
-        "temporary" : false,
         "external" : false,
-        "uniqueKeys" : [ ],
-        "foreignKeys" : [ ],
         "columns" : [ {
           "type" : "Column",
           "id" : 529,
@@ -1074,10 +1071,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "reply_date",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 532,
@@ -1085,10 +1082,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "reply_shortdate",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 536,
@@ -1098,16 +1095,16 @@
             "type" : "ColumnAttribute",
             "id" : 535,
             "kind" : "PRIMARYKEY",
-            "endLine" : 0,
-            "endCol" : 0,
             "startLine" : 0,
-            "startCol" : 0
+            "startCol" : 0,
+            "endCol" : 0,
+            "endLine" : 0
           } ],
           "name" : "_id",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 539,
@@ -1115,10 +1112,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "comment_id",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 542,
@@ -1126,10 +1123,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "reply_text",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 545,
@@ -1137,10 +1134,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "reply_userid",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 548,
@@ -1148,23 +1145,23 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "reply_isplaceholder",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         } ],
+        "temporary" : false,
+        "uniqueKeys" : [ ],
+        "foreignKeys" : [ ],
         "name" : "comment_replies",
-        "endLine" : 0,
-        "endCol" : 0,
         "startLine" : 0,
-        "startCol" : 0
+        "startCol" : 0,
+        "endCol" : 0,
+        "endLine" : 0
       }, {
         "type" : "Table",
         "id" : 551,
-        "temporary" : false,
         "external" : false,
-        "uniqueKeys" : [ ],
-        "foreignKeys" : [ ],
         "columns" : [ {
           "type" : "Column",
           "id" : 554,
@@ -1172,10 +1169,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "_id",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 557,
@@ -1183,10 +1180,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "key",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 560,
@@ -1194,10 +1191,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "type",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 563,
@@ -1205,23 +1202,23 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "value",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         } ],
+        "temporary" : false,
+        "uniqueKeys" : [ ],
+        "foreignKeys" : [ ],
         "name" : "classifiers",
-        "endLine" : 0,
-        "endCol" : 0,
         "startLine" : 0,
-        "startCol" : 0
+        "startCol" : 0,
+        "endCol" : 0,
+        "endLine" : 0
       }, {
         "type" : "Table",
         "id" : 566,
-        "temporary" : false,
         "external" : false,
-        "uniqueKeys" : [ ],
-        "foreignKeys" : [ ],
         "columns" : [ {
           "type" : "Column",
           "id" : 570,
@@ -1231,16 +1228,16 @@
             "type" : "ColumnAttribute",
             "id" : 569,
             "kind" : "NOTNULL",
-            "endLine" : 0,
-            "endCol" : 0,
             "startLine" : 0,
-            "startCol" : 0
+            "startCol" : 0,
+            "endCol" : 0,
+            "endLine" : 0
           } ],
           "name" : "socialfeed_story_storyid",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 574,
@@ -1250,29 +1247,29 @@
             "type" : "ColumnAttribute",
             "id" : 573,
             "kind" : "NOTNULL",
-            "endLine" : 0,
-            "endCol" : 0,
             "startLine" : 0,
-            "startCol" : 0
+            "startCol" : 0,
+            "endCol" : 0,
+            "endLine" : 0
           } ],
           "name" : "socialfeed_story_user_id",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         } ],
+        "temporary" : false,
+        "uniqueKeys" : [ ],
+        "foreignKeys" : [ ],
         "name" : "socialfeed_story_map",
-        "endLine" : 0,
-        "endCol" : 0,
         "startLine" : 0,
-        "startCol" : 0
+        "startCol" : 0,
+        "endCol" : 0,
+        "endLine" : 0
       }, {
         "type" : "Table",
         "id" : 579,
-        "temporary" : false,
         "external" : false,
-        "uniqueKeys" : [ ],
-        "foreignKeys" : [ ],
         "columns" : [ {
           "type" : "Column",
           "id" : 583,
@@ -1282,16 +1279,16 @@
             "type" : "ColumnAttribute",
             "id" : 582,
             "kind" : "NOTNULL",
-            "endLine" : 0,
-            "endCol" : 0,
             "startLine" : 0,
-            "startCol" : 0
+            "startCol" : 0,
+            "endCol" : 0,
+            "endLine" : 0
           } ],
           "name" : "count",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 586,
@@ -1299,10 +1296,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "tag",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 589,
@@ -1310,23 +1307,23 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "feed_id",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         } ],
+        "temporary" : false,
+        "uniqueKeys" : [ ],
+        "foreignKeys" : [ ],
         "name" : "starred_counts",
-        "endLine" : 0,
-        "endCol" : 0,
         "startLine" : 0,
-        "startCol" : 0
+        "startCol" : 0,
+        "endCol" : 0,
+        "endLine" : 0
       }, {
         "type" : "Table",
         "id" : 592,
-        "temporary" : false,
         "external" : false,
-        "uniqueKeys" : [ ],
-        "foreignKeys" : [ ],
         "columns" : [ {
           "type" : "Column",
           "id" : 595,
@@ -1334,10 +1331,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "saved_search_title",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 598,
@@ -1345,10 +1342,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "saved_search_favicon",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 601,
@@ -1356,10 +1353,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "saved_search_address",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 604,
@@ -1367,32 +1364,32 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "saved_search_query",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 606,
           "attributes" : [ ],
           "name" : "saved_search_feed_id",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         } ],
+        "temporary" : false,
+        "uniqueKeys" : [ ],
+        "foreignKeys" : [ ],
         "name" : "saved_search",
-        "endLine" : 0,
-        "endCol" : 0,
         "startLine" : 0,
-        "startCol" : 0
+        "startCol" : 0,
+        "endCol" : 0,
+        "endLine" : 0
       }, {
         "type" : "Table",
         "id" : 609,
-        "temporary" : false,
         "external" : false,
-        "uniqueKeys" : [ ],
-        "foreignKeys" : [ ],
         "columns" : [ {
           "type" : "Column",
           "id" : 613,
@@ -1402,16 +1399,16 @@
             "type" : "ColumnAttribute",
             "id" : 612,
             "kind" : "PRIMARYKEY",
-            "endLine" : 0,
-            "endCol" : 0,
             "startLine" : 0,
-            "startCol" : 0
+            "startCol" : 0,
+            "endCol" : 0,
+            "endLine" : 0
           } ],
           "name" : "_id",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 617,
@@ -1421,16 +1418,16 @@
             "type" : "ColumnAttribute",
             "id" : 616,
             "kind" : "NOTNULL",
-            "endLine" : 0,
-            "endCol" : 0,
             "startLine" : 0,
-            "startCol" : 0
+            "startCol" : 0,
+            "endCol" : 0,
+            "endLine" : 0
           } ],
           "name" : "time",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 620,
@@ -1438,10 +1435,10 @@
           "type" : 257,
           "attributes" : [ ],
           "name" : "tried",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 623,
@@ -1449,23 +1446,23 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "action_params",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         } ],
+        "temporary" : false,
+        "uniqueKeys" : [ ],
+        "foreignKeys" : [ ],
         "name" : "story_actions",
-        "endLine" : 0,
-        "endCol" : 0,
         "startLine" : 0,
-        "startCol" : 0
+        "startCol" : 0,
+        "endCol" : 0,
+        "endLine" : 0
       }, {
         "type" : "Table",
         "id" : 626,
-        "temporary" : false,
         "external" : false,
-        "uniqueKeys" : [ ],
-        "foreignKeys" : [ ],
         "columns" : [ {
           "type" : "Column",
           "id" : 629,
@@ -1473,10 +1470,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "story_hash",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 633,
@@ -1486,29 +1483,29 @@
             "type" : "ColumnAttribute",
             "id" : 632,
             "kind" : "NOTNULL",
-            "endLine" : 0,
-            "endCol" : 0,
             "startLine" : 0,
-            "startCol" : 0
+            "startCol" : 0,
+            "endCol" : 0,
+            "endLine" : 0
           } ],
           "name" : "time",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         } ],
+        "temporary" : false,
+        "uniqueKeys" : [ ],
+        "foreignKeys" : [ ],
         "name" : "notify_dimiss",
-        "endLine" : 0,
-        "endCol" : 0,
         "startLine" : 0,
-        "startCol" : 0
+        "startCol" : 0,
+        "endCol" : 0,
+        "endLine" : 0
       }, {
         "type" : "Table",
         "id" : 636,
-        "temporary" : false,
         "external" : false,
-        "uniqueKeys" : [ ],
-        "foreignKeys" : [ ],
         "columns" : [ {
           "type" : "Column",
           "id" : 639,
@@ -1516,10 +1513,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "feed_id",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 642,
@@ -1527,23 +1524,23 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "tag",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         } ],
+        "temporary" : false,
+        "uniqueKeys" : [ ],
+        "foreignKeys" : [ ],
         "name" : "feed_tags",
-        "endLine" : 0,
-        "endCol" : 0,
         "startLine" : 0,
-        "startCol" : 0
+        "startCol" : 0,
+        "endCol" : 0,
+        "endLine" : 0
       }, {
         "type" : "Table",
         "id" : 645,
-        "temporary" : false,
         "external" : false,
-        "uniqueKeys" : [ ],
-        "foreignKeys" : [ ],
         "columns" : [ {
           "type" : "Column",
           "id" : 648,
@@ -1551,10 +1548,10 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "feed_id",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 651,
@@ -1562,23 +1559,23 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "author",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         } ],
+        "temporary" : false,
+        "uniqueKeys" : [ ],
+        "foreignKeys" : [ ],
         "name" : "feed_authors",
-        "endLine" : 0,
-        "endCol" : 0,
         "startLine" : 0,
-        "startCol" : 0
+        "startCol" : 0,
+        "endCol" : 0,
+        "endLine" : 0
       }, {
         "type" : "Table",
         "id" : 654,
-        "temporary" : false,
         "external" : false,
-        "uniqueKeys" : [ ],
-        "foreignKeys" : [ ],
         "columns" : [ {
           "type" : "Column",
           "id" : 658,
@@ -1588,16 +1585,16 @@
             "type" : "ColumnAttribute",
             "id" : 657,
             "kind" : "PRIMARYKEY",
-            "endLine" : 0,
-            "endCol" : 0,
             "startLine" : 0,
-            "startCol" : 0
+            "startCol" : 0,
+            "endCol" : 0,
+            "endLine" : 0
           } ],
           "name" : "key",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         }, {
           "type" : "Column",
           "id" : 661,
@@ -1605,34 +1602,36 @@
           "type" : 262,
           "attributes" : [ ],
           "name" : "value",
-          "endLine" : 0,
-          "endCol" : 0,
           "startLine" : 0,
-          "startCol" : 0
+          "startCol" : 0,
+          "endCol" : 0,
+          "endLine" : 0
         } ],
+        "temporary" : false,
+        "uniqueKeys" : [ ],
+        "foreignKeys" : [ ],
         "name" : "sync_metadata",
-        "endLine" : 0,
-        "endCol" : 0,
         "startLine" : 0,
-        "startCol" : 0
+        "startCol" : 0,
+        "endCol" : 0,
+        "endLine" : 0
       } ],
-      "views" : [ ],
       "triggers" : [ ],
+      "views" : [ ],
       "functions" : [ ],
       "name" : "SCH",
-      "endLine" : 0,
-      "endCol" : 0,
       "startLine" : 0,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 0,
+      "endLine" : 0
     },
-    "defaultSchema" : 102,
     "types" : [ {
       "type" : "AnyType",
       "id" : 105,
-      "endLine" : 0,
-      "endCol" : 0,
       "startLine" : 0,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 0,
+      "endLine" : 0
     }, 257, 262 ],
     "statements" : [ {
       "type" : "Select",
@@ -1658,48 +1657,48 @@
                   "_returnType" : 105,
                   "returnType" : 105,
                   "name" : "sqlite_version",
-                  "endLine" : 0,
-                  "endCol" : 0,
                   "startLine" : 0,
-                  "startCol" : 0
+                  "startCol" : 0,
+                  "endCol" : 0,
+                  "endLine" : 0
                 },
                 "name" : "sqlite_version",
                 "refersTo" : 104,
                 "quoted" : false,
                 "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-                "endLine" : 94,
-                "endCol" : 20,
                 "startLine" : 94,
-                "startCol" : 7
+                "startCol" : 7,
+                "endCol" : 20,
+                "endLine" : 94
               },
               "expression" : 103,
               "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-              "endLine" : 94,
-              "endCol" : 20,
               "startLine" : 94,
-              "startCol" : 7
+              "startCol" : 7,
+              "endCol" : 20,
+              "endLine" : 94
             },
             "name" : "sqlite_version",
             "kind" : "AS",
             "expression" : 106,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 94,
-            "endCol" : 40,
             "startLine" : 94,
-            "startCol" : 7
+            "startCol" : 7,
+            "endCol" : 40,
+            "endLine" : 94
           } ],
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 94,
-          "endCol" : 40,
           "startLine" : 94,
-          "startCol" : 7
+          "startCol" : 7,
+          "endCol" : 40,
+          "endLine" : 94
         },
         "columnList" : 109,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-        "endLine" : 94,
-        "endCol" : 40,
         "startLine" : 94,
-        "startCol" : 0
+        "startCol" : 0,
+        "endCol" : 40,
+        "endLine" : 94
       },
       "query" : 110,
       "error" : false,
@@ -1707,10 +1706,10 @@
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "endLine" : 94,
-      "endCol" : 40,
       "startLine" : 94,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 40,
+      "endLine" : 94
     }, {
       "type" : "Select",
       "id" : 119,
@@ -1728,16 +1727,16 @@
             "refersTo" : 259,
             "quoted" : false,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 117,
-            "endCol" : 9,
             "startLine" : 117,
-            "startCol" : 7
+            "startCol" : 7,
+            "endCol" : 9,
+            "endLine" : 117
           } ],
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 117,
-          "endCol" : 9,
           "startLine" : 117,
-          "startCol" : 7
+          "startCol" : 7,
+          "endCol" : 9,
+          "endLine" : 117
         },
         "_from" : {
           "type" : "Id",
@@ -1747,10 +1746,10 @@
           "refersTo" : 254,
           "quoted" : false,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 117,
-          "endCol" : 20,
           "startLine" : 117,
-          "startCol" : 16
+          "startCol" : 16,
+          "endCol" : 20,
+          "endLine" : 117
         },
         "_where" : {
           "type" : "BinaryExpression",
@@ -1763,10 +1762,10 @@
             "refersTo" : 263,
             "quoted" : false,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 117,
-            "endCol" : 33,
             "startLine" : 117,
-            "startCol" : 28
+            "startCol" : 28,
+            "endCol" : 33,
+            "endLine" : 117
           },
           "_right" : {
             "type" : "Literal",
@@ -1774,28 +1773,28 @@
             "value" : "1",
             "kind" : "INTEGER",
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 117,
-            "endCol" : 37,
             "startLine" : 117,
-            "startCol" : 37
+            "startCol" : 37,
+            "endCol" : 37,
+            "endLine" : 117
           },
           "kind" : "EQUALS",
-          "right" : 117,
           "left" : 116,
+          "right" : 117,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 117,
-          "endCol" : 37,
           "startLine" : 117,
-          "startCol" : 28
+          "startCol" : 28,
+          "endCol" : 37,
+          "endLine" : 117
         },
         "from" : 115,
         "columnList" : 113,
         "where" : 118,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-        "endLine" : 117,
-        "endCol" : 37,
         "startLine" : 117,
-        "startCol" : 0
+        "startCol" : 0,
+        "endCol" : 37,
+        "endLine" : 117
       },
       "query" : 114,
       "error" : false,
@@ -1803,10 +1802,10 @@
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "endLine" : 117,
-      "endCol" : 37,
       "startLine" : 117,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 37,
+      "endLine" : 117
     }, {
       "type" : "Select",
       "id" : 124,
@@ -1824,16 +1823,16 @@
             "refersTo" : 259,
             "quoted" : false,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 117,
-            "endCol" : 9,
             "startLine" : 117,
-            "startCol" : 7
+            "startCol" : 7,
+            "endCol" : 9,
+            "endLine" : 117
           } ],
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 117,
-          "endCol" : 9,
           "startLine" : 117,
-          "startCol" : 7
+          "startCol" : 7,
+          "endCol" : 9,
+          "endLine" : 117
         },
         "_from" : {
           "type" : "Id",
@@ -1843,18 +1842,18 @@
           "refersTo" : 254,
           "quoted" : false,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 117,
-          "endCol" : 20,
           "startLine" : 117,
-          "startCol" : 16
+          "startCol" : 16,
+          "endCol" : 20,
+          "endLine" : 117
         },
         "from" : 123,
         "columnList" : 121,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-        "endLine" : 117,
-        "endCol" : 20,
         "startLine" : 117,
-        "startCol" : 0
+        "startCol" : 0,
+        "endCol" : 20,
+        "endLine" : 117
       },
       "query" : 122,
       "error" : false,
@@ -1862,10 +1861,10 @@
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "endLine" : 117,
-      "endCol" : 20,
       "startLine" : 117,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 20,
+      "endLine" : 117
     }, {
       "type" : "Select",
       "id" : 129,
@@ -1883,16 +1882,16 @@
             "refersTo" : 327,
             "quoted" : false,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 135,
-            "endCol" : 9,
             "startLine" : 135,
-            "startCol" : 7
+            "startCol" : 7,
+            "endCol" : 9,
+            "endLine" : 135
           } ],
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 135,
-          "endCol" : 9,
           "startLine" : 135,
-          "startCol" : 7
+          "startCol" : 7,
+          "endCol" : 9,
+          "endLine" : 135
         },
         "_from" : {
           "type" : "Id",
@@ -1902,18 +1901,18 @@
           "refersTo" : 323,
           "quoted" : false,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 135,
-          "endCol" : 27,
           "startLine" : 135,
-          "startCol" : 16
+          "startCol" : 16,
+          "endCol" : 27,
+          "endLine" : 135
         },
         "from" : 128,
         "columnList" : 126,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-        "endLine" : 135,
-        "endCol" : 27,
         "startLine" : 135,
-        "startCol" : 0
+        "startCol" : 0,
+        "endCol" : 27,
+        "endLine" : 135
       },
       "query" : 127,
       "error" : false,
@@ -1921,10 +1920,10 @@
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "endLine" : 135,
-      "endCol" : 27,
       "startLine" : 135,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 27,
+      "endLine" : 135
     }, {
       "type" : "Delete",
       "id" : 131,
@@ -1936,10 +1935,10 @@
         "refersTo" : 480,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-        "endLine" : 184,
-        "endCol" : 20,
         "startLine" : 184,
-        "startCol" : 12
+        "startCol" : 12,
+        "endCol" : 20,
+        "endLine" : 184
       },
       "_where" : {
         "type" : "UnaryExpression",
@@ -1955,10 +1954,10 @@
             "refersTo" : 483,
             "quoted" : false,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 184,
-            "endCol" : 37,
             "startLine" : 184,
-            "startCol" : 28
+            "startCol" : 28,
+            "endCol" : 37,
+            "endLine" : 184
           },
           "_right" : {
             "type" : "SelectExpression",
@@ -1974,16 +1973,16 @@
                 "refersTo" : 384,
                 "quoted" : false,
                 "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-                "endLine" : 184,
-                "endCol" : 64,
                 "startLine" : 184,
-                "startCol" : 55
+                "startCol" : 55,
+                "endCol" : 64,
+                "endLine" : 184
               } ],
               "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-              "endLine" : 184,
-              "endCol" : 64,
               "startLine" : 184,
-              "startCol" : 55
+              "startCol" : 55,
+              "endCol" : 64,
+              "endLine" : 184
             },
             "_from" : {
               "type" : "Id",
@@ -1993,35 +1992,35 @@
               "refersTo" : 380,
               "quoted" : false,
               "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-              "endLine" : 184,
-              "endCol" : 77,
               "startLine" : 184,
-              "startCol" : 71
+              "startCol" : 71,
+              "endCol" : 77,
+              "endLine" : 184
             },
             "from" : 136,
             "columnList" : 134,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 184,
-            "endCol" : 77,
             "startLine" : 184,
-            "startCol" : 48
+            "startCol" : 48,
+            "endCol" : 77,
+            "endLine" : 184
           },
           "kind" : "IN",
-          "right" : 135,
           "left" : 132,
+          "right" : 135,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 184,
-          "endCol" : 77,
           "startLine" : 184,
-          "startCol" : 28
+          "startCol" : 28,
+          "endCol" : 77,
+          "endLine" : 184
         },
         "kind" : "NOT",
         "expression" : 137,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-        "endLine" : 184,
-        "endCol" : 77,
         "startLine" : 184,
-        "startCol" : 39
+        "startCol" : 39,
+        "endCol" : 77,
+        "endLine" : 184
       },
       "from" : 130,
       "where" : 138,
@@ -2030,10 +2029,10 @@
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "endLine" : 184,
-      "endCol" : 77,
       "startLine" : 184,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 77,
+      "endLine" : 184
     }, {
       "type" : "Delete",
       "id" : 140,
@@ -2045,10 +2044,10 @@
         "refersTo" : 592,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-        "endLine" : 208,
-        "endCol" : 23,
         "startLine" : 208,
-        "startCol" : 12
+        "startCol" : 12,
+        "endCol" : 23,
+        "endLine" : 208
       },
       "_where" : {
         "type" : "BinaryExpression",
@@ -2064,10 +2063,10 @@
             "refersTo" : 606,
             "quoted" : false,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 208,
-            "endCol" : 50,
             "startLine" : 208,
-            "startCol" : 31
+            "startCol" : 31,
+            "endCol" : 50,
+            "endLine" : 208
           },
           "_right" : {
             "type" : "Literal",
@@ -2075,19 +2074,19 @@
             "value" : "'{{na}}'",
             "kind" : "STRING",
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 208,
-            "endCol" : 61,
             "startLine" : 208,
-            "startCol" : 54
+            "startCol" : 54,
+            "endCol" : 61,
+            "endLine" : 208
           },
           "kind" : "EQUALS",
-          "right" : 142,
           "left" : 141,
+          "right" : 142,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 208,
-          "endCol" : 61,
           "startLine" : 208,
-          "startCol" : 31
+          "startCol" : 31,
+          "endCol" : 61,
+          "endLine" : 208
         },
         "_right" : {
           "type" : "BinaryExpression",
@@ -2100,10 +2099,10 @@
             "refersTo" : 604,
             "quoted" : false,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 208,
-            "endCol" : 84,
             "startLine" : 208,
-            "startCol" : 67
+            "startCol" : 67,
+            "endCol" : 84,
+            "endLine" : 208
           },
           "_right" : {
             "type" : "Literal",
@@ -2111,28 +2110,28 @@
             "value" : "'{{na}}'",
             "kind" : "STRING",
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 208,
-            "endCol" : 95,
             "startLine" : 208,
-            "startCol" : 88
+            "startCol" : 88,
+            "endCol" : 95,
+            "endLine" : 208
           },
           "kind" : "EQUALS",
-          "right" : 145,
           "left" : 144,
+          "right" : 145,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 208,
-          "endCol" : 95,
           "startLine" : 208,
-          "startCol" : 67
+          "startCol" : 67,
+          "endCol" : 95,
+          "endLine" : 208
         },
         "kind" : "AND",
-        "right" : 146,
         "left" : 143,
+        "right" : 146,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-        "endLine" : 208,
-        "endCol" : 95,
         "startLine" : 208,
-        "startCol" : 31
+        "startCol" : 31,
+        "endCol" : 95,
+        "endLine" : 208
       },
       "from" : 139,
       "where" : 147,
@@ -2141,10 +2140,10 @@
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "endLine" : 208,
-      "endCol" : 95,
       "startLine" : 208,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 95,
+      "endLine" : 208
     }, {
       "type" : "Select",
       "id" : 155,
@@ -2162,16 +2161,16 @@
             "refersTo" : 384,
             "quoted" : false,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 292,
-            "endCol" : 16,
             "startLine" : 292,
-            "startCol" : 7
+            "startCol" : 7,
+            "endCol" : 16,
+            "endLine" : 292
           } ],
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 292,
-          "endCol" : 16,
           "startLine" : 292,
-          "startCol" : 7
+          "startCol" : 7,
+          "endCol" : 16,
+          "endLine" : 292
         },
         "_from" : {
           "type" : "Id",
@@ -2181,10 +2180,10 @@
           "refersTo" : 380,
           "quoted" : false,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 292,
-          "endCol" : 29,
           "startLine" : 292,
-          "startCol" : 23
+          "startCol" : 23,
+          "endCol" : 29,
+          "endLine" : 292
         },
         "_where" : {
           "type" : "BinaryExpression",
@@ -2197,10 +2196,10 @@
             "refersTo" : 444,
             "quoted" : false,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 292,
-            "endCol" : 40,
             "startLine" : 292,
-            "startCol" : 37
+            "startCol" : 37,
+            "endCol" : 40,
+            "endLine" : 292
           },
           "_right" : {
             "type" : "Literal",
@@ -2208,28 +2207,28 @@
             "value" : "0",
             "kind" : "INTEGER",
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 292,
-            "endCol" : 44,
             "startLine" : 292,
-            "startCol" : 44
+            "startCol" : 44,
+            "endCol" : 44,
+            "endLine" : 292
           },
           "kind" : "EQUALS",
-          "right" : 153,
           "left" : 152,
+          "right" : 153,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 292,
-          "endCol" : 44,
           "startLine" : 292,
-          "startCol" : 37
+          "startCol" : 37,
+          "endCol" : 44,
+          "endLine" : 292
         },
         "from" : 151,
         "columnList" : 149,
         "where" : 154,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-        "endLine" : 292,
-        "endCol" : 44,
         "startLine" : 292,
-        "startCol" : 0
+        "startCol" : 0,
+        "endCol" : 44,
+        "endLine" : 292
       },
       "query" : 150,
       "error" : false,
@@ -2237,10 +2236,10 @@
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "endLine" : 292,
-      "endCol" : 44,
       "startLine" : 292,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 44,
+      "endLine" : 292
     }, {
       "type" : "Select",
       "id" : 163,
@@ -2258,16 +2257,16 @@
             "refersTo" : 384,
             "quoted" : false,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 306,
-            "endCol" : 16,
             "startLine" : 306,
-            "startCol" : 7
+            "startCol" : 7,
+            "endCol" : 16,
+            "endLine" : 306
           } ],
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 306,
-          "endCol" : 16,
           "startLine" : 306,
-          "startCol" : 7
+          "startCol" : 7,
+          "endCol" : 16,
+          "endLine" : 306
         },
         "_from" : {
           "type" : "Id",
@@ -2277,10 +2276,10 @@
           "refersTo" : 380,
           "quoted" : false,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 306,
-          "endCol" : 29,
           "startLine" : 306,
-          "startCol" : 23
+          "startCol" : 23,
+          "endCol" : 29,
+          "endLine" : 306
         },
         "_where" : {
           "type" : "BinaryExpression",
@@ -2293,10 +2292,10 @@
             "refersTo" : 447,
             "quoted" : false,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 306,
-            "endCol" : 43,
             "startLine" : 306,
-            "startCol" : 37
+            "startCol" : 37,
+            "endCol" : 43,
+            "endLine" : 306
           },
           "_right" : {
             "type" : "Literal",
@@ -2304,28 +2303,28 @@
             "value" : "1",
             "kind" : "INTEGER",
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 306,
-            "endCol" : 47,
             "startLine" : 306,
-            "startCol" : 47
+            "startCol" : 47,
+            "endCol" : 47,
+            "endLine" : 306
           },
           "kind" : "EQUALS",
-          "right" : 161,
           "left" : 160,
+          "right" : 161,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 306,
-          "endCol" : 47,
           "startLine" : 306,
-          "startCol" : 37
+          "startCol" : 37,
+          "endCol" : 47,
+          "endLine" : 306
         },
         "from" : 159,
         "columnList" : 157,
         "where" : 162,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-        "endLine" : 306,
-        "endCol" : 47,
         "startLine" : 306,
-        "startCol" : 0
+        "startCol" : 0,
+        "endCol" : 47,
+        "endLine" : 306
       },
       "query" : 158,
       "error" : false,
@@ -2333,10 +2332,10 @@
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "endLine" : 306,
-      "endCol" : 47,
       "startLine" : 306,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 47,
+      "endLine" : 306
     }, {
       "type" : "Select",
       "id" : 168,
@@ -2354,16 +2353,16 @@
             "refersTo" : 259,
             "quoted" : false,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 552,
-            "endCol" : 9,
             "startLine" : 552,
-            "startCol" : 7
+            "startCol" : 7,
+            "endCol" : 9,
+            "endLine" : 552
           } ],
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 552,
-          "endCol" : 9,
           "startLine" : 552,
-          "startCol" : 7
+          "startCol" : 7,
+          "endCol" : 9,
+          "endLine" : 552
         },
         "_from" : {
           "type" : "Id",
@@ -2373,18 +2372,18 @@
           "refersTo" : 254,
           "quoted" : false,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 552,
-          "endCol" : 20,
           "startLine" : 552,
-          "startCol" : 16
+          "startCol" : 16,
+          "endCol" : 20,
+          "endLine" : 552
         },
         "from" : 167,
         "columnList" : 165,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-        "endLine" : 552,
-        "endCol" : 20,
         "startLine" : 552,
-        "startCol" : 0
+        "startCol" : 0,
+        "endCol" : 20,
+        "endLine" : 552
       },
       "query" : 166,
       "error" : false,
@@ -2392,10 +2391,10 @@
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "endLine" : 552,
-      "endCol" : 20,
       "startLine" : 552,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 20,
+      "endLine" : 552
     }, {
       "type" : "Update",
       "id" : 174,
@@ -2407,10 +2406,10 @@
         "refersTo" : 254,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-        "endLine" : 743,
-        "endCol" : 11,
         "startLine" : 743,
-        "startCol" : 7
+        "startCol" : 7,
+        "endCol" : 11,
+        "endLine" : 743
       },
       "_setList" : {
         "type" : "ExpressionList",
@@ -2421,39 +2420,39 @@
           "_left" : {
             "type" : "Id",
             "id" : 170,
-            "_refersTo" : 281,
-            "name" : "nt",
-            "refersTo" : 281,
+            "_refersTo" : 275,
+            "name" : "ps",
+            "refersTo" : 275,
             "quoted" : false,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 743,
-            "endCol" : 18,
             "startLine" : 743,
-            "startCol" : 17
+            "startCol" : 17,
+            "endCol" : 18,
+            "endLine" : 743
           },
           "_right" : {
             "type" : "Joker",
             "id" : 171,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 743,
-            "endCol" : 29,
             "startLine" : 743,
-            "startCol" : 22
+            "startCol" : 22,
+            "endCol" : 29,
+            "endLine" : 743
           },
           "kind" : "EQUALS",
-          "right" : 171,
           "left" : 170,
+          "right" : 171,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 743,
-          "endCol" : 29,
           "startLine" : 743,
-          "startCol" : 17
+          "startCol" : 17,
+          "endCol" : 29,
+          "endLine" : 743
         } ],
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-        "endLine" : 743,
-        "endCol" : 29,
         "startLine" : 743,
-        "startCol" : 17
+        "startCol" : 17,
+        "endCol" : 29,
+        "endLine" : 743
       },
       "_where" : {
         "type" : "BinaryExpression",
@@ -2466,28 +2465,28 @@
           "refersTo" : 259,
           "quoted" : false,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 743,
-          "endCol" : 39,
           "startLine" : 743,
-          "startCol" : 37
+          "startCol" : 37,
+          "endCol" : 39,
+          "endLine" : 743
         },
         "_right" : {
           "type" : "Joker",
           "id" : 176,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 743,
-          "endCol" : 48,
           "startLine" : 743,
-          "startCol" : 43
+          "startCol" : 43,
+          "endCol" : 48,
+          "endLine" : 743
         },
         "kind" : "EQUALS",
-        "right" : 176,
         "left" : 175,
+        "right" : 176,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-        "endLine" : 743,
-        "endCol" : 48,
         "startLine" : 743,
-        "startCol" : 37
+        "startCol" : 37,
+        "endCol" : 48,
+        "endLine" : 743
       },
       "tableReferenceList" : 169,
       "where" : 177,
@@ -2497,10 +2496,10 @@
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "endLine" : 743,
-      "endCol" : 11,
       "startLine" : 743,
-      "startCol" : 17
+      "startCol" : 17,
+      "endCol" : 11,
+      "endLine" : 743
     }, {
       "type" : "Update",
       "id" : 183,
@@ -2512,10 +2511,10 @@
         "refersTo" : 254,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-        "endLine" : 743,
-        "endCol" : 11,
         "startLine" : 743,
-        "startCol" : 7
+        "startCol" : 7,
+        "endCol" : 11,
+        "endLine" : 743
       },
       "_setList" : {
         "type" : "ExpressionList",
@@ -2526,39 +2525,39 @@
           "_left" : {
             "type" : "Id",
             "id" : 179,
-            "_refersTo" : 275,
-            "name" : "ps",
-            "refersTo" : 275,
+            "_refersTo" : 281,
+            "name" : "nt",
+            "refersTo" : 281,
             "quoted" : false,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 743,
-            "endCol" : 18,
             "startLine" : 743,
-            "startCol" : 17
+            "startCol" : 17,
+            "endCol" : 18,
+            "endLine" : 743
           },
           "_right" : {
             "type" : "Joker",
             "id" : 180,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 743,
-            "endCol" : 29,
             "startLine" : 743,
-            "startCol" : 22
+            "startCol" : 22,
+            "endCol" : 29,
+            "endLine" : 743
           },
           "kind" : "EQUALS",
-          "right" : 180,
           "left" : 179,
+          "right" : 180,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 743,
-          "endCol" : 29,
           "startLine" : 743,
-          "startCol" : 17
+          "startCol" : 17,
+          "endCol" : 29,
+          "endLine" : 743
         } ],
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-        "endLine" : 743,
-        "endCol" : 29,
         "startLine" : 743,
-        "startCol" : 17
+        "startCol" : 17,
+        "endCol" : 29,
+        "endLine" : 743
       },
       "_where" : {
         "type" : "BinaryExpression",
@@ -2571,28 +2570,28 @@
           "refersTo" : 259,
           "quoted" : false,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 743,
-          "endCol" : 39,
           "startLine" : 743,
-          "startCol" : 37
+          "startCol" : 37,
+          "endCol" : 39,
+          "endLine" : 743
         },
         "_right" : {
           "type" : "Joker",
           "id" : 185,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 743,
-          "endCol" : 48,
           "startLine" : 743,
-          "startCol" : 43
+          "startCol" : 43,
+          "endCol" : 48,
+          "endLine" : 743
         },
         "kind" : "EQUALS",
-        "right" : 185,
         "left" : 184,
+        "right" : 185,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-        "endLine" : 743,
-        "endCol" : 48,
         "startLine" : 743,
-        "startCol" : 37
+        "startCol" : 37,
+        "endCol" : 48,
+        "endLine" : 743
       },
       "tableReferenceList" : 178,
       "where" : 186,
@@ -2602,10 +2601,10 @@
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "endLine" : 743,
-      "endCol" : 11,
       "startLine" : 743,
-      "startCol" : 17
+      "startCol" : 17,
+      "endCol" : 11,
+      "endLine" : 743
     }, {
       "type" : "Select",
       "id" : 191,
@@ -2619,16 +2618,16 @@
             "type" : "Asterisk",
             "id" : 187,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 923,
-            "endCol" : 7,
             "startLine" : 923,
-            "startCol" : 7
+            "startCol" : 7,
+            "endCol" : 7,
+            "endLine" : 923
           } ],
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 923,
-          "endCol" : 7,
           "startLine" : 923,
-          "startCol" : 7
+          "startCol" : 7,
+          "endCol" : 7,
+          "endLine" : 923
         },
         "_from" : {
           "type" : "Id",
@@ -2638,18 +2637,18 @@
           "refersTo" : 609,
           "quoted" : false,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 923,
-          "endCol" : 26,
           "startLine" : 923,
-          "startCol" : 14
+          "startCol" : 14,
+          "endCol" : 26,
+          "endLine" : 923
         },
         "from" : 190,
         "columnList" : 188,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-        "endLine" : 923,
-        "endCol" : 26,
         "startLine" : 923,
-        "startCol" : 0
+        "startCol" : 0,
+        "endCol" : 26,
+        "endLine" : 923
       },
       "query" : 189,
       "error" : false,
@@ -2657,10 +2656,10 @@
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "endLine" : 923,
-      "endCol" : 26,
       "startLine" : 923,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 26,
+      "endLine" : 923
     }, {
       "type" : "Update",
       "id" : 199,
@@ -2672,10 +2671,10 @@
         "refersTo" : 609,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-        "endLine" : 931,
-        "endCol" : 19,
         "startLine" : 931,
-        "startCol" : 7
+        "startCol" : 7,
+        "endCol" : 19,
+        "endLine" : 931
       },
       "_setList" : {
         "type" : "ExpressionList",
@@ -2691,10 +2690,10 @@
             "refersTo" : 620,
             "quoted" : false,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 931,
-            "endCol" : 29,
             "startLine" : 931,
-            "startCol" : 25
+            "startCol" : 25,
+            "endCol" : 29,
+            "endLine" : 931
           },
           "_right" : {
             "type" : "BinaryExpression",
@@ -2707,10 +2706,10 @@
               "refersTo" : 620,
               "quoted" : false,
               "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-              "endLine" : 931,
-              "endCol" : 37,
               "startLine" : 931,
-              "startCol" : 33
+              "startCol" : 33,
+              "endCol" : 37,
+              "endLine" : 931
             },
             "_right" : {
               "type" : "Literal",
@@ -2718,34 +2717,34 @@
               "value" : "1",
               "kind" : "INTEGER",
               "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-              "endLine" : 931,
-              "endCol" : 41,
               "startLine" : 931,
-              "startCol" : 41
+              "startCol" : 41,
+              "endCol" : 41,
+              "endLine" : 931
             },
             "kind" : "PLUS",
-            "right" : 195,
             "left" : 194,
+            "right" : 195,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 931,
-            "endCol" : 41,
             "startLine" : 931,
-            "startCol" : 33
+            "startCol" : 33,
+            "endCol" : 41,
+            "endLine" : 931
           },
           "kind" : "EQUALS",
-          "right" : 196,
           "left" : 193,
+          "right" : 196,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 931,
-          "endCol" : 41,
           "startLine" : 931,
-          "startCol" : 25
+          "startCol" : 25,
+          "endCol" : 41,
+          "endLine" : 931
         } ],
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-        "endLine" : 931,
-        "endCol" : 41,
         "startLine" : 931,
-        "startCol" : 25
+        "startCol" : 25,
+        "endCol" : 41,
+        "endLine" : 931
       },
       "_where" : {
         "type" : "BinaryExpression",
@@ -2758,28 +2757,28 @@
           "refersTo" : 613,
           "quoted" : false,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 931,
-          "endCol" : 51,
           "startLine" : 931,
-          "startCol" : 49
+          "startCol" : 49,
+          "endCol" : 51,
+          "endLine" : 931
         },
         "_right" : {
           "type" : "Joker",
           "id" : 201,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 931,
-          "endCol" : 66,
           "startLine" : 931,
-          "startCol" : 55
+          "startCol" : 55,
+          "endCol" : 66,
+          "endLine" : 931
         },
         "kind" : "EQUALS",
-        "right" : 201,
         "left" : 200,
+        "right" : 201,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-        "endLine" : 931,
-        "endCol" : 66,
         "startLine" : 931,
-        "startCol" : 49
+        "startCol" : 49,
+        "endCol" : 66,
+        "endLine" : 931
       },
       "tableReferenceList" : 192,
       "where" : 202,
@@ -2789,10 +2788,10 @@
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "endLine" : 931,
-      "endCol" : 19,
       "startLine" : 931,
-      "startCol" : 25
+      "startCol" : 25,
+      "endCol" : 19,
+      "endLine" : 931
     }, {
       "type" : "Select",
       "id" : 210,
@@ -2806,16 +2805,16 @@
             "type" : "Asterisk",
             "id" : 203,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 937,
-            "endCol" : 7,
             "startLine" : 937,
-            "startCol" : 7
+            "startCol" : 7,
+            "endCol" : 7,
+            "endLine" : 937
           } ],
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 937,
-          "endCol" : 7,
           "startLine" : 937,
-          "startCol" : 7
+          "startCol" : 7,
+          "endCol" : 7,
+          "endLine" : 937
         },
         "_from" : {
           "type" : "Id",
@@ -2825,10 +2824,10 @@
           "refersTo" : 609,
           "quoted" : false,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 937,
-          "endCol" : 26,
           "startLine" : 937,
-          "startCol" : 14
+          "startCol" : 14,
+          "endCol" : 26,
+          "endLine" : 937
         },
         "_where" : {
           "type" : "BinaryExpression",
@@ -2841,10 +2840,10 @@
             "refersTo" : 620,
             "quoted" : false,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 937,
-            "endCol" : 38,
             "startLine" : 937,
-            "startCol" : 34
+            "startCol" : 34,
+            "endCol" : 38,
+            "endLine" : 937
           },
           "_right" : {
             "type" : "Literal",
@@ -2852,28 +2851,28 @@
             "value" : "1",
             "kind" : "INTEGER",
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 937,
-            "endCol" : 42,
             "startLine" : 937,
-            "startCol" : 42
+            "startCol" : 42,
+            "endCol" : 42,
+            "endLine" : 937
           },
           "kind" : "LESSTHAN",
-          "right" : 208,
           "left" : 207,
+          "right" : 208,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 937,
-          "endCol" : 42,
           "startLine" : 937,
-          "startCol" : 34
+          "startCol" : 34,
+          "endCol" : 42,
+          "endLine" : 937
         },
         "from" : 206,
         "columnList" : 204,
         "where" : 209,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-        "endLine" : 937,
-        "endCol" : 42,
         "startLine" : 937,
-        "startCol" : 0
+        "startCol" : 0,
+        "endCol" : 42,
+        "endLine" : 937
       },
       "query" : 205,
       "error" : false,
@@ -2881,10 +2880,10 @@
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "endLine" : 937,
-      "endCol" : 42,
       "startLine" : 937,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 42,
+      "endLine" : 937
     }, {
       "type" : "Update",
       "id" : 216,
@@ -2896,10 +2895,10 @@
         "refersTo" : 579,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-        "endLine" : 987,
-        "endCol" : 20,
         "startLine" : 987,
-        "startCol" : 7
+        "startCol" : 7,
+        "endCol" : 20,
+        "endLine" : 987
       },
       "_setList" : {
         "type" : "ExpressionList",
@@ -2915,34 +2914,34 @@
             "refersTo" : 583,
             "quoted" : false,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 987,
-            "endCol" : 30,
             "startLine" : 987,
-            "startCol" : 26
+            "startCol" : 26,
+            "endCol" : 30,
+            "endLine" : 987
           },
           "_right" : {
             "type" : "Joker",
             "id" : 213,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 987,
-            "endCol" : 44,
             "startLine" : 987,
-            "startCol" : 34
+            "startCol" : 34,
+            "endCol" : 44,
+            "endLine" : 987
           },
           "kind" : "EQUALS",
-          "right" : 213,
           "left" : 212,
+          "right" : 213,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 987,
-          "endCol" : 44,
           "startLine" : 987,
-          "startCol" : 26
+          "startCol" : 26,
+          "endCol" : 44,
+          "endLine" : 987
         } ],
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-        "endLine" : 987,
-        "endCol" : 44,
         "startLine" : 987,
-        "startCol" : 26
+        "startCol" : 26,
+        "endCol" : 44,
+        "endLine" : 987
       },
       "_where" : {
         "type" : "BinaryExpression",
@@ -2955,10 +2954,10 @@
           "refersTo" : 586,
           "quoted" : false,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 987,
-          "endCol" : 54,
           "startLine" : 987,
-          "startCol" : 52
+          "startCol" : 52,
+          "endCol" : 54,
+          "endLine" : 987
         },
         "_right" : {
           "type" : "Literal",
@@ -2966,19 +2965,19 @@
           "value" : "'___TOTAL_STARRED'",
           "kind" : "STRING",
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 987,
-          "endCol" : 75,
           "startLine" : 987,
-          "startCol" : 58
+          "startCol" : 58,
+          "endCol" : 75,
+          "endLine" : 987
         },
         "kind" : "EQUALS",
-        "right" : 218,
         "left" : 217,
+        "right" : 218,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-        "endLine" : 987,
-        "endCol" : 75,
         "startLine" : 987,
-        "startCol" : 52
+        "startCol" : 52,
+        "endCol" : 75,
+        "endLine" : 987
       },
       "tableReferenceList" : 211,
       "where" : 219,
@@ -2988,10 +2987,10 @@
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "endLine" : 987,
-      "endCol" : 20,
       "startLine" : 987,
-      "startCol" : 26
+      "startCol" : 26,
+      "endCol" : 20,
+      "endLine" : 987
     }, {
       "type" : "Select",
       "id" : 227,
@@ -3009,16 +3008,16 @@
             "refersTo" : 486,
             "quoted" : false,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 1029,
-            "endCol" : 16,
             "startLine" : 1029,
-            "startCol" : 7
+            "startCol" : 7,
+            "endCol" : 16,
+            "endLine" : 1029
           } ],
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 1029,
-          "endCol" : 16,
           "startLine" : 1029,
-          "startCol" : 7
+          "startCol" : 7,
+          "endCol" : 16,
+          "endLine" : 1029
         },
         "_from" : {
           "type" : "Id",
@@ -3028,10 +3027,10 @@
           "refersTo" : 480,
           "quoted" : false,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 1029,
-          "endCol" : 31,
           "startLine" : 1029,
-          "startCol" : 23
+          "startCol" : 23,
+          "endCol" : 31,
+          "endLine" : 1029
         },
         "_where" : {
           "type" : "BinaryExpression",
@@ -3044,37 +3043,37 @@
             "refersTo" : 483,
             "quoted" : false,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 1029,
-            "endCol" : 48,
             "startLine" : 1029,
-            "startCol" : 39
+            "startCol" : 39,
+            "endCol" : 48,
+            "endLine" : 1029
           },
           "_right" : {
             "type" : "Joker",
             "id" : 225,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 1029,
-            "endCol" : 63,
             "startLine" : 1029,
-            "startCol" : 52
+            "startCol" : 52,
+            "endCol" : 63,
+            "endLine" : 1029
           },
           "kind" : "EQUALS",
-          "right" : 225,
           "left" : 224,
+          "right" : 225,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 1029,
-          "endCol" : 63,
           "startLine" : 1029,
-          "startCol" : 39
+          "startCol" : 39,
+          "endCol" : 63,
+          "endLine" : 1029
         },
         "from" : 223,
         "columnList" : 221,
         "where" : 226,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-        "endLine" : 1029,
-        "endCol" : 63,
         "startLine" : 1029,
-        "startCol" : 0
+        "startCol" : 0,
+        "endCol" : 63,
+        "endLine" : 1029
       },
       "query" : 222,
       "error" : false,
@@ -3082,10 +3081,10 @@
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "endLine" : 1029,
-      "endCol" : 63,
       "startLine" : 1029,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 63,
+      "endLine" : 1029
     }, {
       "type" : "Select",
       "id" : 235,
@@ -3103,16 +3102,16 @@
             "refersTo" : 390,
             "quoted" : false,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 1046,
-            "endCol" : 13,
             "startLine" : 1046,
-            "startCol" : 7
+            "startCol" : 7,
+            "endCol" : 13,
+            "endLine" : 1046
           } ],
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 1046,
-          "endCol" : 13,
           "startLine" : 1046,
-          "startCol" : 7
+          "startCol" : 7,
+          "endCol" : 13,
+          "endLine" : 1046
         },
         "_from" : {
           "type" : "Id",
@@ -3122,10 +3121,10 @@
           "refersTo" : 380,
           "quoted" : false,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 1046,
-          "endCol" : 26,
           "startLine" : 1046,
-          "startCol" : 20
+          "startCol" : 20,
+          "endCol" : 26,
+          "endLine" : 1046
         },
         "_where" : {
           "type" : "BinaryExpression",
@@ -3138,37 +3137,37 @@
             "refersTo" : 384,
             "quoted" : false,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 1046,
-            "endCol" : 43,
             "startLine" : 1046,
-            "startCol" : 34
+            "startCol" : 34,
+            "endCol" : 43,
+            "endLine" : 1046
           },
           "_right" : {
             "type" : "Joker",
             "id" : 233,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 1046,
-            "endCol" : 58,
             "startLine" : 1046,
-            "startCol" : 47
+            "startCol" : 47,
+            "endCol" : 58,
+            "endLine" : 1046
           },
           "kind" : "EQUALS",
-          "right" : 233,
           "left" : 232,
+          "right" : 233,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 1046,
-          "endCol" : 58,
           "startLine" : 1046,
-          "startCol" : 34
+          "startCol" : 34,
+          "endCol" : 58,
+          "endLine" : 1046
         },
         "from" : 231,
         "columnList" : 229,
         "where" : 234,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-        "endLine" : 1046,
-        "endCol" : 58,
         "startLine" : 1046,
-        "startCol" : 0
+        "startCol" : 0,
+        "endCol" : 58,
+        "endLine" : 1046
       },
       "query" : 230,
       "error" : false,
@@ -3176,10 +3175,10 @@
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "endLine" : 1046,
-      "endCol" : 58,
       "startLine" : 1046,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 58,
+      "endLine" : 1046
     }, {
       "type" : "Select",
       "id" : 247,
@@ -3197,16 +3196,16 @@
             "refersTo" : 259,
             "quoted" : false,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 1138,
-            "endCol" : 9,
             "startLine" : 1138,
-            "startCol" : 7
+            "startCol" : 7,
+            "endCol" : 9,
+            "endLine" : 1138
           } ],
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 1138,
-          "endCol" : 9,
           "startLine" : 1138,
-          "startCol" : 7
+          "startCol" : 7,
+          "endCol" : 9,
+          "endLine" : 1138
         },
         "_from" : {
           "type" : "Id",
@@ -3216,10 +3215,10 @@
           "refersTo" : 254,
           "quoted" : false,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 1138,
-          "endCol" : 20,
           "startLine" : 1138,
-          "startCol" : 16
+          "startCol" : 16,
+          "endCol" : 20,
+          "endLine" : 1138
         },
         "_where" : {
           "type" : "BinaryExpression",
@@ -3235,10 +3234,10 @@
               "refersTo" : 317,
               "quoted" : false,
               "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-              "endLine" : 1138,
-              "endCol" : 46,
               "startLine" : 1138,
-              "startCol" : 28
+              "startCol" : 28,
+              "endCol" : 46,
+              "endLine" : 1138
             },
             "_right" : {
               "type" : "Literal",
@@ -3246,19 +3245,19 @@
               "value" : "'{{na}}'",
               "kind" : "STRING",
               "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-              "endLine" : 1138,
-              "endCol" : 57,
               "startLine" : 1138,
-              "startCol" : 50
+              "startCol" : 50,
+              "endCol" : 57,
+              "endLine" : 1138
             },
             "kind" : "EQUALS",
-            "right" : 241,
             "left" : 240,
+            "right" : 241,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 1138,
-            "endCol" : 57,
             "startLine" : 1138,
-            "startCol" : 28
+            "startCol" : 28,
+            "endCol" : 57,
+            "endLine" : 1138
           },
           "_right" : {
             "type" : "BinaryExpression",
@@ -3271,10 +3270,10 @@
               "refersTo" : 317,
               "quoted" : false,
               "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-              "endLine" : 1138,
-              "endCol" : 80,
               "startLine" : 1138,
-              "startCol" : 62
+              "startCol" : 62,
+              "endCol" : 80,
+              "endLine" : 1138
             },
             "_right" : {
               "type" : "Literal",
@@ -3282,37 +3281,37 @@
               "value" : "'{{na}}'",
               "kind" : "STRING",
               "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-              "endLine" : 1138,
-              "endCol" : 91,
               "startLine" : 1138,
-              "startCol" : 84
+              "startCol" : 84,
+              "endCol" : 91,
+              "endLine" : 1138
             },
             "kind" : "EQUALS",
-            "right" : 244,
             "left" : 243,
+            "right" : 244,
             "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-            "endLine" : 1138,
-            "endCol" : 91,
             "startLine" : 1138,
-            "startCol" : 62
+            "startCol" : 62,
+            "endCol" : 91,
+            "endLine" : 1138
           },
           "kind" : "OR",
-          "right" : 245,
           "left" : 242,
+          "right" : 245,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 1138,
-          "endCol" : 91,
           "startLine" : 1138,
-          "startCol" : 28
+          "startCol" : 28,
+          "endCol" : 91,
+          "endLine" : 1138
         },
         "from" : 239,
         "columnList" : 237,
         "where" : 246,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-        "endLine" : 1138,
-        "endCol" : 91,
         "startLine" : 1138,
-        "startCol" : 0
+        "startCol" : 0,
+        "endCol" : 91,
+        "endLine" : 1138
       },
       "query" : 238,
       "error" : false,
@@ -3320,10 +3319,10 @@
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "endLine" : 1138,
-      "endCol" : 91,
       "startLine" : 1138,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 91,
+      "endLine" : 1138
     }, {
       "type" : "Insert",
       "id" : 249,
@@ -3338,16 +3337,16 @@
           "refersTo" : 477,
           "quoted" : false,
           "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-          "endLine" : 1207,
-          "endCol" : 46,
           "startLine" : 1207,
-          "startCol" : 29
+          "startCol" : 29,
+          "endCol" : 46,
+          "endLine" : 1207
         } ],
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-        "endLine" : 1207,
-        "endCol" : 46,
         "startLine" : 1207,
-        "startCol" : 29
+        "startCol" : 29,
+        "endCol" : 46,
+        "endLine" : 1207
       },
       "_table" : {
         "type" : "Id",
@@ -3357,10 +3356,10 @@
         "refersTo" : 474,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-        "endLine" : 1207,
-        "endCol" : 26,
         "startLine" : 1207,
-        "startCol" : 12
+        "startCol" : 12,
+        "endCol" : 26,
+        "endLine" : 1207
       },
       "table" : 248,
       "columnList" : 251,
@@ -3371,10 +3370,10 @@
       "errorLine" : 1,
       "errorCol" : 48,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
-      "endLine" : 1207,
-      "endCol" : 46,
       "startLine" : 1207,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 46,
+      "endLine" : 1207
     }, {
       "type" : "CreateTable",
       "id" : 253,
@@ -3386,24 +3385,24 @@
         "refersTo" : 254,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 18,
-        "endCol" : 17,
         "startLine" : 18,
-        "startCol" : 13
+        "startCol" : 13,
+        "endCol" : 17,
+        "endLine" : 18
       },
       "_schemaTable" : 254,
       "table" : 252,
-      "ifNotExists" : false,
       "schemaTable" : 254,
+      "ifNotExists" : false,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 18,
-      "endCol" : 5,
       "startLine" : 18,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 5,
+      "endLine" : 18
     }, {
       "type" : "CreateTable",
       "id" : 322,
@@ -3415,24 +3414,24 @@
         "refersTo" : 323,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 19,
-        "endCol" : 24,
         "startLine" : 19,
-        "startCol" : 13
+        "startCol" : 13,
+        "endCol" : 24,
+        "endLine" : 19
       },
       "_schemaTable" : 323,
       "table" : 321,
-      "ifNotExists" : false,
       "schemaTable" : 323,
+      "ifNotExists" : false,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 19,
-      "endCol" : 5,
       "startLine" : 19,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 5,
+      "endLine" : 19
     }, {
       "type" : "CreateTable",
       "id" : 347,
@@ -3444,24 +3443,24 @@
         "refersTo" : 348,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 20,
-        "endCol" : 19,
         "startLine" : 20,
-        "startCol" : 13
+        "startCol" : 13,
+        "endCol" : 19,
+        "endLine" : 20
       },
       "_schemaTable" : 348,
       "table" : 346,
-      "ifNotExists" : false,
       "schemaTable" : 348,
+      "ifNotExists" : false,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 20,
-      "endCol" : 5,
       "startLine" : 20,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 5,
+      "endLine" : 20
     }, {
       "type" : "CreateTable",
       "id" : 363,
@@ -3473,24 +3472,24 @@
         "refersTo" : 364,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 21,
-        "endCol" : 22,
         "startLine" : 21,
-        "startCol" : 13
+        "startCol" : 13,
+        "endCol" : 22,
+        "endLine" : 21
       },
       "_schemaTable" : 364,
       "table" : 362,
-      "ifNotExists" : false,
       "schemaTable" : 364,
+      "ifNotExists" : false,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 21,
-      "endCol" : 5,
       "startLine" : 21,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 5,
+      "endLine" : 21
     }, {
       "type" : "CreateTable",
       "id" : 379,
@@ -3502,24 +3501,24 @@
         "refersTo" : 380,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 22,
-        "endCol" : 19,
         "startLine" : 22,
-        "startCol" : 13
+        "startCol" : 13,
+        "endCol" : 19,
+        "endLine" : 22
       },
       "_schemaTable" : 380,
       "table" : 378,
-      "ifNotExists" : false,
       "schemaTable" : 380,
+      "ifNotExists" : false,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 22,
-      "endCol" : 5,
       "startLine" : 22,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 5,
+      "endLine" : 22
     }, {
       "type" : "CreateTable",
       "id" : 473,
@@ -3531,24 +3530,24 @@
         "refersTo" : 474,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 23,
-        "endCol" : 27,
         "startLine" : 23,
-        "startCol" : 13
+        "startCol" : 13,
+        "endCol" : 27,
+        "endLine" : 23
       },
       "_schemaTable" : 474,
       "table" : 472,
-      "ifNotExists" : false,
       "schemaTable" : 474,
+      "ifNotExists" : false,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 23,
-      "endCol" : 5,
       "startLine" : 23,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 5,
+      "endLine" : 23
     }, {
       "type" : "CreateTable",
       "id" : 479,
@@ -3560,24 +3559,24 @@
         "refersTo" : 480,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 24,
-        "endCol" : 21,
         "startLine" : 24,
-        "startCol" : 13
+        "startCol" : 13,
+        "endCol" : 21,
+        "endLine" : 24
       },
       "_schemaTable" : 480,
       "table" : 478,
-      "ifNotExists" : false,
       "schemaTable" : 480,
+      "ifNotExists" : false,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 24,
-      "endCol" : 5,
       "startLine" : 24,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 5,
+      "endLine" : 24
     }, {
       "type" : "CreateTable",
       "id" : 488,
@@ -3589,24 +3588,24 @@
         "refersTo" : 489,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 25,
-        "endCol" : 20,
         "startLine" : 25,
-        "startCol" : 13
+        "startCol" : 13,
+        "endCol" : 20,
+        "endLine" : 25
       },
       "_schemaTable" : 489,
       "table" : 487,
-      "ifNotExists" : false,
       "schemaTable" : 489,
+      "ifNotExists" : false,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 25,
-      "endCol" : 5,
       "startLine" : 25,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 5,
+      "endLine" : 25
     }, {
       "type" : "CreateTable",
       "id" : 525,
@@ -3618,24 +3617,24 @@
         "refersTo" : 526,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 26,
-        "endCol" : 27,
         "startLine" : 26,
-        "startCol" : 13
+        "startCol" : 13,
+        "endCol" : 27,
+        "endLine" : 26
       },
       "_schemaTable" : 526,
       "table" : 524,
-      "ifNotExists" : false,
       "schemaTable" : 526,
+      "ifNotExists" : false,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 26,
-      "endCol" : 5,
       "startLine" : 26,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 5,
+      "endLine" : 26
     }, {
       "type" : "CreateTable",
       "id" : 550,
@@ -3647,24 +3646,24 @@
         "refersTo" : 551,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 27,
-        "endCol" : 23,
         "startLine" : 27,
-        "startCol" : 13
+        "startCol" : 13,
+        "endCol" : 23,
+        "endLine" : 27
       },
       "_schemaTable" : 551,
       "table" : 549,
-      "ifNotExists" : false,
       "schemaTable" : 551,
+      "ifNotExists" : false,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 27,
-      "endCol" : 5,
       "startLine" : 27,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 5,
+      "endLine" : 27
     }, {
       "type" : "CreateTable",
       "id" : 565,
@@ -3676,24 +3675,24 @@
         "refersTo" : 566,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 28,
-        "endCol" : 32,
         "startLine" : 28,
-        "startCol" : 13
+        "startCol" : 13,
+        "endCol" : 32,
+        "endLine" : 28
       },
       "_schemaTable" : 566,
       "table" : 564,
-      "ifNotExists" : false,
       "schemaTable" : 566,
+      "ifNotExists" : false,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 28,
-      "endCol" : 5,
       "startLine" : 28,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 5,
+      "endLine" : 28
     }, {
       "type" : "CreateTable",
       "id" : 578,
@@ -3705,24 +3704,24 @@
         "refersTo" : 579,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 29,
-        "endCol" : 26,
         "startLine" : 29,
-        "startCol" : 13
+        "startCol" : 13,
+        "endCol" : 26,
+        "endLine" : 29
       },
       "_schemaTable" : 579,
       "table" : 577,
-      "ifNotExists" : false,
       "schemaTable" : 579,
+      "ifNotExists" : false,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 29,
-      "endCol" : 5,
       "startLine" : 29,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 5,
+      "endLine" : 29
     }, {
       "type" : "CreateTable",
       "id" : 591,
@@ -3734,24 +3733,24 @@
         "refersTo" : 592,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 30,
-        "endCol" : 24,
         "startLine" : 30,
-        "startCol" : 13
+        "startCol" : 13,
+        "endCol" : 24,
+        "endLine" : 30
       },
       "_schemaTable" : 592,
       "table" : 590,
-      "ifNotExists" : false,
       "schemaTable" : 592,
+      "ifNotExists" : false,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 30,
-      "endCol" : 5,
       "startLine" : 30,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 5,
+      "endLine" : 30
     }, {
       "type" : "CreateTable",
       "id" : 608,
@@ -3763,24 +3762,24 @@
         "refersTo" : 609,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 31,
-        "endCol" : 25,
         "startLine" : 31,
-        "startCol" : 13
+        "startCol" : 13,
+        "endCol" : 25,
+        "endLine" : 31
       },
       "_schemaTable" : 609,
       "table" : 607,
-      "ifNotExists" : false,
       "schemaTable" : 609,
+      "ifNotExists" : false,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 31,
-      "endCol" : 5,
       "startLine" : 31,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 5,
+      "endLine" : 31
     }, {
       "type" : "CreateTable",
       "id" : 625,
@@ -3792,24 +3791,24 @@
         "refersTo" : 626,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 32,
-        "endCol" : 25,
         "startLine" : 32,
-        "startCol" : 13
+        "startCol" : 13,
+        "endCol" : 25,
+        "endLine" : 32
       },
       "_schemaTable" : 626,
       "table" : 624,
-      "ifNotExists" : false,
       "schemaTable" : 626,
+      "ifNotExists" : false,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 32,
-      "endCol" : 5,
       "startLine" : 32,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 5,
+      "endLine" : 32
     }, {
       "type" : "CreateTable",
       "id" : 635,
@@ -3821,24 +3820,24 @@
         "refersTo" : 636,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 33,
-        "endCol" : 21,
         "startLine" : 33,
-        "startCol" : 13
+        "startCol" : 13,
+        "endCol" : 21,
+        "endLine" : 33
       },
       "_schemaTable" : 636,
       "table" : 634,
-      "ifNotExists" : false,
       "schemaTable" : 636,
+      "ifNotExists" : false,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 33,
-      "endCol" : 5,
       "startLine" : 33,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 5,
+      "endLine" : 33
     }, {
       "type" : "CreateTable",
       "id" : 644,
@@ -3850,24 +3849,24 @@
         "refersTo" : 645,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 34,
-        "endCol" : 24,
         "startLine" : 34,
-        "startCol" : 13
+        "startCol" : 13,
+        "endCol" : 24,
+        "endLine" : 34
       },
       "_schemaTable" : 645,
       "table" : 643,
-      "ifNotExists" : false,
       "schemaTable" : 645,
+      "ifNotExists" : false,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 34,
-      "endCol" : 5,
       "startLine" : 34,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 5,
+      "endLine" : 34
     }, {
       "type" : "CreateTable",
       "id" : 653,
@@ -3879,24 +3878,24 @@
         "refersTo" : 654,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 35,
-        "endCol" : 25,
         "startLine" : 35,
-        "startCol" : 13
+        "startCol" : 13,
+        "endCol" : 25,
+        "endLine" : 35
       },
       "_schemaTable" : 654,
       "table" : 652,
-      "ifNotExists" : false,
       "schemaTable" : 654,
+      "ifNotExists" : false,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 35,
-      "endCol" : 5,
       "startLine" : 35,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 5,
+      "endLine" : 35
     }, {
       "type" : "DropTable",
       "id" : 663,
@@ -3908,24 +3907,24 @@
         "refersTo" : 254,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 41,
-        "endCol" : 25,
         "startLine" : 41,
-        "startCol" : 21
+        "startCol" : 21,
+        "endCol" : 25,
+        "endLine" : 41
       },
-      "ifExists" : true,
-      "tableList" : 662,
       "temporary" : false,
       "purge" : false,
+      "ifExists" : true,
+      "tableList" : 662,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 41,
-      "endCol" : 25,
       "startLine" : 41,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 25,
+      "endLine" : 41
     }, {
       "type" : "DropTable",
       "id" : 665,
@@ -3937,24 +3936,24 @@
         "refersTo" : 323,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 42,
-        "endCol" : 32,
         "startLine" : 42,
-        "startCol" : 21
+        "startCol" : 21,
+        "endCol" : 32,
+        "endLine" : 42
       },
-      "ifExists" : true,
-      "tableList" : 664,
       "temporary" : false,
       "purge" : false,
+      "ifExists" : true,
+      "tableList" : 664,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 42,
-      "endCol" : 32,
       "startLine" : 42,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 32,
+      "endLine" : 42
     }, {
       "type" : "DropTable",
       "id" : 667,
@@ -3966,24 +3965,24 @@
         "refersTo" : 348,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 43,
-        "endCol" : 27,
         "startLine" : 43,
-        "startCol" : 21
+        "startCol" : 21,
+        "endCol" : 27,
+        "endLine" : 43
       },
-      "ifExists" : true,
-      "tableList" : 666,
       "temporary" : false,
       "purge" : false,
+      "ifExists" : true,
+      "tableList" : 666,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 43,
-      "endCol" : 27,
       "startLine" : 43,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 27,
+      "endLine" : 43
     }, {
       "type" : "DropTable",
       "id" : 669,
@@ -3995,24 +3994,24 @@
         "refersTo" : 380,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 44,
-        "endCol" : 27,
         "startLine" : 44,
-        "startCol" : 21
+        "startCol" : 21,
+        "endCol" : 27,
+        "endLine" : 44
       },
-      "ifExists" : true,
-      "tableList" : 668,
       "temporary" : false,
       "purge" : false,
+      "ifExists" : true,
+      "tableList" : 668,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 44,
-      "endCol" : 27,
       "startLine" : 44,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 27,
+      "endLine" : 44
     }, {
       "type" : "DropTable",
       "id" : 671,
@@ -4024,24 +4023,24 @@
         "refersTo" : 474,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 45,
-        "endCol" : 35,
         "startLine" : 45,
-        "startCol" : 21
+        "startCol" : 21,
+        "endCol" : 35,
+        "endLine" : 45
       },
-      "ifExists" : true,
-      "tableList" : 670,
       "temporary" : false,
       "purge" : false,
+      "ifExists" : true,
+      "tableList" : 670,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 45,
-      "endCol" : 35,
       "startLine" : 45,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 35,
+      "endLine" : 45
     }, {
       "type" : "DropTable",
       "id" : 673,
@@ -4053,24 +4052,24 @@
         "refersTo" : 480,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 46,
-        "endCol" : 29,
         "startLine" : 46,
-        "startCol" : 21
+        "startCol" : 21,
+        "endCol" : 29,
+        "endLine" : 46
       },
-      "ifExists" : true,
-      "tableList" : 672,
       "temporary" : false,
       "purge" : false,
+      "ifExists" : true,
+      "tableList" : 672,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 46,
-      "endCol" : 29,
       "startLine" : 46,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 29,
+      "endLine" : 46
     }, {
       "type" : "DropTable",
       "id" : 675,
@@ -4082,24 +4081,24 @@
         "refersTo" : 364,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 47,
-        "endCol" : 30,
         "startLine" : 47,
-        "startCol" : 21
+        "startCol" : 21,
+        "endCol" : 30,
+        "endLine" : 47
       },
-      "ifExists" : true,
-      "tableList" : 674,
       "temporary" : false,
       "purge" : false,
+      "ifExists" : true,
+      "tableList" : 674,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 47,
-      "endCol" : 30,
       "startLine" : 47,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 30,
+      "endLine" : 47
     }, {
       "type" : "DropTable",
       "id" : 677,
@@ -4111,24 +4110,24 @@
         "refersTo" : 489,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 48,
-        "endCol" : 28,
         "startLine" : 48,
-        "startCol" : 21
+        "startCol" : 21,
+        "endCol" : 28,
+        "endLine" : 48
       },
-      "ifExists" : true,
-      "tableList" : 676,
       "temporary" : false,
       "purge" : false,
+      "ifExists" : true,
+      "tableList" : 676,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 48,
-      "endCol" : 28,
       "startLine" : 48,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 28,
+      "endLine" : 48
     }, {
       "type" : "DropTable",
       "id" : 679,
@@ -4140,24 +4139,24 @@
         "refersTo" : 526,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 49,
-        "endCol" : 35,
         "startLine" : 49,
-        "startCol" : 21
+        "startCol" : 21,
+        "endCol" : 35,
+        "endLine" : 49
       },
-      "ifExists" : true,
-      "tableList" : 678,
       "temporary" : false,
       "purge" : false,
+      "ifExists" : true,
+      "tableList" : 678,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 49,
-      "endCol" : 35,
       "startLine" : 49,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 35,
+      "endLine" : 49
     }, {
       "type" : "DropTable",
       "id" : 681,
@@ -4169,24 +4168,24 @@
         "refersTo" : 551,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 50,
-        "endCol" : 31,
         "startLine" : 50,
-        "startCol" : 21
+        "startCol" : 21,
+        "endCol" : 31,
+        "endLine" : 50
       },
-      "ifExists" : true,
-      "tableList" : 680,
       "temporary" : false,
       "purge" : false,
+      "ifExists" : true,
+      "tableList" : 680,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 50,
-      "endCol" : 31,
       "startLine" : 50,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 31,
+      "endLine" : 50
     }, {
       "type" : "DropTable",
       "id" : 683,
@@ -4198,24 +4197,24 @@
         "refersTo" : 566,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 51,
-        "endCol" : 40,
         "startLine" : 51,
-        "startCol" : 21
+        "startCol" : 21,
+        "endCol" : 40,
+        "endLine" : 51
       },
-      "ifExists" : true,
-      "tableList" : 682,
       "temporary" : false,
       "purge" : false,
+      "ifExists" : true,
+      "tableList" : 682,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 51,
-      "endCol" : 40,
       "startLine" : 51,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 40,
+      "endLine" : 51
     }, {
       "type" : "DropTable",
       "id" : 685,
@@ -4227,24 +4226,24 @@
         "refersTo" : 579,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 52,
-        "endCol" : 34,
         "startLine" : 52,
-        "startCol" : 21
+        "startCol" : 21,
+        "endCol" : 34,
+        "endLine" : 52
       },
-      "ifExists" : true,
-      "tableList" : 684,
       "temporary" : false,
       "purge" : false,
+      "ifExists" : true,
+      "tableList" : 684,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 52,
-      "endCol" : 34,
       "startLine" : 52,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 34,
+      "endLine" : 52
     }, {
       "type" : "DropTable",
       "id" : 687,
@@ -4256,24 +4255,24 @@
         "refersTo" : 592,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 53,
-        "endCol" : 32,
         "startLine" : 53,
-        "startCol" : 21
+        "startCol" : 21,
+        "endCol" : 32,
+        "endLine" : 53
       },
-      "ifExists" : true,
-      "tableList" : 686,
       "temporary" : false,
       "purge" : false,
+      "ifExists" : true,
+      "tableList" : 686,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 53,
-      "endCol" : 32,
       "startLine" : 53,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 32,
+      "endLine" : 53
     }, {
       "type" : "DropTable",
       "id" : 689,
@@ -4285,24 +4284,24 @@
         "refersTo" : 609,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 54,
-        "endCol" : 33,
         "startLine" : 54,
-        "startCol" : 21
+        "startCol" : 21,
+        "endCol" : 33,
+        "endLine" : 54
       },
-      "ifExists" : true,
-      "tableList" : 688,
       "temporary" : false,
       "purge" : false,
+      "ifExists" : true,
+      "tableList" : 688,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 54,
-      "endCol" : 33,
       "startLine" : 54,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 33,
+      "endLine" : 54
     }, {
       "type" : "DropTable",
       "id" : 691,
@@ -4314,24 +4313,24 @@
         "refersTo" : 626,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 55,
-        "endCol" : 33,
         "startLine" : 55,
-        "startCol" : 21
+        "startCol" : 21,
+        "endCol" : 33,
+        "endLine" : 55
       },
-      "ifExists" : true,
-      "tableList" : 690,
       "temporary" : false,
       "purge" : false,
+      "ifExists" : true,
+      "tableList" : 690,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 55,
-      "endCol" : 33,
       "startLine" : 55,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 33,
+      "endLine" : 55
     }, {
       "type" : "DropTable",
       "id" : 693,
@@ -4343,24 +4342,24 @@
         "refersTo" : 636,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 56,
-        "endCol" : 29,
         "startLine" : 56,
-        "startCol" : 21
+        "startCol" : 21,
+        "endCol" : 29,
+        "endLine" : 56
       },
-      "ifExists" : true,
-      "tableList" : 692,
       "temporary" : false,
       "purge" : false,
+      "ifExists" : true,
+      "tableList" : 692,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 56,
-      "endCol" : 29,
       "startLine" : 56,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 29,
+      "endLine" : 56
     }, {
       "type" : "DropTable",
       "id" : 695,
@@ -4372,24 +4371,24 @@
         "refersTo" : 645,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 57,
-        "endCol" : 32,
         "startLine" : 57,
-        "startCol" : 21
+        "startCol" : 21,
+        "endCol" : 32,
+        "endLine" : 57
       },
-      "ifExists" : true,
-      "tableList" : 694,
       "temporary" : false,
       "purge" : false,
+      "ifExists" : true,
+      "tableList" : 694,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 57,
-      "endCol" : 32,
       "startLine" : 57,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 32,
+      "endLine" : 57
     }, {
       "type" : "DropTable",
       "id" : 697,
@@ -4401,37 +4400,38 @@
         "refersTo" : 654,
         "quoted" : false,
         "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-        "endLine" : 58,
-        "endCol" : 33,
         "startLine" : 58,
-        "startCol" : 21
+        "startCol" : 21,
+        "endCol" : 33,
+        "endLine" : 58
       },
-      "ifExists" : true,
-      "tableList" : 696,
       "temporary" : false,
       "purge" : false,
+      "ifExists" : true,
+      "tableList" : 696,
       "error" : false,
       "internalId" : 1,
       "errorLine" : 0,
       "errorCol" : 0,
       "path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-      "endLine" : 58,
-      "endCol" : 33,
       "startLine" : 58,
-      "startCol" : 0
+      "startCol" : 0,
+      "endCol" : 33,
+      "endLine" : 58
     } ],
     "schemas" : [ 102 ],
+    "defaultSchema" : 102,
     "name" : "DB",
-    "endLine" : 0,
-    "endCol" : 0,
     "startLine" : 0,
-    "startCol" : 0
+    "startCol" : 0,
+    "endCol" : 0,
+    "endLine" : 0
   },
-  "defaultDatabase" : 101,
   "databases" : [ 101 ],
   "innerFunctions" : [ 104 ],
-  "endLine" : 0,
-  "endCol" : 0,
+  "defaultDatabase" : 101,
   "startLine" : 0,
-  "startCol" : 0
+  "startCol" : 0,
+  "endCol" : 0,
+  "endLine" : 0
 }

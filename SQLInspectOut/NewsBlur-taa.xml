@@ -34,9 +34,9 @@
         <Table name="DB.SCH.stories"></Table>
       </Tables>
       <Columns>
+        <Column name="DB.SCH.stories.story_hash"></Column>
         <Column name="DB.SCH.storytext.story_text"></Column>
         <Column name="DB.SCH.storytext.story_hash"></Column>
-        <Column name="DB.SCH.stories.story_hash"></Column>
       </Columns>
     </Statement>
     <Statement Id="140" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="208">
@@ -45,9 +45,9 @@
       </Tables>
       <Columns>
         <Column name="DB.SCH.saved_search.saved_search_title"></Column>
+        <Column name="DB.SCH.saved_search.saved_search_address"></Column>
         <Column name="DB.SCH.saved_search.saved_search_query"></Column>
         <Column name="DB.SCH.saved_search.saved_search_feed_id"></Column>
-        <Column name="DB.SCH.saved_search.saved_search_address"></Column>
         <Column name="DB.SCH.saved_search.saved_search_favicon"></Column>
       </Columns>
     </Statement>
@@ -56,8 +56,8 @@
         <Table name="DB.SCH.stories"></Table>
       </Tables>
       <Columns>
-        <Column name="DB.SCH.stories.read"></Column>
         <Column name="DB.SCH.stories.story_hash"></Column>
+        <Column name="DB.SCH.stories.read"></Column>
       </Columns>
     </Statement>
     <Statement Id="163" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="306">
@@ -65,8 +65,8 @@
         <Table name="DB.SCH.stories"></Table>
       </Tables>
       <Columns>
-        <Column name="DB.SCH.stories.starred"></Column>
         <Column name="DB.SCH.stories.story_hash"></Column>
+        <Column name="DB.SCH.stories.starred"></Column>
       </Columns>
     </Statement>
     <Statement Id="168" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="552">
@@ -82,8 +82,8 @@
         <Table name="DB.SCH.feeds"></Table>
       </Tables>
       <Columns>
+        <Column name="DB.SCH.feeds.ps"></Column>
         <Column name="DB.SCH.feeds._id"></Column>
-        <Column name="DB.SCH.feeds.nt"></Column>
       </Columns>
     </Statement>
     <Statement Id="183" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="743">
@@ -92,7 +92,7 @@
       </Tables>
       <Columns>
         <Column name="DB.SCH.feeds._id"></Column>
-        <Column name="DB.SCH.feeds.ps"></Column>
+        <Column name="DB.SCH.feeds.nt"></Column>
       </Columns>
     </Statement>
     <Statement Id="191" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="923">
@@ -100,10 +100,10 @@
         <Table name="DB.SCH.story_actions"></Table>
       </Tables>
       <Columns>
-        <Column name="DB.SCH.story_actions.tried"></Column>
-        <Column name="DB.SCH.story_actions.action_params"></Column>
         <Column name="DB.SCH.story_actions._id"></Column>
+        <Column name="DB.SCH.story_actions.action_params"></Column>
         <Column name="DB.SCH.story_actions.time"></Column>
+        <Column name="DB.SCH.story_actions.tried"></Column>
       </Columns>
     </Statement>
     <Statement Id="199" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="931">
@@ -111,8 +111,8 @@
         <Table name="DB.SCH.story_actions"></Table>
       </Tables>
       <Columns>
-        <Column name="DB.SCH.story_actions.tried"></Column>
         <Column name="DB.SCH.story_actions._id"></Column>
+        <Column name="DB.SCH.story_actions.tried"></Column>
       </Columns>
     </Statement>
     <Statement Id="210" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="937">
@@ -120,10 +120,10 @@
         <Table name="DB.SCH.story_actions"></Table>
       </Tables>
       <Columns>
-        <Column name="DB.SCH.story_actions.tried"></Column>
-        <Column name="DB.SCH.story_actions.action_params"></Column>
         <Column name="DB.SCH.story_actions._id"></Column>
+        <Column name="DB.SCH.story_actions.action_params"></Column>
         <Column name="DB.SCH.story_actions.time"></Column>
+        <Column name="DB.SCH.story_actions.tried"></Column>
       </Columns>
     </Statement>
     <Statement Id="216" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="987">
@@ -131,8 +131,8 @@
         <Table name="DB.SCH.starred_counts"></Table>
       </Tables>
       <Columns>
-        <Column name="DB.SCH.starred_counts.tag"></Column>
         <Column name="DB.SCH.starred_counts.count"></Column>
+        <Column name="DB.SCH.starred_counts.tag"></Column>
       </Columns>
     </Statement>
     <Statement Id="227" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="1029">
@@ -149,8 +149,8 @@
         <Table name="DB.SCH.stories"></Table>
       </Tables>
       <Columns>
-        <Column name="DB.SCH.stories.content"></Column>
         <Column name="DB.SCH.stories.story_hash"></Column>
+        <Column name="DB.SCH.stories.content"></Column>
       </Columns>
     </Statement>
     <Statement Id="247" Path="C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java" Line="1138">
