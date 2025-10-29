@@ -1,0 +1,164 @@
+@startuml
+
+!theme plain
+top to bottom direction
+skinparam linetype ortho
+
+class classifiers {
+   _id: text
+   key: text
+   type: text
+   value: text
+}
+class comment_replies {
+   reply_date: text
+   reply_shortdate: text
+   comment_id: text
+   reply_text: text
+   reply_userid: text
+   reply_isplaceholder: text
+   _id: text
+}
+class comments {
+   comment_date: text
+   comment_shareddate: text
+   comment_source_user: text
+   comment_liking_users: text
+   comment_byfriend: text
+   comment_storyid: text
+   comment_text: text
+   comment_userid: text
+   comment_ispseudo: text
+   comment_isplaceholder: text
+   _id: text
+}
+class feed_authors {
+   feed_id: text
+   author: text
+}
+class feed_tags {
+   feed_id: text
+   tag: text
+}
+class feeds {
+   active: text
+   address: text
+   favicon_color: text
+   favicon_url: text
+   ps: int
+   ng: int
+   nt: int
+   favicon_fade: text
+   favicon_text_color: text
+   favicon_border: text
+   link: text
+   subscribers: text
+   feed_name: text
+   open: int
+   average_stories_per_month: int
+   last_story_date: text
+   updated_seconds: int
+   notification_types: text
+   notification_filter: text
+   fetch_pending: text
+   _id: int
+}
+class folders {
+   folder_parent_names: text
+   folder_children_names: text
+   folder_feedids: text
+   folder_name: text
+}
+class notify_dimiss {
+   time: int
+   story_hash: text
+}
+class reading_session {
+   session_story_hash: text
+}
+class saved_search {
+   saved_search_title: text
+   saved_search_favicon: text
+   saved_search_address: text
+   saved_search_query: text
+   saved_search_feed_id: char(1)
+}
+class social_feeds {
+   ps: int
+   ng: int
+   nt: int
+   social_feed_icon: text
+   social_feed_title: text
+   social_feed_name: text
+   _id: int
+}
+class socialfeed_story_map {
+   socialfeed_story_storyid: text
+   socialfeed_story_user_id: int
+}
+class sqlite_master {
+   type: text
+   name: text
+   tbl_name: text
+   rootpage: int
+   sql: text
+}
+class starred_counts {
+   count: int
+   tag: text
+   feed_id: text
+}
+class stories {
+   authors: text
+   content: text
+   short_content: text
+   timestamp: int
+   sharedDate: int
+   feed_id: int
+   _id: text
+   intelligence_authors: int
+   intelligence_feed: int
+   intelligence_tags: int
+   intelligence_title: int
+   intelligence_total: int
+   socialUserId: text
+   sourceUserId: text
+   shared_user_ids: text
+   comment_user_ids: text
+   tags: text
+   user_tags: text
+   permalink: text
+   read: int
+   starred: int
+   starred_date: int
+   infrequent: int
+   title: text
+   image_urls: text
+   last_read_date: int
+   search_hit: text
+   thumbnail_url: text
+   has_modifications: int
+   story_hash: text
+}
+class story_actions {
+   time: int
+   tried: int
+   action_params: text
+   _id: int
+}
+class storytext {
+   story_hash: text
+   story_text: text
+}
+class sync_metadata {
+   value: text
+   key: text
+}
+class user_table {
+   photo_url: text
+   username: text
+   location: text
+   _id: int
+}
+
+@enduml
