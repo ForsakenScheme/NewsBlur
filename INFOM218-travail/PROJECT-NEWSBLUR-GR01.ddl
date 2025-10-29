@@ -3,8 +3,8 @@
 -- *--------------------------------------------
 -- * DB-MAIN version: 11.0.2              
 -- * Generator date: Sep 14 2021              
--- * Generation date: Tue Oct 28 12:13:35 2025 
--- * LUN file: C:\Users\Laffineur\Documents\school\m2\INFOM218 - Évolution de systèmes logiciels\NewsBlur\PROJECT-NEWSBLUR-GR01.lun 
+-- * Generation date: Wed Oct 29 09:46:13 2025 
+-- * LUN file: C:\Users\Laffineur\Documents\GitHub\NewsBlur\INFOM218-travail\PROJECT-NEWSBLUR-GR01.lun 
 -- * Schema: PS-SCH/1 
 -- ********************************************* 
 
@@ -29,7 +29,8 @@ create table comment_replies (
      comment_id varchar(255) not null,
      reply_text varchar(255) not null,
      reply_userid varchar(255) not null,
-     reply_isplaceholder varchar(255) not null);
+     reply_isplaceholder varchar(255) not null,
+     constraint IDcomment_replies primary key (_id));
 
 create table comments (
      comment_date varchar(255) not null,
@@ -42,7 +43,8 @@ create table comments (
      comment_text varchar(255) not null,
      comment_userid varchar(255) not null,
      comment_ispseudo varchar(255) not null,
-     comment_isplaceholder varchar(255) not null);
+     comment_isplaceholder varchar(255) not null,
+     constraint IDcomments primary key (_id));
 
 create table feed_authors (
      feed_id varchar(255) not null,
@@ -73,19 +75,20 @@ create table feeds (
      updated_seconds numeric(255) not null,
      notification_types varchar(255) not null,
      notification_filter varchar(255) not null,
-     fetch_pending varchar(255) not null);
+     fetch_pending varchar(255) not null,
+     constraint IDfeeds primary key (_id));
 
 create table folders (
      folder_name varchar(255) not null,
      folder_parent_names varchar(255) not null,
      folder_children_names varchar(255) not null,
-     folder_feedids varchar(255) not null);
+     folder_feedids varchar(255) not null,
+     constraint IDfolders primary key (folder_name));
 
-create table user_table (
-     photo_url varchar(255) not null,
-     _id numeric(255) not null,
-     username varchar(255) not null,
-     location varchar(255) not null);
+create table notify_dimiss (
+     story_hash varchar(255) not null,
+     time numeric(255) not null,
+     constraint IDnotify_dimiss primary key (story_hash));
 
 create table reading_session (
      session_story_hash varchar(255) not null);
@@ -104,11 +107,13 @@ create table social_feeds (
      nt numeric(255) not null,
      social_feed_icon varchar(255) not null,
      social_feed_title varchar(255) not null,
-     social_feed_name varchar(255) not null);
+     social_feed_name varchar(255) not null,
+     constraint IDsocial_feeds primary key (_id));
 
 create table socialfeed_story_map (
      socialfeed_story_storyid varchar(255) not null,
-     socialfeed_story_user_id numeric(255) not null);
+     socialfeed_story_user_id numeric(255) not null,
+     constraint IDsocialfeed_story_map primary key (socialfeed_story_storyid, socialfeed_story_user_id));
 
 create table starred_counts (
      count numeric(255) not null,
@@ -145,13 +150,16 @@ create table stories (
      last_read_date numeric(255) not null,
      search_hit varchar(255) not null,
      thumbnail_url varchar(255) not null,
-     has_modifications numeric(255) not null);
+     has_modifications numeric(255) not null,
+     constraint IDstories primary key (story_hash),
+     constraint IDstories_1 unique (_id));
 
 create table story_actions (
      _id numeric(255) not null,
      time numeric(255) not null,
      tried numeric(255) not null,
-     action_params varchar(255) not null);
+     action_params varchar(255) not null,
+     constraint IDstory_actions primary key (_id));
 
 create table storytext (
      story_hash varchar(255) not null,
@@ -159,11 +167,15 @@ create table storytext (
 
 create table sync_metadata (
      key varchar(255) not null,
-     value varchar(255) not null);
+     value varchar(255) not null,
+     constraint IDsync_metadata primary key (key));
 
-create table notify_dimiss (
-     story_hash varchar(255) not null,
-     time numeric(255) not null);
+create table user_table (
+     photo_url varchar(255) not null,
+     _id numeric(255) not null,
+     username varchar(255) not null,
+     location varchar(255) not null,
+     constraint IDuser_table primary key (_id));
 
 
 -- Index Section
