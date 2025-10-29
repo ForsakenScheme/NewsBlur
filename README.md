@@ -1,3 +1,23 @@
+# INFOM218 - Database reverse engineering and assessment for Android applications - NewsBlur
+
+## Groupe 1
+
+- Antonin LESCEUX
+- Noé REMY
+- Kevin SCHWEITZER
+
+## Répertoires
+
+- [Database](INFOM218-travail/Database/README.md): Fichiers de base de données sqlite et visualisation au sein de l'outil Datagrip.
+- [DB-Main](INFOM218-travail/DB-Main/README.md): Fichiers utilisés avec, et produits par l'outil DB-Main.
+- [Notes](INFOM218-travail/Notes/README.md): Notes et documents de travail lors de la rédaction.
+- [Scripts](INFOM218-travail/Scripts/README.md): Scripts d'analyse, d'extraction et de traitement du code/des données.
+- [SQLInspectOut](INFOM218-travail/SQLInspectOut/README.md): Artefacts produits par l'outil "SQLInspect".
+
+<details>
+
+<summary>Original NewsBlur README</summary>
+
 # NewsBlur
 
 - NewsBlur is a personal news reader bringing people together
@@ -156,3 +176,5 @@ To run locust using docker, just run `make perf-docker` and navigate to http://1
 ## License
 
 NewsBlur is licensed under the MIT License. (See LICENSE)
+
+</details>
