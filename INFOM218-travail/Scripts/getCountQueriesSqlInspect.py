@@ -26,11 +26,7 @@ def count_queries_per_type(file_path):
                 break
             
     return query_count
-        
-        
-       
-        
-        
+         
 if __name__ == "__main__" :
     script_dir = os.path.dirname(__file__)
     file_path = os.path.join(script_dir, 'NewsBlur-queries.json')
