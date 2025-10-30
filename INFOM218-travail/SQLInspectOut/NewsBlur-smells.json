@@ -1,0 +1,45 @@
+{
+  "Smells" : [ {
+    "Kind" : "FEAR_OF_THE_UNKNOWN",
+    "File" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "Line" : 117,
+    "Certainty" : "LOW_CERTAINTY",
+    "Message" : "'feeds.active' is nullable and used in an expression without NULL check."
+  }, {
+    "Kind" : "FEAR_OF_THE_UNKNOWN",
+    "File" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "Line" : 292,
+    "Certainty" : "LOW_CERTAINTY",
+    "Message" : "'stories.read' is nullable and used in an expression without NULL check."
+  }, {
+    "Kind" : "FEAR_OF_THE_UNKNOWN",
+    "File" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "Line" : 306,
+    "Certainty" : "LOW_CERTAINTY",
+    "Message" : "'stories.starred' is nullable and used in an expression without NULL check."
+  }, {
+    "Kind" : "IMPLICIT_COLUMNS",
+    "File" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "Line" : 923,
+    "Certainty" : "NORMAL_CERTAINTY",
+    "Message" : "Name columns explicitly."
+  }, {
+    "Kind" : "FEAR_OF_THE_UNKNOWN",
+    "File" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "Line" : 937,
+    "Certainty" : "LOW_CERTAINTY",
+    "Message" : "'story_actions.tried' is nullable and used in an expression without NULL check."
+  }, {
+    "Kind" : "IMPLICIT_COLUMNS",
+    "File" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "Line" : 937,
+    "Certainty" : "NORMAL_CERTAINTY",
+    "Message" : "Name columns explicitly."
+  }, {
+    "Kind" : "FEAR_OF_THE_UNKNOWN",
+    "File" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+    "Line" : 1138,
+    "Certainty" : "LOW_CERTAINTY",
+    "Message" : "'feeds.notification_filter' is nullable and used in an expression without NULL check."
+  } ]
+}

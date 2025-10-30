@@ -1,0 +1,394 @@
+{
+  "Databases" : [ {
+    "Statements" : [ {
+      "Id" : 111,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 94,
+      "Metrics" : [ {
+        "name" : "Fields",
+        "value" : "1"
+      }, {
+        "name" : "Nested Queries",
+        "value" : "0"
+      }, {
+        "name" : "Nesting Level",
+        "value" : "0"
+      } ]
+    }, {
+      "Id" : 119,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 117,
+      "Metrics" : [ {
+        "name" : "Fields",
+        "value" : "1"
+      }, {
+        "name" : "Nested Queries",
+        "value" : "0"
+      }, {
+        "name" : "Nesting Level",
+        "value" : "0"
+      } ]
+    }, {
+      "Id" : 124,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 117,
+      "Metrics" : [ {
+        "name" : "Fields",
+        "value" : "1"
+      }, {
+        "name" : "Nested Queries",
+        "value" : "0"
+      }, {
+        "name" : "Nesting Level",
+        "value" : "0"
+      } ]
+    }, {
+      "Id" : 129,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 135,
+      "Metrics" : [ {
+        "name" : "Fields",
+        "value" : "1"
+      }, {
+        "name" : "Nested Queries",
+        "value" : "0"
+      }, {
+        "name" : "Nesting Level",
+        "value" : "0"
+      } ]
+    }, {
+      "Id" : 131,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 184,
+      "Metrics" : [ {
+        "name" : "Nested Queries",
+        "value" : "1"
+      }, {
+        "name" : "Nesting Level",
+        "value" : "0"
+      } ]
+    }, {
+      "Id" : 140,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 208,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 155,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 292,
+      "Metrics" : [ {
+        "name" : "Fields",
+        "value" : "1"
+      }, {
+        "name" : "Nested Queries",
+        "value" : "0"
+      }, {
+        "name" : "Nesting Level",
+        "value" : "0"
+      } ]
+    }, {
+      "Id" : 163,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 306,
+      "Metrics" : [ {
+        "name" : "Fields",
+        "value" : "1"
+      }, {
+        "name" : "Nested Queries",
+        "value" : "0"
+      }, {
+        "name" : "Nesting Level",
+        "value" : "0"
+      } ]
+    }, {
+      "Id" : 168,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 552,
+      "Metrics" : [ {
+        "name" : "Fields",
+        "value" : "1"
+      }, {
+        "name" : "Nested Queries",
+        "value" : "0"
+      }, {
+        "name" : "Nesting Level",
+        "value" : "0"
+      } ]
+    }, {
+      "Id" : 174,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 743,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 183,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 743,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 191,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 923,
+      "Metrics" : [ {
+        "name" : "Fields",
+        "value" : "1"
+      }, {
+        "name" : "Nested Queries",
+        "value" : "0"
+      }, {
+        "name" : "Nesting Level",
+        "value" : "0"
+      } ]
+    }, {
+      "Id" : 199,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 931,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 210,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 937,
+      "Metrics" : [ {
+        "name" : "Fields",
+        "value" : "1"
+      }, {
+        "name" : "Nested Queries",
+        "value" : "0"
+      }, {
+        "name" : "Nesting Level",
+        "value" : "0"
+      } ]
+    }, {
+      "Id" : 216,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 987,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 227,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 1029,
+      "Metrics" : [ {
+        "name" : "Fields",
+        "value" : "1"
+      }, {
+        "name" : "Nested Queries",
+        "value" : "0"
+      }, {
+        "name" : "Nesting Level",
+        "value" : "0"
+      } ]
+    }, {
+      "Id" : 235,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 1046,
+      "Metrics" : [ {
+        "name" : "Fields",
+        "value" : "1"
+      }, {
+        "name" : "Nested Queries",
+        "value" : "0"
+      }, {
+        "name" : "Nesting Level",
+        "value" : "0"
+      } ]
+    }, {
+      "Id" : 247,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 1138,
+      "Metrics" : [ {
+        "name" : "Fields",
+        "value" : "1"
+      }, {
+        "name" : "Nested Queries",
+        "value" : "0"
+      }, {
+        "name" : "Nesting Level",
+        "value" : "0"
+      } ]
+    }, {
+      "Id" : 249,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 1207,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 253,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 18,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 322,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 19,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 347,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 20,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 363,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 21,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 379,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 22,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 473,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 23,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 479,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 24,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 488,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 25,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 525,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 26,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 550,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 27,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 565,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 28,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 578,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 29,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 591,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 30,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 608,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 31,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 625,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 32,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 635,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 33,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 644,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 34,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 653,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 35,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 663,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 41,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 665,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 42,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 667,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 43,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 669,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 44,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 671,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 45,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 673,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 46,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 675,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 47,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 677,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 48,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 679,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 49,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 681,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 50,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 683,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 51,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 685,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 52,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 687,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 53,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 689,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 54,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 691,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 55,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 693,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 56,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 695,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 57,
+      "Metrics" : [ ]
+    }, {
+      "Id" : 697,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 58,
+      "Metrics" : [ ]
+    } ]
+  } ]
+}

@@ -1,0 +1,335 @@
+{
+  "Databases" : [ {
+    "Statements" : [ {
+      "Id" : 111,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 94,
+      "TableAccesses" : [ ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 119,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 117,
+      "TableAccesses" : [ "DB.SCH.feeds" ],
+      "ColumnAccesses" : [ "DB.SCH.feeds._id", "DB.SCH.feeds.active" ]
+    }, {
+      "Id" : 124,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 117,
+      "TableAccesses" : [ "DB.SCH.feeds" ],
+      "ColumnAccesses" : [ "DB.SCH.feeds._id" ]
+    }, {
+      "Id" : 129,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 135,
+      "TableAccesses" : [ "DB.SCH.social_feeds" ],
+      "ColumnAccesses" : [ "DB.SCH.social_feeds._id" ]
+    }, {
+      "Id" : 131,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 184,
+      "TableAccesses" : [ "DB.SCH.stories", "DB.SCH.storytext" ],
+      "ColumnAccesses" : [ "DB.SCH.stories.story_hash", "DB.SCH.storytext.story_hash", "DB.SCH.storytext.story_text" ]
+    }, {
+      "Id" : 140,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 208,
+      "TableAccesses" : [ "DB.SCH.saved_search" ],
+      "ColumnAccesses" : [ "DB.SCH.saved_search.saved_search_address", "DB.SCH.saved_search.saved_search_favicon", "DB.SCH.saved_search.saved_search_feed_id", "DB.SCH.saved_search.saved_search_query", "DB.SCH.saved_search.saved_search_title" ]
+    }, {
+      "Id" : 155,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 292,
+      "TableAccesses" : [ "DB.SCH.stories" ],
+      "ColumnAccesses" : [ "DB.SCH.stories.read", "DB.SCH.stories.story_hash" ]
+    }, {
+      "Id" : 163,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 306,
+      "TableAccesses" : [ "DB.SCH.stories" ],
+      "ColumnAccesses" : [ "DB.SCH.stories.starred", "DB.SCH.stories.story_hash" ]
+    }, {
+      "Id" : 168,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 552,
+      "TableAccesses" : [ "DB.SCH.feeds" ],
+      "ColumnAccesses" : [ "DB.SCH.feeds._id" ]
+    }, {
+      "Id" : 174,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 743,
+      "TableAccesses" : [ "DB.SCH.feeds" ],
+      "ColumnAccesses" : [ "DB.SCH.feeds._id", "DB.SCH.feeds.ps" ]
+    }, {
+      "Id" : 183,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 743,
+      "TableAccesses" : [ "DB.SCH.feeds" ],
+      "ColumnAccesses" : [ "DB.SCH.feeds._id", "DB.SCH.feeds.nt" ]
+    }, {
+      "Id" : 191,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 923,
+      "TableAccesses" : [ "DB.SCH.story_actions" ],
+      "ColumnAccesses" : [ "DB.SCH.story_actions._id", "DB.SCH.story_actions.action_params", "DB.SCH.story_actions.time", "DB.SCH.story_actions.tried" ]
+    }, {
+      "Id" : 199,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 931,
+      "TableAccesses" : [ "DB.SCH.story_actions" ],
+      "ColumnAccesses" : [ "DB.SCH.story_actions._id", "DB.SCH.story_actions.tried" ]
+    }, {
+      "Id" : 210,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 937,
+      "TableAccesses" : [ "DB.SCH.story_actions" ],
+      "ColumnAccesses" : [ "DB.SCH.story_actions._id", "DB.SCH.story_actions.action_params", "DB.SCH.story_actions.time", "DB.SCH.story_actions.tried" ]
+    }, {
+      "Id" : 216,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 987,
+      "TableAccesses" : [ "DB.SCH.starred_counts" ],
+      "ColumnAccesses" : [ "DB.SCH.starred_counts.count", "DB.SCH.starred_counts.tag" ]
+    }, {
+      "Id" : 227,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 1029,
+      "TableAccesses" : [ "DB.SCH.storytext" ],
+      "ColumnAccesses" : [ "DB.SCH.storytext.story_hash", "DB.SCH.storytext.story_text" ]
+    }, {
+      "Id" : 235,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 1046,
+      "TableAccesses" : [ "DB.SCH.stories" ],
+      "ColumnAccesses" : [ "DB.SCH.stories.content", "DB.SCH.stories.story_hash" ]
+    }, {
+      "Id" : 247,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 1138,
+      "TableAccesses" : [ "DB.SCH.feeds" ],
+      "ColumnAccesses" : [ "DB.SCH.feeds._id", "DB.SCH.feeds.notification_filter" ]
+    }, {
+      "Id" : 249,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabaseHelper.java",
+      "Line" : 1207,
+      "TableAccesses" : [ "DB.SCH.reading_session" ],
+      "ColumnAccesses" : [ "DB.SCH.reading_session.session_story_hash" ]
+    }, {
+      "Id" : 253,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 18,
+      "TableAccesses" : [ "DB.SCH.feeds" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 322,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 19,
+      "TableAccesses" : [ "DB.SCH.social_feeds" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 347,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 20,
+      "TableAccesses" : [ "DB.SCH.folders" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 363,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 21,
+      "TableAccesses" : [ "DB.SCH.user_table" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 379,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 22,
+      "TableAccesses" : [ "DB.SCH.stories" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 473,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 23,
+      "TableAccesses" : [ "DB.SCH.reading_session" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 479,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 24,
+      "TableAccesses" : [ "DB.SCH.storytext" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 488,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 25,
+      "TableAccesses" : [ "DB.SCH.comments" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 525,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 26,
+      "TableAccesses" : [ "DB.SCH.comment_replies" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 550,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 27,
+      "TableAccesses" : [ "DB.SCH.classifiers" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 565,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 28,
+      "TableAccesses" : [ "DB.SCH.socialfeed_story_map" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 578,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 29,
+      "TableAccesses" : [ "DB.SCH.starred_counts" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 591,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 30,
+      "TableAccesses" : [ "DB.SCH.saved_search" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 608,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 31,
+      "TableAccesses" : [ "DB.SCH.story_actions" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 625,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 32,
+      "TableAccesses" : [ "DB.SCH.notify_dimiss" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 635,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 33,
+      "TableAccesses" : [ "DB.SCH.feed_tags" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 644,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 34,
+      "TableAccesses" : [ "DB.SCH.feed_authors" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 653,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 35,
+      "TableAccesses" : [ "DB.SCH.sync_metadata" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 663,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 41,
+      "TableAccesses" : [ "DB.SCH.feeds" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 665,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 42,
+      "TableAccesses" : [ "DB.SCH.social_feeds" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 667,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 43,
+      "TableAccesses" : [ "DB.SCH.folders" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 669,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 44,
+      "TableAccesses" : [ "DB.SCH.stories" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 671,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 45,
+      "TableAccesses" : [ "DB.SCH.reading_session" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 673,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 46,
+      "TableAccesses" : [ "DB.SCH.storytext" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 675,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 47,
+      "TableAccesses" : [ "DB.SCH.user_table" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 677,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 48,
+      "TableAccesses" : [ "DB.SCH.comments" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 679,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 49,
+      "TableAccesses" : [ "DB.SCH.comment_replies" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 681,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 50,
+      "TableAccesses" : [ "DB.SCH.classifiers" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 683,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 51,
+      "TableAccesses" : [ "DB.SCH.socialfeed_story_map" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 685,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 52,
+      "TableAccesses" : [ "DB.SCH.starred_counts" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 687,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 53,
+      "TableAccesses" : [ "DB.SCH.saved_search" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 689,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 54,
+      "TableAccesses" : [ "DB.SCH.story_actions" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 691,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 55,
+      "TableAccesses" : [ "DB.SCH.notify_dimiss" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 693,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 56,
+      "TableAccesses" : [ "DB.SCH.feed_tags" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 695,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 57,
+      "TableAccesses" : [ "DB.SCH.feed_authors" ],
+      "ColumnAccesses" : [ ]
+    }, {
+      "Id" : 697,
+      "Path" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+      "Line" : 58,
+      "TableAccesses" : [ "DB.SCH.sync_metadata" ],
+      "ColumnAccesses" : [ ]
+    } ]
+  } ]
+}
