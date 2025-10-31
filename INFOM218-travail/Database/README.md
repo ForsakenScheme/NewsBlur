@@ -11,3 +11,7 @@ Ce répertoire contient les fichiers et analyses liés à la base de données du
 ## Schéma physique
 
 ![Schéma physique](physical1.png)
+
+## Schéma physique enrichi avec les FKs
+
+![Schéma physique enrichi](physical_schema_enriched.png)
