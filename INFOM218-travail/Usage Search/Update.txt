@@ -1,0 +1,54 @@
+Targets
+    Occurrences of '"UPDATE |dbRW.update' in Project
+Found occurrences in Project  (23 usages found)
+    Unclassified  (19 usages found)
+        NewsBlur.app.main  (19 usages found)
+            com.newsblur.database  (19 usages found)
+                BlurDatabaseHelper.java  (19 usages found)
+                    touchStory(String)  (1 usage found)
+                        595 synchronized (RW_MUTEX) {dbRW.update(DatabaseConstants.STORY_TABLE, values, DatabaseConstants.STORY_LAST_READ_DATE + " < 1 AND " + DatabaseConstants.STORY_HASH + " = ?", new String[]{hash});}
+                    markStoryHashesRead(Collection<String>)  (1 usage found)
+                        605 dbRW.update(DatabaseConstants.STORY_TABLE, values, DatabaseConstants.STORY_HASH + " = ?", new String[]{hash});
+                    markStoryHashesStarred(Collection<String>, boolean)  (1 usage found)
+                        621 dbRW.update(DatabaseConstants.STORY_TABLE, values, DatabaseConstants.STORY_HASH + " = ?", new String[]{hash});
+                    setFeedsActive(Set<String>, boolean)  (1 usage found)
+                        637 dbRW.update(DatabaseConstants.FEED_TABLE, values, DatabaseConstants.FEED_ID + " = ?", new String[]{feedId});
+                    setFeedFetchPending(String)  (1 usage found)
+                        649 synchronized (RW_MUTEX) {dbRW.update(DatabaseConstants.FEED_TABLE, values, DatabaseConstants.FEED_ID + " = ?", new String[]{feedId});}
+                    setStoryReadState(String, boolean)  (1 usage found)
+                        675 synchronized (RW_MUTEX) {dbRW.update(DatabaseConstants.STORY_TABLE, values, DatabaseConstants.STORY_HASH + " = ?", new String[]{hash});}
+                    setStoryReadState(Story, boolean)  (1 usage found)
+                        724 dbRW.update(DatabaseConstants.STORY_TABLE, values, DatabaseConstants.STORY_HASH + " = ?", new String[]{story.storyHash});
+                    markStoriesRead(FeedSet, Long, Long)  (1 usage found)
+                        784 synchronized (RW_MUTEX) {dbRW.update(DatabaseConstants.STORY_TABLE, values, conjoinSelections(feedSelection, rangeSelection), null);}
+                    updateFeedCounts(String, ContentValues)  (1 usage found)
+                        846 synchronized (RW_MUTEX) {dbRW.update(DatabaseConstants.FEED_TABLE, values, DatabaseConstants.FEED_ID + " = ?", new String[]{feedId});}
+                    updateSocialFeedCounts(String, ContentValues)  (1 usage found)
+                        850 synchronized (RW_MUTEX) {dbRW.update(DatabaseConstants.SOCIALFEED_TABLE, values, DatabaseConstants.SOCIAL_FEED_ID + " = ?", new String[]{feedId});}
+                    updateLocalFeedCounts(FeedSet)  (2 usages found)
+                        883 synchronized (RW_MUTEX) {dbRW.update(DatabaseConstants.FEED_TABLE, values, DatabaseConstants.FEED_ID + " = ?", new String[]{feedId});}
+                        892 synchronized (RW_MUTEX) {dbRW.update(DatabaseConstants.SOCIALFEED_TABLE, values, DatabaseConstants.SOCIAL_FEED_ID + " = ?", new String[]{socialId});}
+                    clearInfrequentSession()  (1 usage found)
+                        913 synchronized (RW_MUTEX) {dbRW.update(DatabaseConstants.STORY_TABLE, values, null, null);}
+                    setStoryStarred(String, List<String>, boolean)  (2 usages found)
+                        970 dbRW.update(DatabaseConstants.STORY_TABLE, values, DatabaseConstants.STORY_HASH + " = ?", new String[]{hash});
+                        980 dbRW.update(DatabaseConstants.STORY_TABLE, values, DatabaseConstants.STORY_HASH + " = ?", new String[]{hash});
+                    setStoryShared(String, String, boolean)  (1 usage found)
+                        1021 synchronized (RW_MUTEX) {dbRW.update(DatabaseConstants.STORY_TABLE, values, DatabaseConstants.STORY_HASH + " = ?", new String[]{hash});}
+                    editReply(String, String)  (1 usage found)
+                        1395 synchronized (RW_MUTEX) {dbRW.update(DatabaseConstants.REPLY_TABLE, values, DatabaseConstants.REPLY_ID + " = ?", new String[]{replyId});}
+                    setCommentLiked(String, String, String, boolean)  (1 usage found)
+                        1434 synchronized (RW_MUTEX) {dbRW.update(DatabaseConstants.COMMENT_TABLE, values, DatabaseConstants.COMMENT_ID + " = ?", new String[]{comment.id});}
+                    renameFeed(String, String)  (1 usage found)
+                        1581 synchronized (RW_MUTEX) {dbRW.update(DatabaseConstants.FEED_TABLE, values, DatabaseConstants.FEED_ID + " = ?", new String[]{feedId});}
+    Usage in string constants  (4 usages found)
+        NewsBlur.app.main  (4 usages found)
+            com.newsblur.database  (4 usages found)
+                BlurDatabaseHelper.java  (4 usages found)
+                    setStoryReadState(Story, boolean)  (2 usages found)
+                        740 StringBuilder q = new StringBuilder("UPDATE " + DatabaseConstants.FEED_TABLE);
+                        745 q = new StringBuilder("UPDATE " + DatabaseConstants.SOCIALFEED_TABLE);
+                    incrementActionTried(String)  (1 usage found)
+                        928 String q = "UPDATE " + DatabaseConstants.ACTION_TABLE +
+                    setStoryStarred(String, List<String>, boolean)  (1 usage found)
+                        983 StringBuilder q = new StringBuilder("UPDATE " + DatabaseConstants.STARREDCOUNTS_TABLE);
