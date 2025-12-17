@@ -1029,7 +1029,7 @@
             "FoundBy": "IDE search tool"
         },
     {
-            "Value": "DELETE FROM sociald_feeds",
+            "Value": "DELETE FROM social_feeds",
             "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
             "ExecLine": 267,
             "FoundBy": "IDE search tool"
@@ -1267,9 +1267,357 @@
             "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
             "ExecLine": 1581,
             "FoundBy": "IDE search tool"
-        }
-    
-    
+        },
+    {
+            "Value": "INSERT INTO feeds",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 230,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "INSERT INTO classifiers",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 240,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "INSERT INTO folders",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 253,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "INSERT INTO feeds",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 253,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "INSERT INTO social_feeds",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 253,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "INSERT INTO starred_counts",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 253,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "INSERT INTO saved_search",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 253,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "INSERT INTO user_table",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 253,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "INSERT INTO feeds",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 253,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "INSERT INTO classifiers",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 253,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "INSERT INTO user_table",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 253,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "INSERT INTO feed_tags",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 253,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "INSERT INTO feed_authors",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 253,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "INSERT INTO reading_session",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 383,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "INSERT INTO stories",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 448,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "INSERT INTO socialfeed_story_map",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 454,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "INSERT INTO comments",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 479,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "INSERT INTO comment_replies",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 482,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "INSERT INTO feeds",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 570,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "INSERT INTO story_actions",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 917,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "INSERT INTO storytext",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 1063,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "INSERT INTO sync_metadata",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 1302,
+            "FoundBy": "IDE search tool"
+        },
+
+    {
+            "Value": "INSERT INTO comments",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 1388,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "INSERT INTO comment_replies",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 1482,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "INSERT INTO notify_dimiss",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 1489,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "SELECT * FROM feeds WHERE DatabaseConstants.FEED_ID = ? ",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 219,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "SELECT DatabaseConstants.STORY_IMAGE_URLS FROM stories",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 317,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "SELECT DatabaseConstants.STORY_THUMBNAIL_URL FROM stories ",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 328,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "SELECT * FROM stories WHERE DatabaseConstants.STORY_HASH = ? ",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 497,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "SELECT * FROM folders WHERE DatabaseConstants.FOLDER_NAME = ? ",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 582,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "SELECT DatabaseConstants.FEED_FETCH_PENDING FROM feeds WHERE DatabaseConstants.FEED_ID = ? AND DatabaseConstants.FEED_FETCH_PENDING = ?  ",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 655,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "SELECT * FROM feeds",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 820,
+            "FoundBy": "IDE search tool"
+        },
+
+    {
+            "Value": "SELECT * FROM social_feeds",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 834,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "SELECT DatabaseConstants.STORY_SHARED_USER_IDS FROM stories WHERE DatabaseConstants.STORY_HASH = ? ",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 997,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "SELECT * FROM social_feeds WHERE DatabaseConstants.SOCIAL_FEED_ID = ? ",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 1073,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "SELECT * FROM starred_counts WHERE DatabaseConstants.STARREDCOUNTS_TAG = ? ",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 1084,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "SELECT DatabaseConstants.STORY_HASH FROM stories ",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 1221,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "SELECT DatabaseConstants.STORY_HASH FROM stories ",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 1221,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "SELECT DatabaseConstants.STORY_HASH FROM socialfeed_story_map ",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 1221,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "SELECT DatabaseConstants.STORY_HASH FROM stories ",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 1221,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "SELECT DatabaseConstants.STORY_HASH FROM socialfeed_story_map",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 1221,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "SELECT DatabaseConstants.STORY_HASH FROM stories ",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 1221,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "SELECT DatabaseConstants.STORY_HASH FROM stories ",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 1221,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "SELECT DatabaseConstants.STORY_HASH FROM stories ",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 1221,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "SELECT DatabaseConstants.STORY_HASH FROM stories ",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 1221,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "SELECT DatabaseConstants.STORY_HASH FROM stories ",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 1221,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "SELECT DatabaseConstants.STORY_HASH FROM socialfeed_story_map ",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 1221,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "SELECT * FROM sync_metadata WHERE DatabaseConstants.SYNC_METADATA_KEY = ? ",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 1309,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "SELECT * FROM classifiers WHERE DatabaseConstants.CLASSIFIER_ID = ? ",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 1333,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "SELECT * FROM comments WHERE DatabaseConstants.Comment_STORYID = ? ",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 1344,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "SELECT * FROM comments WHERE DatabaseConstants.Comment_STORYID = ? AND DatabaseConstants.COMMENT_USERID = ?",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 1344,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "SELECT * FROM comments WHERE DatabaseConstants.Comment_STORYID = ? AND DatabaseConstants.COMMENT_USERID = ?",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 1410,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "SELECT * FROM user_table WHERE DatabaseConstants.USER_USERID = ?",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 1441,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "SELECT * FROM comment_replies WHERE DatabaseConstants.REPLY_COMMENTID = ?",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 1451,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "SELECT * FROM notify_dimiss WHERE DatabaseConstants.NOTIFY_DISMISS_STORY_HASH = ? ",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 1495,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "SELECT DatabaseConstants.FEED_TAGS_TAG FROM feed_tags WHERE DatabaseConstants.FEED_TAGS_FEEDID = ? ",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 1529,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "SELECT DatabaseConstants.FEED_AUTHORS_AUTHOR FROM feed_authors WHERE DatabaseConstants.FEED_AUTHORS_FEEDID = ? ORDER BY DatabaseConstants.FEED_AUTHORS_AUTHOR ",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 1562,
+            "FoundBy": "IDE search tool"
+        },
+    {
+            "Value": "SELECT DatabaseConstants.FEED_AUTHORS_AUTHOR FROM feed_authors WHERE DatabaseConstants.FEED_AUTHORS_FEEDID = ? ORDER BY DatabaseConstants.FEED_AUTHORS_AUTHOR ",
+            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
+            "ExecLine": 1562,
+            "FoundBy": "IDE search tool"
+        }  
  ]
 
 }
