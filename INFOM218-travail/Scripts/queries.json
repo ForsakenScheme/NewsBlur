@@ -1284,67 +1284,67 @@
             "Value": "INSERT INTO folders",
             "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
             "ExecLine": 253,
-            "FoundBy": "IDE search tool"
+            "FoundBy": "Additionnal research"
         },
     {
             "Value": "INSERT INTO feeds",
             "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
             "ExecLine": 253,
-            "FoundBy": "IDE search tool"
+            "FoundBy": "Additionnal research"
         },
     {
             "Value": "INSERT INTO social_feeds",
             "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
             "ExecLine": 253,
-            "FoundBy": "IDE search tool"
+            "FoundBy": "Additionnal research"
         },
     {
             "Value": "INSERT INTO starred_counts",
             "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
             "ExecLine": 253,
-            "FoundBy": "IDE search tool"
+            "FoundBy": "Additionnal research"
         },
     {
             "Value": "INSERT INTO saved_search",
             "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
             "ExecLine": 253,
-            "FoundBy": "IDE search tool"
+            "FoundBy": "Additionnal research"
         },
     {
             "Value": "INSERT INTO user_table",
             "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
             "ExecLine": 253,
-            "FoundBy": "IDE search tool"
+            "FoundBy": "Additionnal research"
         },
     {
             "Value": "INSERT INTO feeds",
             "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
             "ExecLine": 253,
-            "FoundBy": "IDE search tool"
+            "FoundBy": "Additionnal research"
         },
     {
             "Value": "INSERT INTO classifiers",
             "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
             "ExecLine": 253,
-            "FoundBy": "IDE search tool"
+            "FoundBy": "Additionnal research"
         },
     {
             "Value": "INSERT INTO user_table",
             "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
             "ExecLine": 253,
-            "FoundBy": "IDE search tool"
+            "FoundBy": "Additionnal research"
         },
     {
             "Value": "INSERT INTO feed_tags",
             "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
             "ExecLine": 253,
-            "FoundBy": "IDE search tool"
+            "FoundBy": "Additionnal research"
         },
     {
             "Value": "INSERT INTO feed_authors",
             "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
             "ExecLine": 253,
-            "FoundBy": "IDE search tool"
+            "FoundBy": "Additionnal research"
         },
     {
             "Value": "INSERT INTO reading_session",
