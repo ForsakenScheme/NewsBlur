@@ -1611,13 +1611,7 @@
             "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
             "ExecLine": 1562,
             "FoundBy": "IDE search tool"
-        },
-    {
-            "Value": "SELECT DatabaseConstants.FEED_AUTHORS_AUTHOR FROM feed_authors WHERE DatabaseConstants.FEED_AUTHORS_FEEDID = ? ORDER BY DatabaseConstants.FEED_AUTHORS_AUTHOR ",
-            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-            "ExecLine": 1562,
-            "FoundBy": "IDE search tool"
-        }  
+        }
  ]
 
 }
