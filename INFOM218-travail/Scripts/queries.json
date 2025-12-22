@@ -1487,67 +1487,61 @@
             "FoundBy": "IDE search tool"
         },
     {
-            "Value": "SELECT DatabaseConstants.STORY_HASH FROM stories ",
+            "Value": "SELECT DatabaseConstants.STORY_HASH FROM stories WHERE DatabaseConstants.STORY_FEED_ID = ?",
             "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
             "ExecLine": 1221,
             "FoundBy": "IDE search tool"
         },
     {
-            "Value": "SELECT DatabaseConstants.STORY_HASH FROM stories ",
+            "Value": "SELECT DatabaseConstants.STORY_HASH FROM stories WHERE DatabaseConstants.STORY_FEED_ID IN ? ",
             "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
             "ExecLine": 1221,
             "FoundBy": "IDE search tool"
         },
     {
-            "Value": "SELECT DatabaseConstants.STORY_HASH FROM socialfeed_story_map ",
+            "Value": "SELECT DatabaseConstants.STORY_HASH FROM socialfeed_story_map INNER JOIN stories ON stories._id = socialfeed_story_map.socialfeed_story_storyid WHERE DatabaseConstants.SOCIALFEED_STORY_USER_ID = ? ",
             "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
             "ExecLine": 1221,
             "FoundBy": "IDE search tool"
         },
     {
-            "Value": "SELECT DatabaseConstants.STORY_HASH FROM stories ",
+            "Value": "SELECT DatabaseConstants.STORY_HASH FROM stories WHERE 1",
             "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
             "ExecLine": 1221,
             "FoundBy": "IDE search tool"
         },
     {
-            "Value": "SELECT DatabaseConstants.STORY_HASH FROM socialfeed_story_map",
+            "Value": "SELECT DatabaseConstants.STORY_HASH FROM socialfeed_story_map INNER JOIN stories ON stories._id = socialfeed_story_map.socialfeed_story_storyid",
             "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
             "ExecLine": 1221,
             "FoundBy": "IDE search tool"
         },
     {
-            "Value": "SELECT DatabaseConstants.STORY_HASH FROM stories ",
+            "Value": "SELECT DatabaseConstants.STORY_HASH FROM stories WHERE DatabaseConstants.STORY_LAST_READ_DATE > 0",
             "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
             "ExecLine": 1221,
             "FoundBy": "IDE search tool"
         },
     {
-            "Value": "SELECT DatabaseConstants.STORY_HASH FROM stories ",
+            "Value": "SELECT DatabaseConstants.STORY_HASH FROM stories WHERE DatabaseConstants.STORY_STARRED = 1 ",
             "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
             "ExecLine": 1221,
             "FoundBy": "IDE search tool"
         },
     {
-            "Value": "SELECT DatabaseConstants.STORY_HASH FROM stories ",
+            "Value": "SELECT DatabaseConstants.STORY_HASH FROM stories WHERE DatabaseConstants.STORY_INFREQUENT = 1 ",
             "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
             "ExecLine": 1221,
             "FoundBy": "IDE search tool"
         },
     {
-            "Value": "SELECT DatabaseConstants.STORY_HASH FROM stories ",
+            "Value": "SELECT DatabaseConstants.STORY_HASH FROM stories WHERE DatabaseConstants.STORY_STARRED = 1 AND DatabaseConstants.STORY_USER_TAGS LIKE ?",
             "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
             "ExecLine": 1221,
             "FoundBy": "IDE search tool"
         },
     {
-            "Value": "SELECT DatabaseConstants.STORY_HASH FROM stories ",
-            "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
-            "ExecLine": 1221,
-            "FoundBy": "IDE search tool"
-        },
-    {
-            "Value": "SELECT DatabaseConstants.STORY_HASH FROM socialfeed_story_map ",
+            "Value": "SELECT DatabaseConstants.STORY_HASH FROM socialfeed_story_map INNER JOIN stories ON stories._id = socialfeed_story_map.socialfeed_story_storyid ",
             "ExecFile": "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur/clients/android/NewsBlur/app/src/main/java/com/newsblur/database/BlurDatabase.java",
             "ExecLine": 1221,
             "FoundBy": "IDE search tool"
