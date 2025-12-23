@@ -3,11 +3,20 @@ import json
 import matplotlib.pyplot as plt
 from collections import defaultdict
 import re
+import Myutils
 
+        
+    #This method needs the filename to be passed as an command line argument
 def count_query_types(file_path):
-    with open(file_path, 'r') as file:
-        data = json.load(file)
-          
+    try:
+        with open(file_path, 'r') as file:
+            data = json.load(file)
+            
+    except FileNotFoundError:
+          print(f"Error: '{filename}' not found.")
+    except Exception as e:
+        print(f"Error: {e}")
+        
     table_stats = defaultdict(lambda: {'select': 0, 'update': 0, 'delete': 0, 'insert': 0, 'create': 0, 'drop': 0})
     
     # Regular expressions to match different query types and extract table names with alphabetical subsets
@@ -36,7 +45,8 @@ def count_query_types(file_path):
 if __name__ == "__main__":
     # Define file paths
     script_dir = os.path.dirname(__file__)
-    file_path = os.path.join(script_dir, 'queries.json')
+    filename = Myutils.getFileAsArgument()
+    file_path = os.path.join(script_dir, filename)
     
     # Get query counts and formatted queries
     table_stats = count_query_types(file_path)
