@@ -1,0 +1,798 @@
+{
+  "Queries" : [ {
+    "id" : "1",
+    "Value" : "CREATE TABLE feeds (_id INTEGER PRIMARY KEY, active TEXT, address TEXT, favicon_color TEXT, favicon_url TEXT, ps INTEGER, ng INTEGER, nt INTEGER, favicon_fade TEXT, favicon_text_color TEXT, favicon_border TEXT, link TEXT, subscribers TEXT, feed_name TEXT, updated_seconds INTEGER, notification_types TEXT, notification_filter TEXT)",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "18",
+    "ExecString" : "db.execSQL(DatabaseConstants.FEED_SQL)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 16,
+      "callLine" : 18
+    } ]
+  }, {
+    "id" : "2",
+    "Value" : "CREATE TABLE social_feeds (_id INTEGER PRIMARY KEY, ps INTEGER, ng INTEGER, nt INTEGER, social_feed_icon TEXT, social_feed_title TEXT, social_feed_name TEXT)",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "19",
+    "ExecString" : "db.execSQL(DatabaseConstants.SOCIAL_FEED_SQL)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 16,
+      "callLine" : 19
+    } ]
+  }, {
+    "id" : "3",
+    "Value" : "CREATE TABLE folders (folder_name TEXT PRIMARY KEY, folder_parent_names TEXT, folder_children_names TEXT, folder_feedids TEXT)",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "20",
+    "ExecString" : "db.execSQL(DatabaseConstants.FOLDER_SQL)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 16,
+      "callLine" : 20
+    } ]
+  }, {
+    "id" : "4",
+    "Value" : "CREATE TABLE user_table (photo_url TEXT, _id INTEGER PRIMARY KEY, username TEXT, location TEXT)",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "21",
+    "ExecString" : "db.execSQL(DatabaseConstants.USER_SQL)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 16,
+      "callLine" : 21
+    } ]
+  }, {
+    "id" : "5",
+    "Value" : "CREATE TABLE stories (story_hash TEXT PRIMARY KEY, authors TEXT, content TEXT, short_content TEXT, timestamp INTEGER, sharedDate INTEGER, feed_id INTEGER, _id TEXT, intelligence_authors INTEGER, intelligence_feed INTEGER, intelligence_tags INTEGER, intelligence_title INTEGER, intelligence_total INTEGER, socialUserId TEXT, sourceUserId TEXT, shared_user_ids TEXT, comment_user_ids TEXT, tags TEXT, user_tags TEXT, permalink TEXT, read INTEGER, starred INTEGER, starred_date INTEGER, title TEXT, image_urls TEXT, last_read_date INTEGER, search_hit TEXT, thumbnail_url TEXT)",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "22",
+    "ExecString" : "db.execSQL(DatabaseConstants.STORY_SQL)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 16,
+      "callLine" : 22
+    } ]
+  }, {
+    "id" : "6",
+    "Value" : "CREATE TABLE reading_session (session_story_hash TEXT)",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "23",
+    "ExecString" : "db.execSQL(DatabaseConstants.READING_SESSION_SQL)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 16,
+      "callLine" : 23
+    } ]
+  }, {
+    "id" : "7",
+    "Value" : "CREATE TABLE storytext (story_hash TEXT, story_text TEXT)",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "24",
+    "ExecString" : "db.execSQL(DatabaseConstants.STORY_TEXT_SQL)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 16,
+      "callLine" : 24
+    } ]
+  }, {
+    "id" : "8",
+    "Value" : "CREATE TABLE comments (comment_date TEXT, comment_shareddate TEXT, comment_source_user TEXT, _id TEXT PRIMARY KEY, comment_liking_users TEXT, comment_byfriend TEXT, comment_storyid TEXT, comment_text TEXT, comment_userid TEXT, comment_ispseudo TEXT)",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "25",
+    "ExecString" : "db.execSQL(DatabaseConstants.COMMENT_SQL)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 16,
+      "callLine" : 25
+    } ]
+  }, {
+    "id" : "9",
+    "Value" : "CREATE TABLE comment_replies (reply_date TEXT, reply_shortdate TEXT, _id TEXT PRIMARY KEY, comment_id TEXT, reply_text TEXT, reply_userid TEXT)",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "26",
+    "ExecString" : "db.execSQL(DatabaseConstants.REPLY_SQL)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 16,
+      "callLine" : 26
+    } ]
+  }, {
+    "id" : "10",
+    "Value" : "CREATE TABLE classifiers (_id TEXT, key TEXT, type TEXT, value TEXT)",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "27",
+    "ExecString" : "db.execSQL(DatabaseConstants.CLASSIFIER_SQL)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 16,
+      "callLine" : 27
+    } ]
+  }, {
+    "id" : "11",
+    "Value" : "CREATE TABLE socialfeed_story_map (socialfeed_story_storyid TEXT NOT NULL, socialfeed_story_user_id INTEGER NOT NULL, PRIMARY KEY (socialfeed_story_storyid, socialfeed_story_user_id) )",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "28",
+    "ExecString" : "db.execSQL(DatabaseConstants.SOCIALFEED_STORIES_SQL)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 16,
+      "callLine" : 28
+    } ]
+  }, {
+    "id" : "12",
+    "Value" : "CREATE TABLE starred_counts (count INTEGER NOT NULL, tag TEXT, feed_id TEXT)",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "29",
+    "ExecString" : "db.execSQL(DatabaseConstants.STARREDCOUNTS_SQL)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 16,
+      "callLine" : 29
+    } ]
+  }, {
+    "id" : "13",
+    "Value" : "CREATE TABLE story_actions (_id INTEGER PRIMARY KEY AUTOINCREMENT, time INTEGER NOT NULL, tried INTEGER, action_type TEXT, comment_text TEXT, story_hash TEXT, feed_id TEXT, include_older INTEGER, include_newer INTEGER, story_id TEXT, source_user_id TEXT, comment_id TEXT, modified_feed_ids TEXT, notify_filter TEXT, notify_types TEXT)",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "30",
+    "ExecString" : "db.execSQL(DatabaseConstants.ACTION_SQL)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 16,
+      "callLine" : 30
+    } ]
+  }, {
+    "id" : "14",
+    "Value" : "CREATE TABLE notify_dimiss (story_hash TEXT, time INTEGER NOT NULL )",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "31",
+    "ExecString" : "db.execSQL(DatabaseConstants.NOTIFY_DISMISS_SQL)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.onCreate(android.database.sqlite.SQLiteDatabase)",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 16,
+      "callLine" : 31
+    } ]
+  }, {
+    "id" : "15",
+    "Value" : "DROP TABLE IF EXISTS feeds",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "37",
+    "ExecString" : "db.execSQL(drop + DatabaseConstants.FEED_TABLE)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 34,
+      "callLine" : 37
+    } ]
+  }, {
+    "id" : "16",
+    "Value" : "DROP TABLE IF EXISTS social_feeds",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "38",
+    "ExecString" : "db.execSQL(drop + DatabaseConstants.SOCIALFEED_TABLE)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 34,
+      "callLine" : 38
+    } ]
+  }, {
+    "id" : "17",
+    "Value" : "DROP TABLE IF EXISTS folders",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "39",
+    "ExecString" : "db.execSQL(drop + DatabaseConstants.FOLDER_TABLE)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 34,
+      "callLine" : 39
+    } ]
+  }, {
+    "id" : "18",
+    "Value" : "DROP TABLE IF EXISTS stories",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "40",
+    "ExecString" : "db.execSQL(drop + DatabaseConstants.STORY_TABLE)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 34,
+      "callLine" : 40
+    } ]
+  }, {
+    "id" : "19",
+    "Value" : "DROP TABLE IF EXISTS reading_session",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "41",
+    "ExecString" : "db.execSQL(drop + DatabaseConstants.READING_SESSION_TABLE)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 34,
+      "callLine" : 41
+    } ]
+  }, {
+    "id" : "20",
+    "Value" : "DROP TABLE IF EXISTS storytext",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "42",
+    "ExecString" : "db.execSQL(drop + DatabaseConstants.STORY_TEXT_TABLE)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 34,
+      "callLine" : 42
+    } ]
+  }, {
+    "id" : "21",
+    "Value" : "DROP TABLE IF EXISTS user_table",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "43",
+    "ExecString" : "db.execSQL(drop + DatabaseConstants.USER_TABLE)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 34,
+      "callLine" : 43
+    } ]
+  }, {
+    "id" : "22",
+    "Value" : "DROP TABLE IF EXISTS comments",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "44",
+    "ExecString" : "db.execSQL(drop + DatabaseConstants.COMMENT_TABLE)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 34,
+      "callLine" : 44
+    } ]
+  }, {
+    "id" : "23",
+    "Value" : "DROP TABLE IF EXISTS comment_replies",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "45",
+    "ExecString" : "db.execSQL(drop + DatabaseConstants.REPLY_TABLE)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 34,
+      "callLine" : 45
+    } ]
+  }, {
+    "id" : "24",
+    "Value" : "DROP TABLE IF EXISTS classifiers",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "46",
+    "ExecString" : "db.execSQL(drop + DatabaseConstants.CLASSIFIER_TABLE)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 34,
+      "callLine" : 46
+    } ]
+  }, {
+    "id" : "25",
+    "Value" : "DROP TABLE IF EXISTS socialfeed_story_map",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "47",
+    "ExecString" : "db.execSQL(drop + DatabaseConstants.SOCIALFEED_STORY_MAP_TABLE)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 34,
+      "callLine" : 47
+    } ]
+  }, {
+    "id" : "26",
+    "Value" : "DROP TABLE IF EXISTS starred_counts",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "48",
+    "ExecString" : "db.execSQL(drop + DatabaseConstants.STARREDCOUNTS_TABLE)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 34,
+      "callLine" : 48
+    } ]
+  }, {
+    "id" : "27",
+    "Value" : "DROP TABLE IF EXISTS story_actions",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "49",
+    "ExecString" : "db.execSQL(drop + DatabaseConstants.ACTION_TABLE)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 34,
+      "callLine" : 49
+    } ]
+  }, {
+    "id" : "28",
+    "Value" : "DROP TABLE IF EXISTS notify_dimiss",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabase",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+    "ExecLine" : "50",
+    "ExecString" : "db.execSQL(drop + DatabaseConstants.NOTIFY_DISMISS_TABLE)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabase.dropAndRecreateTables()",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabase.java",
+      "methodLine" : 34,
+      "callLine" : 50
+    } ]
+  }, {
+    "id" : "29",
+    "Value" : "SELECT sqlite_version() AS sqlite_version",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "89",
+    "ExecString" : "dbRO.rawQuery(\"SELECT sqlite_version() AS sqlite_version\",null)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.getEngineVersion()",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 86,
+      "callLine" : 89
+    } ]
+  }, {
+    "id" : "30",
+    "Value" : "SELECT _id FROM feeds WHERE active = 1",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "110",
+    "ExecString" : "dbRO.rawQuery(q1,null)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.getAllFeeds(boolean)",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 104,
+      "callLine" : 110
+    } ]
+  }, {
+    "id" : "31",
+    "Value" : "SELECT _id FROM feeds",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "110",
+    "ExecString" : "dbRO.rawQuery(q1,null)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.getAllFeeds(boolean)",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 104,
+      "callLine" : 110
+    } ]
+  }, {
+    "id" : "32",
+    "Value" : "SELECT _id FROM social_feeds",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "126",
+    "ExecString" : "dbRO.rawQuery(q1,null)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.getAllSocialFeeds()",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 123,
+      "callLine" : 126
+    } ]
+  }, {
+    "id" : "33",
+    "Value" : "DELETE FROM storytext WHERE story_hash NOT IN ( SELECT story_hash FROM stories)",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "173",
+    "ExecString" : "dbRW.execSQL(q)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.cleanupStoryText()",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 168,
+      "callLine" : 173
+    } ]
+  }, {
+    "id" : "34",
+    "Value" : "VACUUM",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "177",
+    "ExecString" : "dbRW.execSQL(\"VACUUM\")",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.vacuum()",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 176,
+      "callLine" : 177
+    } ]
+  }, {
+    "id" : "35",
+    "Value" : "SELECT story_hash FROM stories WHERE feed_id = {{question}}",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "274",
+    "ExecString" : "dbRO.rawQuery(q,new String[]{feedId})",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.getStoryHashesForFeed(java.lang.String)",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 270,
+      "callLine" : 274
+    } ]
+  }, {
+    "id" : "36",
+    "Value" : "SELECT story_hash FROM stories WHERE read = 0",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "289",
+    "ExecString" : "dbRO.rawQuery(q,null)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.getUnreadStoryHashesAsSet()",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 285,
+      "callLine" : 289
+    } ]
+  }, {
+    "id" : "37",
+    "Value" : "SELECT _id FROM feeds",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "471",
+    "ExecString" : "dbRO.rawQuery(q1,null)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.fixMissingStoryFeeds(com.newsblur.domain.Story[])",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 462,
+      "callLine" : 471
+    } ]
+  }, {
+    "id" : "38",
+    "Value" : "UPDATE feeds SET ps = ps{{na}} WHERE _id = {{na}}",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "624",
+    "ExecString" : "dbRW.execSQL(q.toString())",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.setStoryReadState(com.newsblur.domain.Story,boolean)",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 558,
+      "callLine" : 624
+    } ]
+  }, {
+    "id" : "39",
+    "Value" : "UPDATE feeds SET nt = nt{{na}} WHERE _id = {{na}}",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "624",
+    "ExecString" : "dbRW.execSQL(q.toString())",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.setStoryReadState(com.newsblur.domain.Story,boolean)",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 558,
+      "callLine" : 624
+    } ]
+  }, {
+    "id" : "40",
+    "Value" : "{{na}}",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "629",
+    "ExecString" : "dbRW.execSQL(q.toString())",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.setStoryReadState(com.newsblur.domain.Story,boolean)",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 558,
+      "callLine" : 629
+    } ]
+  }, {
+    "id" : "41",
+    "Value" : "",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "784",
+    "ExecString" : "dbRO.rawQuery(sel.toString(),selArgs.toArray(new String[selArgs.size()]))",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.getLocalUnreadCount(com.newsblur.util.FeedSet,com.newsblur.util.StateFilter)",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 776,
+      "callLine" : 784
+    } ]
+  }, {
+    "id" : "42",
+    "Value" : "SELECT * FROM story_actions",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "796",
+    "ExecString" : "dbRO.rawQuery(q,null)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.getActions()",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 794,
+      "callLine" : 796
+    } ]
+  }, {
+    "id" : "43",
+    "Value" : "UPDATE story_actions SET tried = tried + 1 WHERE _id = {{question}}",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "804",
+    "ExecString" : "dbRW.execSQL(q,new String[]{actionId})",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.incrementActionTried(java.lang.String)",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 799,
+      "callLine" : 804
+    } ]
+  }, {
+    "id" : "44",
+    "Value" : "SELECT * FROM story_actions WHERE tried < 1",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "810",
+    "ExecString" : "dbRO.rawQuery(q,null)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.getUntriedActionCount()",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 808,
+      "callLine" : 810
+    } ]
+  }, {
+    "id" : "45",
+    "Value" : "UPDATE starred_counts SET count = count{{na}} WHERE tag = '___TOTAL_STARRED'",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "853",
+    "ExecString" : "dbRW.execSQL(q.toString())",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.setStoryStarred(java.lang.String,boolean)",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 820,
+      "callLine" : 853
+    } ]
+  }, {
+    "id" : "46",
+    "Value" : "SELECT story_text FROM storytext WHERE story_hash = {{question}}",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "892",
+    "ExecString" : "dbRO.rawQuery(q,new String[]{hash})",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.getStoryText(java.lang.String)",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 888,
+      "callLine" : 892
+    } ]
+  }, {
+    "id" : "47",
+    "Value" : "SELECT content FROM stories WHERE story_hash = {{question}}",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "908",
+    "ExecString" : "dbRO.rawQuery(q,new String[]{hash})",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.getStoryContent(java.lang.String)",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 904,
+      "callLine" : 908
+    } ]
+  }, {
+    "id" : "48",
+    "Value" : "SELECT _id FROM feeds WHERE notification_filter = 'focus' OR notification_filter = 'unread'",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "1000",
+    "ExecString" : "dbRO.rawQuery(q,null)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.getNotifyFeeds()",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 996,
+      "callLine" : 1000
+    } ]
+  }, {
+    "id" : "49",
+    "Value" : "INSERT INTO reading_session (session_story_hash) ",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "1078",
+    "ExecString" : "dbRW.execSQL(q.toString(),selArgs.toArray(new String[selArgs.size()]))",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.prepareReadingSession(com.newsblur.util.FeedSet,com.newsblur.util.StateFilter,com.newsblur.util.ReadFilter)",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 1060,
+      "callLine" : 1078
+    } ]
+  }, {
+    "id" : "50",
+    "Value" : "{{na}} ORDER BY last_read_date DESC",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "1334",
+    "ExecString" : "dbRO.rawQuery(sql,selectionArgs,cancellationSignal)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.rawQuery(java.lang.String,java.lang.String[],android.os.CancellationSignal)",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 1326,
+      "callLine" : 1334
+    }, {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.getActiveStoriesCursorNoPrep(com.newsblur.util.FeedSet,com.newsblur.util.StoryOrder,android.os.CancellationSignal)",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 1034,
+      "callLine" : 1047
+    } ]
+  }, {
+    "id" : "51",
+    "Value" : "{{na}} ORDER BY {{na}}",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "1334",
+    "ExecString" : "dbRO.rawQuery(sql,selectionArgs,cancellationSignal)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.rawQuery(java.lang.String,java.lang.String[],android.os.CancellationSignal)",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 1326,
+      "callLine" : 1334
+    }, {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.getActiveStoriesCursorNoPrep(com.newsblur.util.FeedSet,com.newsblur.util.StoryOrder,android.os.CancellationSignal)",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 1034,
+      "callLine" : 1047
+    } ]
+  }, {
+    "id" : "52",
+    "Value" : "{{na}}",
+    "HotspotFinder" : "AndroidHotspotFinder",
+    "ExecPackage" : "com.newsblur.database",
+    "ExecClass" : "BlurDatabaseHelper",
+    "ExecFile" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+    "ExecLine" : "1334",
+    "ExecString" : "dbRO.rawQuery(sql,selectionArgs,cancellationSignal)",
+    "CallStack" : [ {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.rawQuery(java.lang.String,java.lang.String[],android.os.CancellationSignal)",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 1326,
+      "callLine" : 1334
+    }, {
+      "method" : "com.newsblur.database.BlurDatabaseHelper.getNotifyFocusStoriesCursor()",
+      "file" : "C:/Users/N R/Documents/1nfo_2Master/2EvoSoft/NewsBlur-24-5-2017/NewsBlur-8d14dcf008fa04e9736608bacb916f4f9c8bb139/clients/android/NewsBlur/src/com/newsblur/database/BlurDatabaseHelper.java",
+      "methodLine" : 988,
+      "callLine" : 989
+    } ]
+  } ]
+}
