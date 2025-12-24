@@ -4,7 +4,7 @@ Ce répertoire contient les fichiers et analyses liés à la base de données du
 
 ## Contenu
 
-- Fichiers de données extraites de l'application
+- `blur.db` `blur1` `blur2` : Multiples Fichiers de base de données issues de l'émulation de l'application sous Android Studio.
 - Analyses de la structure de la base de données
 - Schémas partiels et diagrammes
 
