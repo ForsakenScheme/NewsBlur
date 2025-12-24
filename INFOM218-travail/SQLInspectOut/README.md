@@ -11,3 +11,6 @@ Ce répertoire contient les sorties des outils d'inspection SQL, incluant métri
 - `NewsBlur-sqlmetrics.xml`: Métriques SQL
 - `NewsBlur-taa.xml`: Analyse d'architecture technique
 - `NewsBlur.json`: Données générales en JSON
+
+
+*Note : La plupart des fichiers au format xml ont leur équivalent au format json.* 
